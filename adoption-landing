@@ -1,0 +1,243 @@
+<!-- 
+    ADOPTION SHOP LANDING PAGE CODE
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    I wanted to make a new landing page for future character adoptions, and thought others might be able to make use of it too.  I tried to keep the code as understandable as I could, and there are comments to help with editing it.
+    
+    == HOW DO I USE IT? ==
+    Just edit each section as needed!  There are comments to clarify each part for you.  You also don't HAVE to use it as an adoption page; you can modify it to be a profile page, a gallery, or whatever you might need it for.
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask.  It's not a particularly fancy code, but I'm still very proud of it because I've never been very good at working with Bootstrap code before, and it's fully mobile-friendly and I'm proud of that.
+    
+    == COMMON EDITING TIPS ==
+    1) You can change the particular Bootstrap colors by replacing the color classes (such as bg-dark).  If you would prefer to remove the Bootstrap colors and use your own colors, just remove the entire color class and, in the given "style" section, add "background:" followed by a color, either a hex color or rgb/rgba value.
+    2) You can remove the capitalization of the titles by removing the "text-uppercase" class from a given section.
+    3) You can use inline color styling by using <span></span> tags in tandem with either Bootstrap color classes or custom color styling.
+    4) You can adjust the width of the <hr> dividers (or any other element with the Bootstrap classes) by replacing the "w-75" class with another number.  For more precise styling, you can remove the class and style the widths directly; however, they may not look as good on mobile screens!
+	
+-->
+
+<!-- MAIN CONTAINER -->
+<!-- 
+	
+    This is the holding <div> for everything else in the code.  You can make it bigger or smaller by adjusting "max-width: 1000px" as desired; just keep in mind that some computer screens are smaller than others.
+    
+    You can adjust the "letter-spacing: .5px" to a different value, or remove it altogether if you prefer, to adjust the space between letters; some fonts look better spaced out, while others look better close together.
+    
+    If you want sharper corners on the container, just remove the "rounded" class.
+	
+-->
+<div class="container-fluid px-0 pb-4 bg-dark rounded" style="max-width: 1000px; letter-spacing: .5px;">
+    
+    <!-- TITLE -->
+    <!--
+		
+        This is the title of your landing page.  Just replace "TITLE" with whatever you want it to say.
+		
+	-->
+    <div class="row">
+        <div class="col-12 px-2">
+            <div class="text-light pt-3 text-center">
+                <div class="text-uppercase" style="font-size:38px;">
+                    TITLE
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <!-- DIVIDER -->
+    <hr class="bg-white w-75">
+    
+    <!-- SIDE IMAGE + RULES -->
+    <!--
+        
+        This section contains two columns that will stack on top of one another on a smaller screen, such as a phone; however, there are actually three columns, and one will disappear altogether on a smaller screen.
+        
+        To adjust the width between the columns, just change the col-xl and col-lg values.  The three column values must total up to 12, no more and no less.  By default, they are 5 and 6, with the middle "divider" being 1.  You can remove the divider altogether as well.
+        
+	-->
+    <div class="row px-5">
+        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+            <!--
+                
+                This is the image column.  Keep in mind that the size of the column will affect the way the image looks; the text column doesn't scroll!
+                
+                You can add an optional background image to this side.  If you want to remove the border and faded white background of the container, just remove the section in the nested div with a border value in the "style" tag.
+                
+			-->
+            <div class="h-100 bg-dark p-3" style="background-image:url('https://64.media.tumblr.com/4f3cbb1b66a76a19a9794a162373abc5/tumblr_inline_n258pbAEBc1qhwjx8.png');
+			background-position:center;
+			background-attachment:fixed;">
+                <div class="align-content-center" style="border:5px solid white; background:rgba(255,255,255,0.25);height:100%;">
+                    <img style="margin:auto;; width:100%; max-height:100%;" src="https://placehold.co/300x250" data-toggle="tooltip" data-placement="top" title="Background by tenshiikisu on Tumblr" />
+				</div>
+			</div>
+		</div>
+        <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 bg-white p-0 mx-4" style="max-width:2px">
+		</div>
+        <div class="col-xl-6 col-lg-6 cl-md-12 col-sm-12">
+            <div style="text-align:center;font-size:28px;" class="text-uppercase">
+                SECOND TITLE
+			</div>
+			<p class="pt-3">This is a paragraph of text, padded out to add space and separate it from the subtitle above.  You can replace the class "pt-3" with a different value if you want to change the spacing.</p>
+			<p>Any paragraphs after the first one should not have the "pt-3" class, otherwise it will be spaced out too far.</p>
+			<p>If you want to adjust the color of the text in the middle of a line <span class="text-secondary">like this</span>, add a span tag with the needed classes.  You can also nest bold or italic tags inside the span.</p>
+			<p class="pb-2">If you want to use a list, the paragraph tag should have the "pb-2" class for clarity, as the list will be scrunched up under it.</p>
+			<ul>
+				<li>Here's a list item!</li>
+				<li>Here's another list item!</li>
+				<ul>
+					<li>Here's a nested item!</li>
+				</ul>
+				<li>Just be careful--this side doesn't scroll!</li>
+			</ul>
+		</div>
+	</div>
+	
+    <!-- DIVIDER -->
+    <hr class="bg-white w-75">
+    
+    <!-- COLUMNS -->
+    <div class="row">
+        <div class="col-12">
+            <div style="text-align:center;font-size:28px;" class="text-uppercase">
+                THIRD TITLE
+			</div>
+            <div style="margin:auto; max-width:70%;">
+                <p style="text-align:center">Down here are a few columns with different text.  You can add or remove columns as needed by changing the col-xl and col-lg classes, as long as the sum of all the columns is equal to 12.</p>
+                <p style="text-align:center">You can also adjust how wide this text is by changing the "max-width:70%" style to a different value, and you can change the alignment by changing or removing the "text-align:center" style from the paragraphs.</p>
+                <p class="pb-2" style="text-align:center">The bottom-most paragraph should have the "pb-2" class, to space out where the columns are in relation to this text.</p>
+			</div>
+		</div>
+	</div>
+    <div class="row px-5 pb-0">
+        <div class="p-3 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <div class="pt-2 text-uppercase">
+                <span style="font-size:20px;" class="text-center"><h3>Column 1</h3></span>
+			</div>
+            <ul class="p-3 list-unstyled">
+                <li>Did you know you can use lists with no buttons or spacing?</li>
+                <li>When making a list, just add the class "list-unstyled" to it.</li>
+                <li>It's flush with the rest of the text!</li>
+			</ul>
+		</div>
+        <div class="p-3 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <div class="px-2 text-uppercase">
+                <span style="font-size:20px;" class="text-center"><h3>Column 2</h3></span>
+			</div>
+            <ul class="p-3 list-unstyled">
+                <p>You can put images or other elements into these columms too.</p>
+                <img src="https://placehold.co/350x150" data-toggle="tooltip" data-placement="bottom" title="Like this!">
+			</ul>
+		</div>
+        <div class="p-3 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <div class="px-2 text-uppercase">
+                <span style="font-size:20px;" class="text-center"><h3>Column 3</h3></span>
+			</div>
+            <p>These columns are all evenly spaced with a value of 4; you can change them and remove a column or two if you want.</p>
+            <p>You can even make them asymmetrical!  Who am I to stop you?</p>
+		</div>
+	</div>
+	
+    
+    <!-- DIVIDER -->
+    <hr class="bg-white w-75">
+    
+    <!-- IMAGE CARDS -->
+    <!--
+		
+        This is where the magic happens for an adoption center, but the cards can be repurposed to whatever you want.
+        
+        Each card is comprised of four parts within the actual card div.  First is the card image, which would ideally be a picture of the character.  Next is the title, which I've color coded using Bootstrap colors: success for green, warning for orange, and danger for red.  Then is a small descriptive blurb; try to keep it just a few lines long if possible.  Finally is a button that links to the character's page.
+        
+        The cards are designed so that there are four per row; if you want to add more, you need to add more rows.  However you can also adjust the number of cards per row by adjusting the column values (sound familiar now?).  They're also mobile-responsive, showing a single full-width card per row on smaller screens.
+        
+        To follow the color key provided, just change the color classes on each card (text- and bg-) to whichever value you want.
+		
+	-->
+    <div class="row">
+        <div class="col-12">
+            <div style="text-align:center;font-size:28px;" class="text-uppercase pb-3">
+                Third Title
+			</div>
+		</div>
+        <div class="col-12">
+            <div style="margin:auto;max-width:575px;text-align:center">
+                <p style="text-align:center;"><span style="font-size:18px;"><b>Color Key</b></span>
+					<br>
+					<span class="text-success"><b>Open</b></span> | <span class="text-warning"><b>On Hold</b></span> | <span class="text-danger"><b>Sold Out</b></span>
+				</p>
+			</div>
+		</div>
+	</div>
+    <!-- Adoption Cards Start -->
+    <div class="row pt-3 px-5 pb-2">
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mb-3">
+            <div class="card">
+                <img class="card-img-top" src="https://placehold.co/200x150">
+                <div class="card-body">
+                    <h4 class="card-title pt-3 text-success" style="text-align:center"><b>Character 1</b></h4>
+                    <p style="text-align:center" class="px-3 pb-1 card-text">Small blurb about character</p>
+                    <hr class="bg-secondary w-50">
+                    <a href="#" style="margin-left:20%;max-width:60%;" class="mb-4 w-75 btn btn-success"><i class="fa fa-dollar"></i> <b>XX USD</b></a>
+				</div>
+			</div>
+		</div>
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mb-3">
+            <div class="card">
+                <img class="card-img-top" src="https://placehold.co/200x150">
+                <div class="card-body">
+                    <h4 class="card-title pt-3 text-warning" style="text-align:center"><b>Character 2</b></h4>
+                    <p style="text-align:center" class="px-3 pb-1 card-text">Small blurb about character</p>
+                    <hr class="bg-secondary w-50">
+                    <a href="#" style="margin-left:20%;max-width:60%;" class="mb-4 w-75 btn btn-warning"><i class="fa fa-warning"></i> <b>ON HOLD</b></a>
+				</div>
+			</div>
+		</div>
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mb-3">
+            <div class="card">
+                <img class="card-img-top" src="https://placehold.co/200x150">
+                <div class="card-body">
+                    <h4 class="card-title pt-3 text-warning" style="text-align:center"><b>Character 3</b></h4>
+                    <p style="text-align:center" class="px-3 pb-1 card-text">Small blurb about character</p>
+                    <hr class="bg-secondary w-50">
+                    <a href="#" style="margin-left:20%;max-width:60%;" class="mb-4 w-75 btn btn-warning"><i class="fa fa-warning"></i> <b>ON HOLD</b></a>
+				</div>
+			</div>
+		</div>
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mb-3">
+            <div class="card">
+                <img class="card-img-top" src="https://placehold.co/200x150">
+                <div class="card-body">
+                    <h4 class="card-title pt-3 text-danger" style="text-align:center"><b>Character 4</b></h4>
+                    <p style="text-align:center" class="px-3 pb-1 card-text">Small blurb about character</p>
+                    <hr class="bg-secondary w-50">
+                    <a href="#" style="margin-left:20%;max-width:60%;" class="mb-4 w-75 btn btn-danger"><i class="fa fa-multiply"></i> <b>SOLD</b></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <!-- CARD TEMPLATE 
+		TO ADD A NEW CARD COPY FROM HERE //
+		
+		<div class="card">
+		<img class="card-img-top" src="https://placehold.co/200x150">
+		<div class="card-body">
+		<h4 class="card-title pt-3 text-success" style="text-align:center"><b>Character 1</b></h4>
+		<p style="text-align:center" class="px-3 pb-1 card-text">Small blurb about character</p>
+		<hr class="bg-secondary w-50">
+		<a href="#" style="margin-left:20%;max-width:60%;" class="mb-4 w-75 btn btn-success"><i class="fa fa-dollar"></i> <b>XX USD</b></a>
+		</div>
+		</div>
+		
+		// TO HERE!
+	-->
+</div>
+
+<!-- CREDIT, DO NOT REMOVE -->
+<div class="pt-3">
+    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/Pandappuccino"><i>Code by Pandappuccino</i></a> ----------</p>
+</div>
