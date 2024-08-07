@@ -1,0 +1,1194 @@
+<!-- 
+    CHARACTER RP KINKS CODE
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    This code came to me in a dream...I don't have any excuses.  This uses the kink list from F-List, an online furry RP community.  I did, however, remove a number of the less-than-appropriate kinks (such as age-related, incestuous, etc.); if you want to put them back on, do it yourself.  If you don't want to use it for kinks, it can be easily repurposed into a simple preferences list!
+    
+    == HOW DO I USE IT? ==
+    Just edit each section as needed!  There are comments to clarify each part for you.
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask.
+    
+    == COMMON EDITING TIPS ==
+    1) You can change the particular Bootstrap colors by replacing the color classes (such as bg-dark).  If you would prefer to remove the Bootstrap colors and use your own colors, just remove the entire color class and, in the given "style" section, add "background:" followed by a color, either a hex color or rgb/rgba value.
+    2) You can use inline color styling by using <span></span> tags in tandem with either Bootstrap color classes or custom color styling.
+	
+-->
+
+<div class="container-fluid" style="max-width:1100px">
+    
+	<!-- CHARACTER NAME -->
+	<div class="row d-flex justify-content-center align-items-center mb-3">
+		<div class="card col-lg-3 col-sm-0" style="height:2px"></div>
+		<div class="card col-lg-6 col-sm-12 p-2 bg-faded text-center text-uppercase">
+			<h1 class="display-3">Character Name</h1>
+		</div>
+		<div class="card col-lg-3 col-sm-0" style="height:2px"></div>
+	</div>
+	
+	<hr class="my-4" style="border-bottom:1px solid rgba(255,255,255,0.25);">
+	
+	<!-- REFERENCE KEY -->
+	<div class="row text-center justify-content-around mb-3" style="margin:auto">
+		<div class="col-md-3 col-sm-12 p-2 bg-faded border-0 card mr-auto">
+			<p><span style="color:pink"><i class="fas fa-heart"></i>&nbsp;</span><span class="text-lignt">= Fave</span></p>
+		</div>
+		<div class="col-md-3 col-sm-12 p-2 bg-faded border-0 card mr-auto">
+			<p><span style="color:limegreen"><i class="fa fa-check"></i></span><span> = Yes</span></p>
+		</div>
+		<div class="col-md-3 col-sm-12 p-2 bg-faded border-0 card mr-auto">
+			<p><span style="color:orange"><i class="fa fa-question"></i></span><span> = Maybe</span></p>
+		</div>
+		<div class="col-md-3 col-sm-12 p-2 bg-faded border-0 card mr-auto">
+			<p><span style="color:red"><i class="fa fa-times"></i></span><span> = No</span></p>
+		</div>
+	</div>
+	
+	<div class="row d-flex justify-content-center align-items-start">
+	    
+		<!-- CHARACTER IMAGE - 500PX TALL -->
+		<div class="card mr-auto col-lg-3 col-sm-12 p-0" style="height:500px"><img src="https://placehold.co/270x500?text=500px+Tall" style="height:500px;"></div>
+		
+		<!-- ACCORDION SECTIONS -->
+		<div class="card mr-auto col-lg-9 col-sm-12 p-1 align-self-stretch" style="overflow-y:auto;max-height:500px">
+			<div id="accordion">
+			    
+				<!-- TO CHANGE EACH KINK PREFERENCE:
+                    Replace <span style="color:orange"><i class="fa fa-question"></i></span> with either:
+                    <span style="color:pink"><i class="fas fa-heart"></i></span> (Love)
+                    <span style="color:limegreen"><i class="fa fa-check"></i></span> (Like)
+                    <span style="color:red"><i class="fa fa-times"></i></span> (Hate)
+                    
+                    Or, you can replace the colors with whatever you prefer!  Just keep in mind that others may not use the same theme as you (or may have custom CSS) so be sure that it's still visible!
+                -->
+                
+				<!-- SECTION 1 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section01">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse01" aria-expanded="true" aria-controls="collapse01">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Roleplaying Preferences</h4>
+						</a>
+					</div>
+					<div id="collapse01" class="collapse" aria-labelledby="section01" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in character profiles that use drawn / art images for visual references for their character." style="border-bottom: 1px dotted"> Drawn Image References </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="An in-character meeting between one or more characters that more often than not will lead to sudden intercourse without much thought prior to it." style="border-bottom: 1px dotted"> Instant Hookups </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in the ability to take turns playing a character other than one's main character in a single roleplay, or simply involving a number of other characters within a roleplay." style="border-bottom: 1px dotted"> Multiple Characters </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Scenes of extended play that involve either no sex or very little sex." style="border-bottom: 1px dotted"> Nonsexual Roleplay </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in character profiles that use (professional standard, in accordance with site rules) photos, or 'face claims' for visual references for their character." style="border-bottom: 1px dotted"> Photograph References </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Revelatory events in storytelling that alter the course of the roleplay." style="border-bottom: 1px dotted"> Plot Twists </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in conducting roleplay in private, be it private messages, notes, or some other nonpublic means of messaging." style="border-bottom: 1px dotted"> Private Roleplay </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in conducting roleplays publicly, usually in a group with other players, in an open chat (or group threads)." style="border-bottom: 1px dotted"> Public Roleplay </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Roleplaying in a first-person perspective. 'I see you.' is an example of a sentence written in first person." style="border-bottom: 1px dotted"> Roleplay Perspective - First Person </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Roleplaying from a third-person perspective. 'He sees her.' is an example of a sentence written in third person." style="border-bottom: 1px dotted"> Roleplay Perspective - Third Person </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses a preference to eschew story and / or character development to reach the sexual context of a scene more quickly." style="border-bottom: 1px dotted"> Sex Driven </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses a preference for RPs where plot and story are the focal point, typically involving complex situations, character development, framed scenes, elaboration, and amplification of settings. Often (but not necessarily) comparatively containing little sex." style="border-bottom: 1px dotted"> Story Driven </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in narrating the story, playing as the entire setting and running most of the characters and the environment for their partner(s), usually without playing a protagonist character of their own." style="border-bottom: 1px dotted"> Storytelling (Narrator) </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in playing the protagonist character in a story narrated by their partner, where the partner plays as the entire setting and running most of the characters and the environment for the protagonist character." style="border-bottom: 1px dotted"> Storytelling (Player) </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								
+								<!-- To add another entry just copy and paste this code:
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="ENTRY DESCRIPTION" style="border-bottom: 1px dotted"> ENTRY NAME </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								-->
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 1 END -->
+				
+				<!-- SECTION 2 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section02">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse02" aria-expanded="true" aria-controls="collapse02">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Roleplaying Themes & Settings</h4>
+						</a>
+					</div>
+					<div id="collapse02" class="collapse" aria-labelledby="section02" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of voluntary sexual intercourse between a person and another character who is not their established spouse or partner." style="border-bottom: 1px dotted"> Adultery </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of providing the sensations of tenderness and fondness, having characters express such feelings with one another through endearing behaviors." style="border-bottom: 1px dotted"> Affection </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A scenario where a character doesn't necessarily have to face death, but is presented with an unfortunate and inevitable future. May involve situations where a character is forced to submit to an undesired opposition or is trapped in a dangerous scenario where there is no escape." style="border-bottom: 1px dotted"> Bad Ends </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Pertains to multiple dominants competing to administer domination the best, or multiple submissives competing to please a dominant the best." style="border-bottom: 1px dotted"> Competition </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A preference for sexual interactions between characters in an RP to be fully consenting, by their characters' own free wills." style="border-bottom: 1px dotted"> Consensual </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A scenario in which one partner is complicit in their partner's infidelity and derives sexual pleasure from it. Generally consists of watching their established partner have sexual relations with another individual, often where the other is considered to be 'better' than them, but not necessarily." style="border-bottom: 1px dotted"> Cuckolding </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP where characters go on a date." style="border-bottom: 1px dotted"> Dating </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Denotes situations of 'dubious consent', where the receiver either claims denial, uncertainty, or is unclear in their agreement. Typically denotes secretly enjoying what is occurring. May involve the character struggling with the personal internal conflict of unsureness. Often sexual, but can be applied to a variety of circumstances." style="border-bottom: 1px dotted"> Dub-Consensual </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in some kind of play where one or both parties will be caught, spotted, or otherwise observed by a third party or parties, adding to the thrill (and / or humiliation)." style="border-bottom: 1px dotted"> Exhibitionism </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Themes consisting of the fantasy genre, involving magic or other supernatural elements as a main plot element, theme, or setting. Magic and magical creatures are commonly incorporated." style="border-bottom: 1px dotted"> Fantasy </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of physically sparring, either with malice or more playfully, with another character in an RP; typically non-sexual, although sometimes with the intent to pin the bottom or submissive in order to penetrate them." style="border-bottom: 1px dotted"> Fighting / Wrestling </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Themes consisting of the horror genre, incorporating aspects that are considered creepy, macabre, scary, or unsettling (typically to elicit a physiological reaction) as a main plot element, theme, or setting." style="border-bottom: 1px dotted"> Horror </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in the inclusion of humorous dialogue, settings, or situations." style="border-bottom: 1px dotted"> Humor / Comedy </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Treating sexual acts, having explicit dialogue or reacting to predetermined kinks casually, or as if they were normal in their setting." style="border-bottom: 1px dotted"> Informality </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of abducting a character in an RP, (typically for the purpose of abusing, usually sexually, but not necessarily) or being abducted for such reasons; often implies indefinite imprisonment." style="border-bottom: 1px dotted"> Kidnapping </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP set in a medical setting, such as a hospital, or an RP involving aspects of medicine, such as injections, medical equipment, uniforms or medical experiments or procedures." style="border-bottom: 1px dotted"> Medical Play </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in scenes, settings, and themes that incorporate military aspects. Implies concepts such as war, weapon involvement, uniforms, rank, and more. All of which may be historical, fantasy, scifi or otherwise." style="border-bottom: 1px dotted"> Military Themes </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Themes consisting of the modern aspects, taking place in current times. Often implies up to date technology and culture." style="border-bottom: 1px dotted"> Modern Settings </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP containing at least three characters." style="border-bottom: 1px dotted"> Multiple Partners </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP which is set in a nightclub or a bar setting." style="border-bottom: 1px dotted"> Nightclubs / Bars </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which a character will be forced to give or receive sex against their will by another character." style="border-bottom: 1px dotted"> Nonconsensual </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of visually recording a scene amongst participants, often as a form of humiliation, exhibitionist fetishism and / or blackmail / extortion." style="border-bottom: 1px dotted"> Photography / Videotaping </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The practice of carrying out intimate relationships with more than one partner, with the knowledge and consent of all involved partners. Often described as 'consensual, ethical, and responsible non-monogamy'." style="border-bottom: 1px dotted"> Polyamory </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which at least one player's character is a prostitute, or involves a prostitute; a person who receives money for sex." style="border-bottom: 1px dotted"> Prostitution </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to characters that, within the context of a particular RP, have, through character development or pre-determined measures, established their identity in regard to dominance and / or submissiveness, that will, at some point during the sexual portion of the RP, reverse their roles in regard to their previously understood roles." style="border-bottom: 1px dotted"> Role Reversal </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Displaying or expressing love or strong affection, passion, either during love making or during normal scenes. Typically involves the roleplaying of romantic relationships, acts, and themes." style="border-bottom: 1px dotted"> Romance </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP which is set in a BDSM dungeon." style="border-bottom: 1px dotted"> Scenes - Dungeon </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which the setting is of a laboratorial nature." style="border-bottom: 1px dotted"> Scenes - Laboratory </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP which is set in an office." style="border-bottom: 1px dotted"> Scenes - Office </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which the setting includes a bath or shower, may be public and / or shared." style="border-bottom: 1px dotted"> Scenes - Shower / Bath </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Setting in a roleplay where the main power source is steam. The time-period usually appearing as the 19th century, yet containing fantasy / futuristic elements, inventions, and machines often way ahead of its time." style="border-bottom: 1px dotted"> Scenes - Steampunk </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP set in a tribal village or wild area, located far from civilization." style="border-bottom: 1px dotted"> Scenes - Tribal </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Themes of the science-fiction genre, typically dealing with imaginative concepts such as futuristic science and technology, space travel, time travel, extraterrestrial life, and so on." style="border-bottom: 1px dotted"> Sci-fi </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in scenes of seemingly arbitrary events in a character's life, often lacking plot development and left open ended. Usually consists of naturally occurring themes and narratives that are of the casual and mundane variety." style="border-bottom: 1px dotted"> Slice of Life </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in the bottom / submissive character being physically larger than the top / dominant character in an RP; often implies the larger character is also physically stronger as well." style="border-bottom: 1px dotted"> Small Dom / Big Sub </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Participating in watching other individuals engaging in sex or some other kind of intercourse, usually discretely and without their knowledge." style="border-bottom: 1px dotted"> Voyeurism </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 2 END -->
+				
+				<!-- SECTION 3 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section03">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse03" aria-expanded="true" aria-controls="collapse03">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">General Kinks</h4>
+						</a>
+					</div>
+					<div id="collapse03" class="collapse" aria-labelledby="section03" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Commonly referred to as 'fucked silly.' Refers to a character wearing a facial expression that signifies an immense amount of pleasure during sexual intercourse / or sexual arousal." style="border-bottom: 1px dotted"> Ahegao </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The incorporation of a food, drink, drug, scent, or other such stimulate that generates sexual arousal." style="border-bottom: 1px dotted"> Aphrodisiacs </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of condoms in any way; typically refers to a preference for the use of condoms during penetration, but may also refer to condom play, in which a condom (typically filled), is used as a sex toy; or, the filling of condoms with fluids, such as semen." style="border-bottom: 1px dotted"> Condoms </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of receiving pleasure from inhaling the scent of the crotch, or receiving such actions. Emphasis is often placed on the musk and / or pheromone-related properties of the scent." style="border-bottom: 1px dotted"> Crotch Sniffing </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of illicit drugs and / or alcohol in the context of an RP." style="border-bottom: 1px dotted"> Drug / Alcohol Use </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of incorporating food into the sexual context of an RP, or which may include (but is not limited to) use of whipped cream or chocolate sauce in a sexual act, receiving sexual gratification from the act of eating, or including rather large amounts of food (but not necessarily)." style="border-bottom: 1px dotted"> Food Play </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Sexual activity that precedes intercourse, incorporating various forms of erotic build up before the actual act of sex." style="border-bottom: 1px dotted"> Foreplay </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of ice in any fashion during sex, typically as a form of erotic foreplay." style="border-bottom: 1px dotted"> Ice </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of cumming multiple times, sometimes in direct succession, or being the recipient of such actions." style="border-bottom: 1px dotted"> Multiple Orgasms </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to an RP involving characters where the aspect of musk is notably present / involved in play. Generally implies one or more characters having a distinct scent (typically with pheromones derived from the crotch)." style="border-bottom: 1px dotted"> Natural Musk </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of using and / or receiving a substance through any means that has a physical or mental effect on the character receiving it; implies fantastical or unrealistic results." style="border-bottom: 1px dotted"> Potions / Injections </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to the inclusion of (generally penetrating) sex toys in an RP, including but not limited to dildos, vibrators, anal eggs, anal beads, flesh tubes, etc." style="border-bottom: 1px dotted"> Sex Toys </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which at least one character's genitals and / or orifice(s) endure pain due to exceptionally arduous sex or sex of an exceptional duration; implies continuing despite such." style="border-bottom: 1px dotted"> Sexual Exhaustion </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which at least one character is exceptionally desperate or horny and is often willing to eschew standard inhibitions in order to receive sexual stimulation." style="border-bottom: 1px dotted"> Sexual Frustration </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to the act of smoking and / or receiving pleasure from an aspect of smoking or smoke during an RP." style="border-bottom: 1px dotted"> Smoking </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which a character's stomach will bulge, either due to an exceptionally large insertion (often taking the shape of such), due to eating an exceptionally large amount of food, or as a localized form of inflation from any liquid or gas." style="border-bottom: 1px dotted"> Stomach Bulging </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which at least one character will wear a strap-on to penetrate another character." style="border-bottom: 1px dotted"> Strap-ons </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of a character getting trapped / stuck in one manner or another. For example: holes, doorways, windows, chairs." style="border-bottom: 1px dotted"> Stuckage </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Pulling a partner's tail during sexual intercourse. Often as a means of forcing the bottom to clench, or as a handle, or merely a cute act." style="border-bottom: 1px dotted"> Tail Pulling </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to extended scenes of foreplay prior to explicit, sexual intercourse, which may be physical and / or verbal, typically to arouse one's partner to the point of sexual frustration or desperation." style="border-bottom: 1px dotted"> Teasing </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 3 END -->
+				
+				<!-- SECTION 4 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section04">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse04" aria-expanded="true" aria-controls="collapse04">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Character Preferences</h4>
+						</a>
+					</div>
+					<div id="collapse04" class="collapse" aria-labelledby="section04" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Characters that are anthropomorphic in nature, typically defined as an object or animal species with human characteristics." style="border-bottom: 1px dotted"> Anthro Characters </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in penises with barbed heads; typically feline." style="border-bottom: 1px dotted"> Barbed Cocks </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses in interest in characters that have body hair. Generally denotes hair on places like a character’s chest, arms, legs, armpits, stomach trail, etc." style="border-bottom: 1px dotted"> Body Hair </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in characters that are well-rounded and pudgy, with a little more extra weight than average but not necessarily fat." style="border-bottom: 1px dotted"> Chubby </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in circumcised penises." style="border-bottom: 1px dotted"> Cut Cocks </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in unusually shaped or accessorized penises." style="border-bottom: 1px dotted"> Exotic Cocks </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in characters sporting facial hair in some manner, which can extend anywhere from scruffy stubble to full beards." style="border-bottom: 1px dotted"> Facial Hair / Beards </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in having or playing with a character that has sharp pointed fangs and/or teeth." style="border-bottom: 1px dotted"> Fangs / Sharp Teeth </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which at least one character has piercings that are located on the nipples or sexual areas of the body; typically cock or labia piercings." style="border-bottom: 1px dotted"> Genital / Nipple Piercings </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to the preference for characters with excessive or pronounced hair; typically involves character that would otherwise not have hair to have hair, or for furry characters to have additional hair in areas such as but not limited to the pubis, armpits and chin, and often implies a denser or more wiry texture of hair." style="border-bottom: 1px dotted"> Hirsute </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A preference for characters that possess horns, regardless of the appropriateness of horns to the character’s species." style="border-bottom: 1px dotted"> Horns </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in characters that have human shaped penises." style="border-bottom: 1px dotted"> Human Cocks </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in penises with a knot." style="border-bottom: 1px dotted"> Knotted Cocks </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in male identifying characters that have significant breast tissue, typically known as gynecomastia." style="border-bottom: 1px dotted"> Moobs </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in characters that have more than one set of external sex organs." style="border-bottom: 1px dotted"> Multi Genitalia </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in sex with a character who has piercings on parts of their body that are not of a sexual nature, such as but not limited to tongue, ears, nose, lips, bellybutton etc." style="border-bottom: 1px dotted"> Nonsexual Piercings </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in characters that have the ability to control the motion of their penises." style="border-bottom: 1px dotted"> Prehensile Cocks </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in pubic hair, possibly in large or excessive quantities." style="border-bottom: 1px dotted"> Pubic Hair </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in characters that have a sheath." style="border-bottom: 1px dotted"> Sheaths </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in characters who are composed of slime, goo, fluids, or similar viscous / semi-viscous substances." style="border-bottom: 1px dotted"> Slime / Goo Characters </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A preference for characters that possess tails, regardless of the appropriateness of tails to the character’s species." style="border-bottom: 1px dotted"> Tails </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="An interest in characters that have tattoos." style="border-bottom: 1px dotted"> Tattoos / Body Art </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP that involves self-sentient tentacles, or a character / entity with tentacle-like appendages. Often implies multiple penetration." style="border-bottom: 1px dotted"> Tentacles </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in two or more characters who are identical, often siblings but not necessarily, who may or may not be played by the same player." style="border-bottom: 1px dotted"> Twins / Clones </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in penises that have not been circumcised and have present foreskin." style="border-bottom: 1px dotted"> Uncut Cocks </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A preference for characters that possess wings, regardless of the appropriateness of wings to the character's species." style="border-bottom: 1px dotted"> Wings </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 4 END -->
+				
+				<!-- SECTION 5 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section05">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse05" aria-expanded="true" aria-controls="collapse05">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Gender Preferences</h4>
+						</a>
+					</div>
+					<div id="collapse05" class="collapse" aria-labelledby="section05" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in traditionally female characters." style="border-bottom: 1px dotted"> Females </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in female-identifying characters that have breasts, a penis, and a vagina." style="border-bottom: 1px dotted"> Hermaphrodites </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in male-identifying characters that have a penis and a vagina." style="border-bottom: 1px dotted"> Male-Herms </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in traditionally male characters." style="border-bottom: 1px dotted"> Males </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Characters that do not strictly identify or abide by a gender binary (regardless of originally assigned gender or biological sex)." style="border-bottom: 1px dotted"> Nonbinary </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in characters whose assigned sex and identified gender are not the same, who identifies as a non-binary gender, or who has transitioned (or is in the process of transitioning) from one previously assigned gender to another." style="border-bottom: 1px dotted"> Transgender </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 5 END -->
+				
+				<!-- SECTION 6 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section06">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse06" aria-expanded="true" aria-controls="collapse06">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Species Preferences</h4>
+						</a>
+					</div>
+					<div id="collapse06" class="collapse" aria-labelledby="section06" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Salamanders, Frogs, Toads, Newts, etc." style="border-bottom: 1px dotted"> Amphibians </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Angels or other celestials, typically magical." style="border-bottom: 1px dotted"> Angels </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Birds, gryphons, phoenixes, rocs, chimeras etc." style="border-bottom: 1px dotted"> Avians </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Bats and other true-flight mammals." style="border-bottom: 1px dotted"> Bats </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Bulls, cows, buffalo etc." style="border-bottom: 1px dotted"> Bovines </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Domesticated dogs, wolves, dingos, coyotes, jackals etc." style="border-bottom: 1px dotted"> Canines </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Sheep, goats, etc." style="border-bottom: 1px dotted"> Caprinae </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Deer, elk, moose etc." style="border-bottom: 1px dotted"> Cervines </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Demons or devils, typically magical. May also include other, fantastical creatures, such as but not limited to Incubi, Succubi, and fiends." style="border-bottom: 1px dotted"> Demons </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Prehistoric species such as tyrannosaurus rex, triceratops, raptors, apatosaurus, etc." style="border-bottom: 1px dotted"> Dinosaurs </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Gods, goddesses, demi-gods and demi-goddesses of all sorts, ranging from those barely more powerful than a mortal to the nearly omnipotent." style="border-bottom: 1px dotted"> Divinities </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Dragons, drakes, wyverns, etc." style="border-bottom: 1px dotted"> Dragons </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Describes a kind of species that is a combination of human and spider. Usually, their anatomy consists of a (mostly) humanoid upper body seated on top of the body of a spider. It may refer to hybrids with mostly humanoid or arachnid features as well." style="border-bottom: 1px dotted"> Driders </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Humanoid individuals characterized by long pointed ears and typically containing fantasy elements." style="border-bottom: 1px dotted"> Elves </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Horses, donkeys, mules, zebra, centauri etc." style="border-bottom: 1px dotted"> Equines </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest for uncommon, hybrid or otherwise exotic choices in species." style="border-bottom: 1px dotted"> Exotic Species </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Beings of the mythical and supernatural variety, generally consisting of things such as fairies, imps, spirits, elementals, etc." style="border-bottom: 1px dotted"> Fae </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Domesticated cats, jaguars, lions, tigers, cheetahs etc." style="border-bottom: 1px dotted"> Felines </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Gill-bearing aquatic animals such Great Whites, Tiger sharks, Whale sharks, and various types of fish." style="border-bottom: 1px dotted"> Fish / Sharks </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Characters that have a humanoid shape but are not human. Examples may consist of various races such as satyrs, gnomes, dwarves, halflings, tieflings, etc." style="border-bottom: 1px dotted"> Humanoids </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Characters that are purely human, generally realistic, and generally contain no fantasy or supernatural elements (but not necessarily)." style="border-bottom: 1px dotted"> Humans </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Hyenas." style="border-bottom: 1px dotted"> Hyaenidae </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Bees, wasps, spiders, scorpions, ants etc." style="border-bottom: 1px dotted"> Insects / Arachnids </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Characters with animal ears, a tail, or other animal characteristics on an otherwise human body." style="border-bottom: 1px dotted"> Kemonomimi </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Characters with lower bodies (typically serpentine) that do not possess legs, with their lower extremities being more akin to a snake, eel, worm, fish, or similar." style="border-bottom: 1px dotted"> Lamia / Naga </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Bunnies, rabbits, hares etc." style="border-bottom: 1px dotted"> Lapines </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A character with the ability and/or condition to transform into an animal or particular non-human beast (generally an anthropomorphic animal or animal-like creature). Examples of such would be werewolves, werecats, and all forms of general werebeasts." style="border-bottom: 1px dotted"> Lycanthropes </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Whales, dolphins, etc." style="border-bottom: 1px dotted"> Marine Mammals </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Kangaroos, koala, possums, wombats etc." style="border-bottom: 1px dotted"> Marsupials </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Skunks." style="border-bottom: 1px dotted"> Mephitis </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Slugs, snails, oysters, squids, octopuses, etc." style="border-bottom: 1px dotted"> Mollusca </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Apes, monkeys, chimps, gorillas, etc." style="border-bottom: 1px dotted"> Monkeys / Primates </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Various types of monsters and aesthetically challenging characters." style="border-bottom: 1px dotted"> Monsters </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Minks, ferrets, weasels, stoats, otters, wolverines, martens etc." style="border-bottom: 1px dotted"> Mustelidae </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A race of humanlike creatures, normally larger than humans and green skinned. They are typically characterized as brutish and aggressive (but not necessarily so)." style="border-bottom: 1px dotted"> Orcs </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Any form of plant life, vegetation or character composed partially, or fully, there-of." style="border-bottom: 1px dotted"> Plants </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Raccoons, coatimundi, longtails etc." style="border-bottom: 1px dotted"> Procyonidae </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Chameleons, anoles, alligators, snakes, crocodiles, lizards, etc." style="border-bottom: 1px dotted"> Reptiles </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Manufactured or partially manufactured life forms." style="border-bottom: 1px dotted"> Robots, Cyborgs, Androids </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Rats, mice, chipmunks, squirrels, etc." style="border-bottom: 1px dotted"> Rodents / Murines </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Characters having an upper torso adjoining a lower quadrupedal body where the creature's head should normally appear. Includes centaurs, chakats, etc." style="border-bottom: 1px dotted"> Taurs </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Bears." style="border-bottom: 1px dotted"> Ursines </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Vampiric characters, not necessarily humanoid." style="border-bottom: 1px dotted"> Vampires </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Foxes, fennecs, kitsune etc." style="border-bottom: 1px dotted"> Vulpines </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 6 END -->
+				
+				<!-- SECTION 7 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section07">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse07" aria-expanded="true" aria-controls="collapse07">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Anal Sex & Play</h4>
+						</a>
+					</div>
+					<div id="collapse07" class="collapse" aria-labelledby="section07" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of inserting one's hand(s) and / or arm(s) into one's partner's anus, or being the recipient of such acts." style="border-bottom: 1px dotted"> Anal Fisting </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Where insides of the anus are pulled out by force (unnatural means, such as a cream, liquid or suction method, or internal massage) or naturally (either by a cock, dildo, or pushing)." style="border-bottom: 1px dotted"> Anal Prolapse </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of anally penetrating a partner, or being anally penatrated." style="border-bottom: 1px dotted"> Anal Sex </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in the use of the various anatomy of a character's anus to otherwise prepare and / or acclimate the character to an insertion, the size of which the character would not otherwise be comfortable taking." style="border-bottom: 1px dotted"> Anal Training </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in anal sex with a character who has never been anally penetrated before, or being anally penetrated while playing a character that has never been penetrated before." style="border-bottom: 1px dotted"> Anal Virginity </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of using one’s fingers to stimulate another character anally, or receiving such actions, in order to induce sexual pleasure." style="border-bottom: 1px dotted"> Fingering (Anal) </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Stretching the anus during penetration, to the point that it stays open for a period of time." style="border-bottom: 1px dotted"> Gaping (Anal) </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Anal penetration with a strap-on." style="border-bottom: 1px dotted"> Pegging </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of stimulating the prostate, generally rectally with fingers or toys." style="border-bottom: 1px dotted"> Prostate Play </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of giving and / or receiving oral stimulation to one's anus, by the means of licking and / or having one's anus penetrated by the tongue." style="border-bottom: 1px dotted"> Rimming </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 7 END -->
+				
+				<!-- SECTION 8 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section08">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse08" aria-expanded="true" aria-controls="collapse08">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Vaginal Sex & Play</h4>
+						</a>
+					</div>
+					<div id="collapse08" class="collapse" aria-labelledby="section08" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in sex that involves the penetration, by the penis or by another object, of a cervix; typically connotes exceptionally rough sex or exceptionally large insertions." style="border-bottom: 1px dotted"> Cervical Penetration </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Play that is centered around the clitoris, applying stimulation and significant attention, usually as a form of achieving orgasm." style="border-bottom: 1px dotted"> Clit Play </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of using one’s fingers to stimulate another’s vagina, or receiving such actions, in order to induce sexual pleasure, commonly resulting in orgasm." style="border-bottom: 1px dotted"> Fingering (Vaginal) </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Stretching the vagina during penetration, to the point that it stays open for a period of time." style="border-bottom: 1px dotted"> Gaping (Vaginal) </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Gratuitous acknowledgment of one's partner's vagina, either verbal and / or physical, or receiving such actions; typically implies oral stimulation." style="border-bottom: 1px dotted"> Pussy Worship </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of a vagina emitting a projectile fluid during orgasm." style="border-bottom: 1px dotted"> Squirting </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of placing one's hand(s) and / or arm(s) into a vagina, or receiving such actions." style="border-bottom: 1px dotted"> Vaginal Fisting </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Where insides of the vagina are pulled out by force (unnatural means, such as a cream, liquid or suction method, or internal massage) or naturally (either by a cock, dildo, or pushing)." style="border-bottom: 1px dotted"> Vaginal Prolapse </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of sexually penetrating a vagina, or being sexually penetrated in a vagina." style="border-bottom: 1px dotted"> Vaginal Sex </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in vaginal sex with a character who has never been vaginally penetrated before, or being vaginally penetrated while playing a character that has never been penetrated before." style="border-bottom: 1px dotted"> Vaginal Virginity </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 8 END -->
+				
+				<!-- SECTION 9 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section09">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse09" aria-expanded="true" aria-controls="collapse09">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Oral Sex & Play</h4>
+						</a>
+					</div>
+					<div id="collapse09" class="collapse" aria-labelledby="section09" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of performing or receiving cunnilingus -- oral sex on a character's vagina." style="border-bottom: 1px dotted"> Cunnilingus </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to the act of penetrating the mouth of another character with a similar technique as fucking a vagina or anus, typically by bracing the mouth or skull and thrusting back and forth; often rough." style="border-bottom: 1px dotted"> Face-Fucking </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A sexual practice where someone sits on another character's face with their buttocks or genitals, causing the person to be smothered, sometimes to the point of asphyxiation; often done as a form of forcing oral gratification." style="border-bottom: 1px dotted"> Face-Sitting </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of performing or receiving fellatio -- oral sex on a character's penis." style="border-bottom: 1px dotted"> Fellatio </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in play that involves inserting fingers in one’s mouth. Often implies sucking, licking, feeling out one’s mouth in an exploratory fashion, or possibly inserting something into it." style="border-bottom: 1px dotted"> Fingers in Mouth </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in kissing or being kissed by another character, typically denoting French kissing." style="border-bottom: 1px dotted"> Kissing </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of one character licking another. May or may not be sexual." style="border-bottom: 1px dotted"> Licking </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="An act in which a character is unconsciously obsessed with the mouth and feels the need to be sucking, chewing, or inserting something into it." style="border-bottom: 1px dotted"> Oral Fixation </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which a character that has never performed fellatio or cunnilingus performs such acts." style="border-bottom: 1px dotted"> Oral Virginity </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of penetrating the mouth of another character to the depths at which the penis or insertion enters the back of the mouth cavity and / or throat, sometimes causing a gag reflex, or being the recipient of such actions." style="border-bottom: 1px dotted"> Throat Penetration </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 9 END -->
+				
+				<!-- SECTION 10 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section10">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Cock Play</h4>
+						</a>
+					</div>
+					<div id="collapse10" class="collapse" aria-labelledby="section10" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of smothering a character with a cock and / or balls, making it difficult to breathe." style="border-bottom: 1px dotted"> Cock / Ball Smothering </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Gratuitous acknowledgment of one's partner's cock and / or balls, either verbal and / or physical, or receiving such actions; typically implies oral stimulation." style="border-bottom: 1px dotted"> Cock / Balls Worship </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of slipping one’s erection into a partner’s body in order to keep warm, typically considered a more intimate and sexual means of spooning." style="border-bottom: 1px dotted"> Cock Warming </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in play that involves a character’s penis being flaccid. May involve handjobs or oral sex while flaccid, or attempting penetration in such a state." style="border-bottom: 1px dotted"> Flaccid Play </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of at least two penises being ground against each other for sexual gratification." style="border-bottom: 1px dotted"> Frotting </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of stimulating or otherwise playing with the sheath of a character, typically through tonguing or fingering, or receiving such actions, or being sexually aroused by the scent, taste, or touch of a sheath." style="border-bottom: 1px dotted"> Sheath Play </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 10 END -->
+				
+				<!-- SECTION 11 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section11">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Cum Related</h4>
+						</a>
+					</div>
+					<div id="collapse11" class="collapse" aria-labelledby="section11" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of a group of at least two people ejaculating directly onto the face and / or body of a single recipient, or receiving such actions." style="border-bottom: 1px dotted"> Bukkake </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of orgasming into or onto an exposed, often gaping, orifice, or receiving such actions." style="border-bottom: 1px dotted"> Creampie </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of ejaculating with such force and / or by such a volume that the cum leaks and / or sprays from a characters mouth and / or nose, or receiving such actions." style="border-bottom: 1px dotted"> Cum from Mouth / Nose </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of cumming onto a bottom or submissive with the intent for the scent or sight of the cum to work as a proprietary mark, sometimes for extended or permanent periods of time, or receiving such actions." style="border-bottom: 1px dotted"> Cum Marking </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of collecting or milking the semen from at least one partner, typically done through manual or mechanical stimulation to the penis, or using stored semen as a sexual toy in an RP. Often involves machines and apparati." style="border-bottom: 1px dotted"> Cum Milking </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of orally sucking semen out of a partner's anus or vagina." style="border-bottom: 1px dotted"> Felching </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of cumming onto someone's face with no regard for that person's well-being, typically cumming into their ears, onto their eyes, into their nostrils or hair etc., or receiving such action; implies an exceptionally large amount of semen." style="border-bottom: 1px dotted"> Hard Cum Facials </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of ejaculating into another's body, or receiving such actions." style="border-bottom: 1px dotted"> Internal Cumshots </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses interest in at least one partner reaching orgasm very quickly; typically implies eagerness, excessive sensitivity and / or prolonged teasing." style="border-bottom: 1px dotted"> Premature Ejaculation </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which a character that has just been came in receives sex from a different partner in the same orifice without removing the previous top's semen." style="border-bottom: 1px dotted"> Sloppy Seconds </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of receiving cum into one's mouth transmitted from another person's mouth, or french kissing while sharing a load of cum between one anothers' mouths." style="border-bottom: 1px dotted"> Snowballing </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of cumming directly onto one's face, typically into an open mouth or across the cheeks and / or lips, or receiving such actions." style="border-bottom: 1px dotted"> Soft Cum Facials </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of orally consuming semen, either directly or indirectly from a penis." style="border-bottom: 1px dotted"> Swallowing Semen </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A preference for a character's semen to have any number of unusual or atypical properties, often referring to taste, color, texture, scent and / or temperature." style="border-bottom: 1px dotted"> Unusual Semen </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 11 END -->
+				
+				<!-- SECTION 12 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section12">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Penetration & Sexual Themes</h4>
+						</a>
+					</div>
+					<div id="collapse12" class="collapse" aria-labelledby="section12" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of penetrating a single character with three or more objects, including but not limited to cocks, sex toys, hands, etc., or receiving such actions." style="border-bottom: 1px dotted"> 3+ Penetration </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of penetrating a single character with two objects, including but not limited to the penis, sex toys, fist etc., or receiving such." style="border-bottom: 1px dotted"> Double Penetration </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which at least one character exhibits exceptional tightness in their anus, vagina, or throat; sometimes implies pain, exceptionally large penetrations and / or inexperience." style="border-bottom: 1px dotted"> Extreme Tightness </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A situation in which several people engage in physical sexual activity with one particular character sequentially or at the same time." style="border-bottom: 1px dotted"> Gangbangs </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of lodging the knot of a penis, typical of canine anatomy, into an orifice to "tie" with your partner." style="border-bottom: 1px dotted"> Knotting / Tying </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of engaging in sexual intercourse with a sleeping partner or enjoying being on the receiving end thereof." style="border-bottom: 1px dotted"> Somnophilia </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of inserting metal rods into a character's urethra, or receiving such actions; technically implies rods that resonate and / or vibrate in response to a form of stimulation, but does not necessarily mean so." style="border-bottom: 1px dotted"> Sounding </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Penetrating an orifice using a character's tail." style="border-bottom: 1px dotted"> Tailsex </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A form of sex characterized by its focus on intimacy and emotional closeness between involved parties. Often implies a long duration with a significant aim on their intertwining such as listening to heartbeats, breathing, and exploring one another through a deep romantic bond." style="border-bottom: 1px dotted"> Tantric Sex </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Sex which does not involve such elements as BDSM, kink, or fetish activities." style="border-bottom: 1px dotted"> Vanilla Sex </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 12 END -->
+				
+				<!-- SECTION 13 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section13">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse13" aria-expanded="true" aria-controls="collapse13">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Dom / Sub & Psyche Play</h4>
+						</a>
+					</div>
+					<div id="collapse13" class="collapse" aria-labelledby="section13" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The self-abasing act of pleading, as a form of submission, being incorporated into an RP." style="border-bottom: 1px dotted"> Begging </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Sexual abstinence, either willing or forced; this can include someone simply abstaining from sexual activity, or the wearing of a device that prevents it." style="border-bottom: 1px dotted"> Chastity </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to the inclusion of Coercion and / or Blackmail in the context of the story arc of an RP, often in the form of a semi-consensual means of receiving goods, services, or sex from a partner." style="border-bottom: 1px dotted"> Coercion / Blackmail </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to the loss of morality, characterized by a character starting pure and then becoming depraved in some way, typically ending with them being evil, slutty, or some combination of the two." style="border-bottom: 1px dotted"> Corruption </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A situation where one character will be purposefully degraded, usually as a means of lowering their self worth; typically in the context of guilt or BDSM." style="border-bottom: 1px dotted"> Degradation </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of speaking in a typically explicit manner to provoke sexual stimulation from a participant, sometimes one's self; often in the context of seduction or foreplay." style="border-bottom: 1px dotted"> Dirty Talking </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of reinforcement (rewards and / or punishments) in order to train a submissive to obey the various commands of a master." style="border-bottom: 1px dotted"> Discipline / Reinforcement </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Play in which a character of female gender takes the role of dominant, maintaining control and authority; being considered the focal point of the dynamic. It is defined as an exchange founded on her needs, pleasures, and desires, with the submissive’s purpose to provide service to her first and foremost." style="border-bottom: 1px dotted"> Femdom </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which one character will be embarrassed, typically extremely and / or frequently, in an attempt to elicit either a response of sexual gratification from the emotions correlating to humiliation, or merely as a form of psychological domination or punishment; typically a more intense form of degradation." style="border-bottom: 1px dotted"> Humiliation </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which one character will mentally and / or supernaturally take control of another character's mind and / or body through psychic means or hypnotic means, sometimes through the use of supernatural or magical powers." style="border-bottom: 1px dotted"> Hypnotism / Mind Control </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of a character that is an abductor developing sympathy for their captives, trusting and / or displaying affection for their captive / victim." style="border-bottom: 1px dotted"> Lima Syndrome </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which a domination / submission relationship is played between at least two characters, and in which the bottom character takes on the role of a pet; typically a training-based scenario with positive reinforcement over negative reinforcement, as well as the inclusion of affection." style="border-bottom: 1px dotted"> Master / Pet </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which a domination / submission relationship is played between at least two characters, and in which the bottom character takes on the role of a slave; typically requires the slave to accept any and all commands, often involves non-sexual forms of abuse and uses negative reinforcement." style="border-bottom: 1px dotted"> Master / Slave </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of either being treated or treating another character as a specific and set object, often articles of furniture, or bestowing dehumanizing tasks to a character in order to imbue a character with the traits of an object." style="border-bottom: 1px dotted"> Objectification </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of giving or receiving commands, typically verbal, that limit the way in which another character is permitted to physically interact with another character." style="border-bottom: 1px dotted"> Physical Restraints </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Describes a character who is or becomes jealous or even possessive of their partner(s). Such a character may be (overly) demanding and overbearing in a relationship, growing aggressive towards those that may encroach on said partner." style="border-bottom: 1px dotted"> Possessiveness / Jealousy </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="An expressed interest in a sexual exchange where the character who is receiving penetration is in control, dominant, taking initiative, or directing the interaction." style="border-bottom: 1px dotted"> Powerbottoming </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to a dominant giving a command for how the submissive may act in regard to sexual acts or within a sexual situation; often a decree of chastity or prohibition from any form of sexual contact." style="border-bottom: 1px dotted"> Sexual Restraints </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of giving or receiving commands, typically verbal, that limit the way in which another character is permitted to speak or otherwise make noise from one's mouth; typically used in a BDSM context to constrain the submissive to begging, animal noises or silence." style="border-bottom: 1px dotted"> Speech Restrictions </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of a character trusting or displaying affection towards those responsible for kidnapping / taking them as a hostage, may or may not involve actual kidnapping vs. a domestic abuse relationship." style="border-bottom: 1px dotted"> Stockholm Syndrome </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 13 END -->
+				
+				<!-- SECTION 14 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section14">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse14" aria-expanded="true" aria-controls="collapse14">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">BDSM</h4>
+						</a>
+					</div>
+					<div id="collapse14" class="collapse" aria-labelledby="section14" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Comforting care and maintenance carried out between two characters after a particularly rigorous experience, such as after BDSM scenes or heavy / harsh exchanges. May consist of talking, cuddling, and various forms of pampering." style="border-bottom: 1px dotted"> Aftercare </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of complex objects with moving parts in order to bondage, immobilize or otherwise sexually gratify and / or incapacitate a character, in the sexual context of an RP." style="border-bottom: 1px dotted"> Apparatuses </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of blindfolds or other objects to obscure the vision of at least one character in a sexual context." style="border-bottom: 1px dotted"> Blindfolds </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of placing another character in a cage, or being placed in a cage, or other confining, device." style="border-bottom: 1px dotted"> Caging </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The involvement and presence of someone crying or making a character do so, usually as the result of pain or actions carried out against them (which may or may not stimulate arousal from the inflictor)." style="border-bottom: 1px dotted"> Crying </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of sex toys that carry an electrical current; sometimes painful." style="border-bottom: 1px dotted"> Electric Toys </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of toys being employed against another character, particularly referring to contact play involving whips of any type, riding crops, paddles, or flogs." style="border-bottom: 1px dotted"> Flogging / Whipping </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of placing and lodging an object in another character's mouth to force them to breathe through their nose, as well as creating the inability to speak, or receiving such actions." style="border-bottom: 1px dotted"> Gags </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of hand cuffs to partially immobilize a character during an RP, or to restrain a character to an object." style="border-bottom: 1px dotted"> Handcuffs </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of bondage that is extreme in either the position in which it causes the bound character to be in, the duration for which the character will be in bondage, the level of discomfort caused by the bondage or the amount of immobilization that will occur due to the bondage." style="border-bottom: 1px dotted"> Heavy / Extreme Bondage </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which at least one character will be physically immobilized, typical by heavy bondage or mummification from BDSM, but may be from other methods like entrapment or suppression." style="border-bottom: 1px dotted"> Immobilization </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which a character will be adorned with a collar that will be attached to a leash." style="border-bottom: 1px dotted"> Leash & Collar </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The use of bondage that is mild or moderate in either the position in which it causes the bound character to be in, the duration for which the character will be in bondage, the level of discomfort caused by the bondage or the amount of immobilization that will occur due to the bondage." style="border-bottom: 1px dotted"> Light / Medium Bondage </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to the dominant(s) being in control of when the submissive(s) achieve(s) orgasm, either by physical means or by command; typically involves domination and / or excessive teasing and edging; orgasm may be completely denied" style="border-bottom: 1px dotted"> Orgasm Control / Denial </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which one character is in a position to administer or withhold any form of physical, sexual or psychological pleasure to another character; pleasure may be completely denied." style="border-bottom: 1px dotted"> Pleasure Control / Denial </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in the deliberate reduction or removal of stimuli from one or more of the senses. May include devices such as blindfolds, hoods, or earmuffs to cut off sight and hearing, or more complex devices that can cut off a character’s sense of smell, touch, taste, heat sense, or gravity." style="border-bottom: 1px dotted"> Sensory Deprivation </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 14 END -->
+				
+				<!-- SECTION 15 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section15">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse15" aria-expanded="true" aria-controls="collapse15">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Roughness / Pain</h4>
+						</a>
+					</div>
+					<div id="collapse15" class="collapse" aria-labelledby="section15" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of biting or being bitten; sometimes painful, sometimes playful." style="border-bottom: 1px dotted"> Biting </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A situation in which one character will control another character's breath with extreme force, and typically for extended and / or dangerous periods of time."> Choking </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Slaps to the face, of any degree or severity." style="border-bottom: 1px dotted"> Face Slapping </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of pulling or tugging on another character's hair, or being the recipient of such." style="border-bottom: 1px dotted"> Hair Pulling </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The involvement of rough behavior and actions (typically during sex) upon a partner. Usually denotes harsh grabbing, pulling, brisk brusque motions, and similar physical conduct." style="border-bottom: 1px dotted"> Roughness </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of taking the role of a sadist or masochist, meaning one that receives sexual gratification from being the recipient of or administering physical pain." style="border-bottom: 1px dotted"> Sadism / Masochism </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="One character scratching another with their nails or claws, sometimes leaving marks; but not necessarily painful." style="border-bottom: 1px dotted"> Scratching </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to the inclusion of physical pain due to acts which are directly sexual; typically rough or excessive penetrations." style="border-bottom: 1px dotted"> Sexual Pain </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of striking the buttocks of another character, or being the recipient of such; often as a form of erotic foreplay or as punishment in a BDSM setting." style="border-bottom: 1px dotted"> Spanking </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of using wax, typically hot candle wax, as a form of sexual stimulation and / or torture, or receiving such actions." style="border-bottom: 1px dotted"> Wax Play </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 15 END -->
+				
+				<!-- SECTION 16 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section16">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse16" aria-expanded="true" aria-controls="collapse16">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Gore / Torture / Death</h4>
+						</a>
+					</div>
+					<div id="collapse16" class="collapse" aria-labelledby="section16" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in a situation in which at least one character will receive abrasions, defined as scrapes that are at their mildest in severity capable of causing bleeding; typically administered via rough or coarse objects, such as sandpaper or cement." style="border-bottom: 1px dotted"> Abrasions </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Pertains to the inclusion of blood or the retrieval of blood in any form in a sexual context, or engaging in acts which will draw blood." style="border-bottom: 1px dotted"> Bloodplay </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A situation in which at least one character will be branded, usually as a form of sadomasochism. Typically by means of applying intense heat in a specific pattern designed to visually show ownership." style="border-bottom: 1px dotted"> Branding </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A situation in which at least one character will be burned. May include burning with such things as cigars, cigarettes, hot iron, or other methods." style="border-bottom: 1px dotted"> Burning </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A situation in which a character will die at any point by any means." style="border-bottom: 1px dotted"> Death </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of actively causing death to a character that is not accidental. Implies committing lethal acts on a character that is intended to result in their end, or being the receiver of such actions." style="border-bottom: 1px dotted"> Execution / Murder </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The involvement of graphic violence and carnage, generally of serious physical injuries involving blood, flesh, bone, and internal organs." style="border-bottom: 1px dotted"> Gore </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Describes a character being pierced by an object, and subsequently having it extend out and through an exit wound. Typically implies pain, torture, and is often fatal." style="border-bottom: 1px dotted"> Impalement </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which menstruation will be involved, or applied to the sexual context of a scene." style="border-bottom: 1px dotted"> Menses </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of physically damaging or otherwise causing irreparable change and / or harm to a character in an RP, typically by the use of cutting, stabbing or contact objects; often exceptionally painful." style="border-bottom: 1px dotted"> Mutilation </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Refers to either the administering and / or receiving of pain that is not derived through sexual activity and does not cause sexual gratification for the recipient, often interpreted to mean pain that is located in non-sexual parts of one's body." style="border-bottom: 1px dotted"> Nonsexual Pain </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of causing or receiving extended scenes of pain due to acts that are not of a sexual nature, or giving or being the recipient of psychological abuse for extended periods of time or at a great degree of intensity." style="border-bottom: 1px dotted"> Nonsexual Torture </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of piercing a character's body, typically in a painful manner, and often in a sexual or exceptionally sensitive location on the person's body, or having one's own body pierced." style="border-bottom: 1px dotted"> Piercing </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of orally consuming blood." style="border-bottom: 1px dotted"> Swallowing Blood </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 16 END -->
+				
+				<!-- SECTION 17 START -->
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="section17">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapse17" aria-expanded="true" aria-controls="collapse17">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">Pregnancy & Breeding</h4>
+						</a>
+					</div>
+					<div id="collapse17" class="collapse" aria-labelledby="section17" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Pregnancy that takes place in areas of the body other than the womb through vaginal means, such as the breasts, balls, limbs, tail, and so on." style="border-bottom: 1px dotted"> Alternative Pregnancy </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Scenes in which someone goes into labor or gives birth; participants may derive sexual gratification from the experience." style="border-bottom: 1px dotted"> Birthing </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Entails the act sexual intercourse for the sole purpose of inducing pregnancy and / or producing offspring." style="border-bottom: 1px dotted"> Breeding </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="A character entering a state of heightened sexual arousal which often alters or overrides their inhibitions. May correspond with being more receptive to impregnation / the ability to impregnate." style="border-bottom: 1px dotted"> Heat / Rut </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="The act of a male identifying character becoming pregnant during the course of an RP, or engaging in an RP in which at least one male character is pregnant." style="border-bottom: 1px dotted"> Male Pregnancy </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="Engaging in an RP in which at least one character will lay eggs through an orifice." style="border-bottom: 1px dotted"> Oviposition </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- SECTION 17 END -->
+				
+				<!-- TO ADD A NEW SECTION:
+				Copy the following code and paste it after this section (or remove the others, whichever you prefer:
+				
+				<div class="card rounded-0 mb-2">
+					<div class="card-header px-0 py-1 border-bottom-0" id="sectionXX">
+						<a class="btn btn-link text-secondary" data-toggle="collapse" data-target="#collapseXX" aria-expanded="true" aria-controls="collapseXX">
+							<h4 class="mb-0 display-6" style="font-variant:small-caps">SECTION TITLE</h4>
+						</a>
+					</div>
+					<div id="collapseXX" class="collapse" aria-labelledby="sectionXX" data-parent="#accordion">
+						<div class="card-body p-3 border-top-0 bg-faded">
+							<div class="row p-2 pt-0 d-flex justify-content-center">
+							
+							    <div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
+									<span data-toggle="tooltip" data-placement="top" title="DEFINITION" style="border-bottom: 1px dotted"> ITEM NAME </span><span style="color:orange"><i class="fa fa-question"></i></span>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				Replace "sectionXX" and "collapseXX" with whatever IDs you prefer, but make sure they match up, otherwise the accordion code will not work; check the existing sections for examples.
+				-->
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!-- CREDIT, DO NOT REMOVE -->
+<div class="pt-3">
+	<p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/28636749.code-03-f-list"><i>Code by Pandappuccino</i></a> ----------</p>
+</div>
