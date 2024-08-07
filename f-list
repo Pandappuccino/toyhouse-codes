@@ -437,12 +437,6 @@
 									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in traditionally female characters." style="border-bottom: 1px dotted"> Females </span><span style="color:#e29013"><i class="fa fa-question"></i></span>
 								</div>
 								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
-									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in female-identifying characters that have breasts, a penis, and a vagina." style="border-bottom: 1px dotted"> Hermaphrodites </span><span style="color:#e29013"><i class="fa fa-question"></i></span>
-								</div>
-								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
-									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in male-identifying characters that have a penis and a vagina." style="border-bottom: 1px dotted"> Male-Herms </span><span style="color:#e29013"><i class="fa fa-question"></i></span>
-								</div>
-								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
 									<span data-toggle="tooltip" data-placement="top" title="Expresses an interest in traditionally male characters." style="border-bottom: 1px dotted"> Males </span><span style="color:#e29013"><i class="fa fa-question"></i></span>
 								</div>
 								<div class="col-lg-6 col-md-12 mr-auto px-4 py-1 d-flex justify-content-between mb-1">
