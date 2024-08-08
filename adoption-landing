@@ -53,16 +53,16 @@
     <!-- SIDE IMAGE + RULES -->
     <!--
         
-        This section contains two columns that will stack on top of one another on a smaller screen, such as a phone; however, there are actually three columns, and one will disappear altogether on a smaller screen.
+        This section contains two columns that will stack on top of one another on a smaller screen, such as a phone.  They are spaced apart using justify-content-around.
         
-        To adjust the width between the columns, just change the col-xl and col-lg values.  The three column values must total up to 12, no more and no less.  By default, they are 5 and 6, with the middle "divider" being 1.  You can remove the divider altogether as well.
+        To adjust the width between the columns, just change the col-xl and col-lg values.  The values must not exceed 12, and margin-adjustments can and will break it.  By default, they are 5 and 5.
         
 	-->
     <div class="row px-5">
-        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 my-4">
             <!--
                 
-                This is the image column.  Keep in mind that the size of the column will affect the way the image looks; the text column doesn't scroll!
+                This is the image column.  Keep the image to 400px max!
                 
                 You can add an optional background image to this side.  If you want to remove the border and faded white background of the container, just remove the section in the nested div with a border value in the "style" tag.
                 
@@ -71,15 +71,13 @@
 			background-position:center;
 			background-attachment:fixed;">
                 <div class="align-content-center" style="border:5px solid white; background:rgba(255,255,255,0.25);height:100%;">
-                    <img style="margin:auto;; width:100%; max-height:100%;" src="https://placehold.co/300x250" data-toggle="tooltip" data-placement="top" title="Background by tenshiikisu on Tumblr" />
+                    <img style="margin:auto;; width:100%; max-height:400px;" src="https://placehold.co/320x400?text=Max+Height+400px" data-toggle="tooltip" data-placement="top" title="Background by tenshiikisu on Tumblr" />
 				</div>
 			</div>
 		</div>
-        <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 bg-white p-0 mx-4" style="max-width:2px">
-		</div>
-        <div class="col-xl-6 col-lg-6 cl-md-12 col-sm-12">
+        <div class="col-xl-5 col-lg-6 cl-md-12 col-sm-12 my-4" style="max-height:400px;overflow-y:auto;">
             <div style="text-align:center;font-size:28px;" class="text-uppercase">
-                SECOND TITLE
+                SUBTITLE 1
 			</div>
 			<p class="pt-3">This is a paragraph of text, padded out to add space and separate it from the subtitle above.  You can replace the class "pt-3" with a different value if you want to change the spacing.</p>
 			<p>Any paragraphs after the first one should not have the "pt-3" class, otherwise it will be spaced out too far.</p>
@@ -91,7 +89,7 @@
 				<ul>
 					<li>Here's a nested item!</li>
 				</ul>
-				<li>Just be careful--this side doesn't scroll!</li>
+				<li>Add as much as you want--this box scrolls!</li>
 			</ul>
 		</div>
 	</div>
@@ -103,10 +101,10 @@
     <div class="row">
         <div class="col-12">
             <div style="text-align:center;font-size:28px;" class="text-uppercase">
-                THIRD TITLE
+                SUBTITLE 2
 			</div>
             <div style="margin:auto; max-width:70%;">
-                <p style="text-align:center">Down here are a few columns with different text.  You can add or remove columns as needed by changing the col-xl and col-lg classes, as long as the sum of all the columns is equal to 12.</p>
+                <p style="text-align:center">Down here are a few columns with different text.  You can add or remove columns as needed by changing the col-xl and col-lg classes, as long as the sum of all the columns is equal to or less than 12.  If they are less than 12, use justify-content-around or justify-content-between to space them neatly.</p>
                 <p style="text-align:center">You can also adjust how wide this text is by changing the "max-width:70%" style to a different value, and you can change the alignment by changing or removing the "text-align:center" style from the paragraphs.</p>
                 <p class="pb-2" style="text-align:center">The bottom-most paragraph should have the "pb-2" class, to space out where the columns are in relation to this text.</p>
 			</div>
@@ -160,7 +158,7 @@
     <div class="row">
         <div class="col-12">
             <div style="text-align:center;font-size:28px;" class="text-uppercase pb-3">
-                Third Title
+                SUBTITLE 3
 			</div>
 		</div>
         <div class="col-12">
