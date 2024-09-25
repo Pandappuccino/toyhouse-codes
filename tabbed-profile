@@ -1,0 +1,490 @@
+<!-- 
+    TABBED PROFILE CODE
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    There are so many codes that I like certain parts of, but don't use the full scope of, so I decided to challenge myself to make this.  It's a full profile code with individual tabs (each tab is pre-coded with its own layout, but you can change them however you want!) that covers the basics of a character: their basic info, story, inventory, abilities, relationships, and design.  It also has a ribbon case (inspired by the Modular Layout by CivilEngideer found at https://toyhou.se/6489004.modular-customizable-layout) and can be expanded to include whatever you want.
+    
+    This code is heavily inspired by the aforementioned CivilEngideer and also by Aurorean.  Please give them a visit if you like this code!
+    
+    == HOW DO I USE IT? ==
+    Just edit each section as needed!  There are comments to clarify each part for you.
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask.
+    
+    == COMMON EDITING TIPS ==
+    1) You can change the particular Bootstrap colors by replacing the color classes (such as bg-dark).  If you would prefer to remove the Bootstrap colors and use your own colors, just remove the entire color class and, in the given "style" section, add "background:" followed by a color, either a hex color or rgb/rgba value.
+    2) You can remove the capitalization of the titles by removing the "text-uppercase" class from a given section.
+    3) You can use inline color styling by using <span></span> tags in tandem with either Bootstrap color classes or custom color styling.
+    4) You can adjust the width of the <hr> dividers (or any other element with the Bootstrap classes) by replacing the "w-75" class with another number.  For more precise styling, you can remove the class and style the widths directly; however, they may not look as good on mobile screens!
+    5) You can adjust the color of the borders for some headers by changing the rgba() values; by default they are rgba(255,255,255,0.25), meaning a white border at 25% opacity.
+	
+-->
+
+<div class="container p-4" style="max-width:1100px">
+    
+	<div class="row justify-content-between align-items-center mb-5">
+		<div class="col-lg-4 col-sm-12 card border-0" style="height:2px;background:white"></div>
+		
+		<div class="col-lg-4 col-sm-12 text-center">
+			<h3 class="display-3">CHARACTER NAME</h3>
+			<p class="text-faded" style="font-size:10"><i>Small quote or tagline</i></p>
+		</div>
+		
+		<div class="col-lg-4 col-sm-12 card border-0" style="height:2px;background:white"></div>
+	</div>
+	
+	<div class="row justify-content-between">
+	    
+		<!-- TABS -->
+		<div class="col-lg-4 col-sm-12 mb-3">
+			<ul class="nav nav-pills d-flex flex-column" style="white-space:nowrap; overflow:auto;">
+				<li class="nav-item card border-0 rounded-0 m-0">
+					<a class="active nav-link btn btn-block btn-outline-primary border-0 align-items-center justify-content-between p-2 text-uppercase" style="white-space:normal; border-radius:0; font-size:18px" data-toggle="pill" href="#INFO"> Basic Information<i class="fas fa-user"></i>
+					</a>
+				</li>
+				
+				<li class="nav-item card border-0 rounded-0 m-0">
+					<a class="nav-link btn btn-block btn-outline-primary border-0 align-items-center justify-content-between p-2 text-uppercase" style="white-space:normal; border-radius:0;font-size:18px" data-toggle="pill" href="#LIKE-DISLIKE"> Likes / Dislikes<i class="fas fa-heart"></i>
+					</a>
+				</li>
+				
+				<li class="nav-item card border-0 rounded-0 m-0">
+					<a class="nav-link btn btn-block btn-outline-primary border-0 align-items-center justify-content-between p-2 text-uppercase" style="white-space:normal; border-radius:0;font-size:18px" data-toggle="pill" href="#INVENTORY"> Inventory<i class="fas fa-backpack"></i>
+					</a>
+				</li>
+				
+				<li class="nav-item card border-0 rounded-0 m-0">
+					<a class="nav-link btn btn-block btn-outline-primary border-0 align-items-center justify-content-between p-2 text-uppercase" style="white-space:normal; border-radius:0;font-size:18px" data-toggle="pill" href="#ABILITY"> Abilities<i class="fas fa-stars"></i>
+					</a>
+				</li>
+				
+				<li class="nav-item card border-0 rounded-0 m-0">
+					<a class="nav-link btn btn-block btn-outline-primary border-0 align-items-center justify-content-between p-2 text-uppercase" style="white-space:normal; border-radius:0;font-size:18px" data-toggle="pill" href="#STORY"> Story<i class="fas fa-book-open"></i>
+					</a>
+				</li>
+				
+				<li class="nav-item card border-0 rounded-0 m-0">
+					<a class="nav-link btn btn-block btn-outline-primary border-0 align-items-center justify-content-between p-2 text-uppercase" style="white-space:normal; border-radius:0;font-size:18px" data-toggle="pill" href="#REL"> Relationships<i class="fas fa-users"></i>
+					</a>
+				</li>
+				
+				<li class="nav-item card border-0 rounded-0 m-0">
+					<a class="nav-link btn btn-block btn-outline-primary border-0 align-items-center justify-content-between p-2 text-uppercase" style="white-space:normal; border-radius:0;font-size:18px" data-toggle="pill" href="#DESIGN"> Design<i class="fas fa-pen"></i>
+					</a>
+				</li>
+				
+				<li class="nav-item card border-0 rounded-0 m-0">
+					<a class="nav-link btn btn-block btn-outline-primary border-0 align-items-center justify-content-between p-2 text-uppercase" style="white-space:normal; border-radius:0;font-size:18px" data-toggle="pill" href="#RIBBON"> Ribbon Case<i class="fas fa-ribbon"></i>
+					</a>
+				</li>
+				
+				<!-- TO ADD NEW LINKS, JUST COPY THIS CODE:
+				
+			    <li class="nav-item card border-0 rounded-0 m-0">
+					<a class="nav-link btn btn-block btn-outline-primary border-0 align-items-center justify-content-between p-2 text-uppercase" style="white-space:normal; border-radius:0;font-size:18px" data-toggle="pill" href="#TAB"> LINK NAME<i class="fas fa-link"></i>
+					</a>
+				</li>
+				
+				ADJUST THE HREF, LABEL, AND ICON AS NEEDED, THEN COPY A NEW TAB PANEL (SEE BELOW)
+				
+				IF YOU ADD MULTIPLE NEW LINKS, ADJUST THE HEIGHT OF THE TAB PANELS TO MATCH (REPLACE "height:400px" WITH YOUR DESIRED HEIGHT)
+				-->
+			</ul>
+		</div>
+		
+		<!-- CONTENT -->
+		<div class="col-lg-8 col-sm-12 card px-2 bg-faded border-0 tab-content">
+		    <!-- BASIC INFO -->
+			<div class="tab-pane fade p-3 show active" style="height:400px; overflow:auto;" id="INFO"> 
+			    <div class="flex flex-row flex-wrap justify-content-between align-items-center">
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">NAME</span><span>Character Name</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">CREATOR</span><span>@/User</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">BIRTHDAY</span><span>XX / XX / XXXX</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">AGE</span><span>XX</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">SPECIES / RACE</span><span>-</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">PRONOUNS</span><span>He / She / They / It</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">EYES</span><span>-</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">SKIN</span><span>-</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">HAIR</span><span>-</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">BUILD</span><span>-</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">THEME</span><span><a href="#" class="text-secondary">-</a></span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">VOICECLAIM</span><span><a href="#" class="text-secondary">-</a></span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">YOUR TEXT</span><span>-</span>
+    			    </div>
+    			    
+    			    <div class="bg-dark p-2 mb-2 justify-content-between align-items-center" style="width:320px">
+    			        <span class="text-secondary text-uppercase" style="font-weight:bold">YOUR TEXT</span><span>-</span>
+    			    </div>
+    			    
+    			    <div class="text-justify mt-2">
+    			        <p>Write a small summary about your character here.  You don't have to go into too much detail; just a quick explanation will suffice.  The nitty-gritty will be in the Story tab, after all.</p>
+    			    </div>
+			    </div>
+			</div>
+			
+			<!-- LIKES / DISLIKES -->
+			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="LIKE-DISLIKE">
+				<div class="row justify-content-around">
+					<div class="col-lg-5 col-sm-12 card p-0 mb-2">
+						<ul class="list-group border-0">
+							<li class="list-group-item bg-faded justify-content-between align-items-center text-uppercase" style="font-size:18px;border-bottom:0"> Likes<i class="fas fa-check"></i></li>
+							<li class="list-group-item">Item 1</li>
+							<li class="list-group-item">Item 2</li>
+							<li class="list-group-item">Item 3</li>
+						</ul>
+					</div>
+					<div class="col-lg-5 col-sm-12 card p-0 mb-2">
+						<ul class="list-group border-0">
+							<li class="list-group-item bg-faded justify-content-between align-items-center text-uppercase" style="font-size:18px;border-bottom:0"> Dislikes<i class="fas fa-cancel"></i></li>
+							<li class="list-group-item">Item 1</li>
+							<li class="list-group-item">Item 2</li>
+							<li class="list-group-item">Item 3</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!-- INVENTORY -->
+			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="INVENTORY">
+			    <!--
+			    For best results, remove the border-bottom styling from the last item in the list.
+			    -->
+			    
+			    <!-- ITEM START -->
+			    <div class="card rounded-0 bg-faded p-1 mb-3" style="border:0;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <div class="row justify-content-between align-items-center p-0">
+			            <div class="col-lg-3 col-sm-12">
+			                <img class="mb-3" style="height:200px;width:200px;display:block;margin:auto" src="https://placehold.co/200">
+			            </div>
+			            
+			            <div class="col-lg-9 col-sm-12">
+			                <h3>Item Name</h3>
+			                <p><small><i>Item Type</i></small></p>
+			                <hr>
+			                <p>Describe the item here.  You can include its effects, its origin, if it has sentimental value to the character, and so on.</p>
+			            </div>
+			        </div>
+			    </div>
+			    <!-- ITEM END -->
+			    
+			    <!-- ITEM START -->
+			    <div class="card rounded-0 bg-faded p-1 mb-3" style="border:0;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <div class="row justify-content-between align-items-center p-0">
+			            <div class="col-lg-3 col-sm-12">
+			                <img class="mb-3" style="height:200px;width:200px;display:block;margin:auto" src="https://placehold.co/200">
+			            </div>
+			            
+			            <div class="col-lg-9 col-sm-12">
+			                <h3>Item Name</h3>
+			                <p><small><i>Item Type</i></small></p>
+			                <hr>
+			                <p>Describe the item here.  You can include its effects, its origin, if it has sentimental value to the character, and so on.</p>
+			            </div>
+			        </div>
+			    </div>
+			    <!-- ITEM END -->
+			    
+			    <!-- ITEM START -->
+			    <div class="card rounded-0 bg-faded p-1 mb-3" style="border:0">
+			        <div class="row justify-content-between align-items-center p-0">
+			            <div class="col-lg-3 col-sm-12">
+			                <img class="mb-3" style="height:200px;width:200px;display:block;margin:auto" src="https://placehold.co/200">
+			            </div>
+			            
+			            <div class="col-lg-9 col-sm-12">
+			                <h3>Item Name</h3>
+			                <p><small><i>Item Type</i></small></p>
+			                <hr>
+			                <p>Describe the item here.  You can include its effects, its origin, if it has sentimental value to the character, and so on.</p>
+			            </div>
+			        </div>
+			    </div>
+			    <!-- ITEM END -->
+			</div>
+			
+			<!-- ABILITIES -->
+			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="ABILITY">
+			    <!-- ABILITY START -->
+			    <div class="card bg-faded rounded-0 p-2 mb-2" style="border:0;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <div class="mb-1">
+			            <h4 class="text-uppercase">Ability Name</h4>
+			            <p class="text-secondary"><small><i>Ability Type</i></small></p>
+			        </div>
+			        <div class="text-justify mb-1">
+			            <p>Describe the ability here.  Include details such as limitations, how the character acquired the ability, and so on.</p>
+			        </div>
+			    </div>
+			    <!-- ABILITY END -->
+			    
+			    <!-- ABILITY START -->
+			    <div class="card bg-faded rounded-0 p-2 mb-2" style="border:0;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <div class="mb-1">
+			            <h4 class="text-uppercase">Ability Name</h4>
+			            <p class="text-secondary"><small><i>Ability Type</i></small></p>
+			        </div>
+			        <div class="text-justify mb-1">
+			            <p>Describe the ability here.  Include details such as limitations, how the character acquired the ability, and so on.</p>
+			        </div>
+			    </div>
+			    <!-- ABILITY END -->
+			    
+			    <!-- ABILITY START -->
+			    <div class="card bg-faded rounded-0 p-2 mb-2" style="border:0;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <div class="mb-1">
+			            <h4 class="text-uppercase">Ability Name</h4>
+			            <p class="text-secondary"><small><i>Ability Type</i></small></p>
+			        </div>
+			        <div class="text-justify mb-1">
+			            <p>Describe the ability here.  Include details such as limitations, how the character acquired the ability, and so on.</p>
+			        </div>
+			    </div>
+			    <!-- ABILITY END -->
+			    
+			    <!-- ABILITY START -->
+			    <div class="card bg-faded rounded-0 p-2 mb-2" style="border:0;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <div class="mb-1">
+			            <h4 class="text-uppercase">Ability Name</h4>
+			            <p class="text-secondary"><small><i>Ability Type</i></small></p>
+			        </div>
+			        <div class="text-justify mb-1">
+			            <p>Describe the ability here.  Include details such as limitations, how the character acquired the ability, and so on.</p>
+			        </div>
+			    </div>
+			    <!-- ABILITY END -->
+			    
+			    <!-- ABILITY START -->
+			    <div class="card bg-faded rounded-0 p-2 mb-2" style="border:0">
+			        <div class="mb-1">
+			            <h4 class="text-uppercase">Ability Name</h4>
+			            <p class="text-secondary"><small><i>Ability Type</i></small></p>
+			        </div>
+			        <div class="text-justify mb-1">
+			            <p>Describe the ability here.  Include details such as limitations, how the character acquired the ability, and so on.</p>
+			        </div>
+			    </div>
+			    <!-- ABILITY END -->
+			</div>
+			
+			<!-- STORY -->
+			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="STORY">
+			    <div class="card bg-faded p-2 pb-3 mb-0 display-4" style="text-align:left;border:none;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <p>Section 1 Title</p>
+			    </div>
+			    <div class="p-1 text-justify mb-3">
+			        <img class="float-right p-3" src="https://placehold.co/250x145">
+			        <p>Write your character's story here.  You can go into as much detail as you want; this box will scroll.  You can also add images using floats to accentuate the story.</p>
+			        <p>Here's an example of an image set to float to the right of the text.  The text will flow around the image, and once it is past the height of the image, will return to taking up the full width of the div.</p>
+			        <p>Just remember to include a padding class (like the example p-3 class) to ensure the text doesn't just crash into the image itself, keeping a bit of extra space between the text and the image.  It just looks better.</p>
+			        <p>You can also float the image to the right instead, whichever is your preference.  I personally recommend any images alternate between right and left for visual appeal.</p>
+			    </div>
+			    
+			    <div class="card bg-faded p-2 pb-3 mb-0 display-4" style="text-align:right;border:none;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <p>Section 2 Title</p>
+			    </div>
+			    <div class="p-1 text-justify mb-3">
+			        <img class="float-left p-3" src="https://placehold.co/145x200">
+			        <p>Here's another text box, this time with the title aligned to the right and the image floating to the left.  Notice how there's more visual distinction by mirroring which way the alignment goes?</p>
+			        <p>When adding a new section, make sure that the text div includes a bottom margin class (such as mb-3) to keep the sections from smashing together!  Remember, negative space in text is a good thing because it gives the reader's eyes room to read!  It's much easier to read text that isn't all crunched up against other elements than it is to try to read one jumbled brick!</p>
+			    </div>
+			</div>
+			
+			<!-- RELATIONSHIPS -->
+			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="REL">
+				<!-- RELATIONSHIP CARD START -->
+				<div class="card my-2 p-2">
+					<div class="row justify-content-around align-items-center">
+						<div class="col-lg-3 col-sm-12">
+							<img style="border-radius:100%;margin:auto;display:block" src="https://placehold.co/200">
+						</div>
+						<div class="col-lg-9 col-sm-12 my-2">
+							<div class="text-uppercase">
+								<a href="#" class="text-secondary" style="text-decoration:none"><h3>Character Name</h3></a>
+							</div>
+							
+							<!--
+							To adjust the relationship value, change the text-danger and text-secondary classes as needed for each heart.  You can also change the icons entirely.  If you don't want the heart values, just remove them and keep the label; if you don't want the label, remove it.
+							-->
+							<div class="justify-content-start align-items-center">
+								<span class="text-danger mr-1"><i class="fas fa-heart"></i></span>
+								<span class="text-danger mr-1"><i class="fas fa-heart"></i></span>
+								<span class="text-danger mr-1"><i class="fas fa-heart"></i></span>
+								<span class="text-secondary mr-1"><i class="fas fa-heart"></i></span>
+								<span class="text-secondary mr-3"><i class="fas fa-heart"></i></span>
+								<span class="text-secondary" style="font-size:10px"><i>Neutral</i></span>
+							</div>
+							<hr>
+							<div>
+								<p>Describe the character's relationship here. Keep it to a few lines max so as not to stretch the card out too far.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- RELATIONSHIP CARD END -->
+			</div>
+			
+			<!-- DESIGN -->
+			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="DESIGN">
+				<!-- MAIN DESIGN IMAGE 
+				    Replace background url with link to your image; adjust height to your liking
+				-->
+				<div class="mb-3">
+					<div class="card bg-faded rounded-0 mx-auto" style="height:750px;
+					                            width:90%;
+					                            background-size:contain; 
+					                            background-position:center; 
+					                            background-repeat:no-repeat; 
+					                            background-image:url('https://placehold.co/500x750');">
+						<!-- FULL RES IMAGE LINK -->
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+				</div>
+				
+				<!-- COLOR SCHEME -->
+				<!--
+				Change the background color of each block to whatever color is used in the design.  The default code includes the hex code of each color and a tooltip for what the color is used for; you can adjust or remove them as needed.  If you keep the text inside the element, please make sure to use a color that is easy to read!
+				-->
+				<div class="flex flex-row flex-wrap justify-content-around align-items-center">
+					<div class="justify-content-end align-items-end p-2 mb-2" style="height:85px;width:85px;background:#000000;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 1"> #000000 </div>
+					<div class="justify-content-end align-items-end p-2 mb-2" style="height:85px;width:85px;background:#111111;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 2"> #111111 </div>
+					<div class="justify-content-end align-items-end p-2 mb-2" style="height:85px;width:85px;background:#222222;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 3"> #222222 </div>
+					<div class="justify-content-end align-items-end p-2 mb-2" style="height:85px;width:85px;background:#333333;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 4"> #333333 </div>
+					<div class="justify-content-end align-items-end p-2 mb-2" style="height:85px;width:85px;background:#444444;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 5"> #444444 </div>
+					<div class="justify-content-end align-items-end p-2 mb-2" style="height:85px;width:85px;background:#555555;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 6"> #555555 </div>
+					<div class="justify-content-end align-items-end p-2 mb-2" style="height:85px;width:85px;background:#666666;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 7"> #666666 </div>
+				</div>
+				
+				<!-- DETAIL IMAGES -->
+				<div class="flex flex-row flex-wrap justify-content-around align-items-center mt-3">
+				    <!-- IMAGE START -->
+					<div class="card bg-faded border-0 rounded-0 mx-auto my-3" style="height:120px;
+					                            width:120px;
+					                            background-size:contain; 
+					                            background-position:center; 
+					                            background-repeat:no-repeat; 
+					                            background-image:url('https://placehold.co/300');">
+						<!-- FULL RES IMAGE LINK -->
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" data-position="bottom" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<!-- IMAGE END -->
+					
+					<!-- IMAGE START -->
+					<div class="card bg-faded border-0 rounded-0 mx-auto my-3" style="height:120px;
+					                            width:120px;
+					                            background-size:contain; 
+					                            background-position:center; 
+					                            background-repeat:no-repeat; 
+					                            background-image:url('https://placehold.co/300');">
+						<!-- FULL RES IMAGE LINK -->
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" data-position="bottom" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<!-- IMAGE END -->
+					
+					<!-- IMAGE START -->
+					<div class="card bg-faded border-0 rounded-0 mx-auto my-3" style="height:120px;
+					                            width:120px;
+					                            background-size:contain; 
+					                            background-position:center; 
+					                            background-repeat:no-repeat; 
+					                            background-image:url('https://placehold.co/300');">
+						<!-- FULL RES IMAGE LINK -->
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" data-position="bottom" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<!-- IMAGE END -->
+					
+					<!-- You can add as many images as you want by copying the codes and adjusting as needed. -->
+				</div>
+			</div>
+			
+			<!-- RIBBON CASE -->
+			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="RIBBON">
+				<!-- The best repository for ribbons is https://toyhou.se/20187371.ribbon-masterlist btw!! -->
+				
+				<div class="display-4 text-uppercase mb-3 p-3" style="border-bottom:1px solid rgba(255,255,255,0.25"> Ribbon Category </div>
+				
+				<div class="flex flex-row flex-wrap justify-content-around">
+					<!-- RIBBON START -->
+					<div class="card border-0 bg-faded mb-2" style="width:130px;text-align:center">
+						<a style="display:block;margin:auto" class="text-muted mb-1" href="https://toyhou.se/14924009.ribbons-i-ve-made" data-toggle="tooltip" data-placement="top" title="A ribbon for placeholder purposes.">
+							<img src="https://f2.toyhou.se/file/f2-toyhou-se/images/75655994_tQS8vA2mSWmtilT.png">
+						</a>
+						<div class="p-0 font-italic"> Placeholder </div>
+					</div>
+					<!-- RIBBON END -->
+					
+					<!-- RIBBON START -->
+					<div class="card border-0 bg-faded mb-2" style="width:130px;text-align:center">
+						<a style="display:block;margin:auto" class="text-muted mb-1" href="https://toyhou.se/14924009.ribbons-i-ve-made" data-toggle="tooltip" data-placement="top" title="A ribbon for placeholder purposes.">
+							<img src="https://f2.toyhou.se/file/f2-toyhou-se/images/75655994_tQS8vA2mSWmtilT.png">
+						</a>
+						<div class="p-0 font-italic"> Placeholder </div>
+					</div>
+					<!-- RIBBON END -->
+					
+					<!-- RIBBON START -->
+					<div class="card border-0 bg-faded mb-2" style="width:130px;text-align:center">
+						<a style="display:block;margin:auto" class="text-muted mb-1" href="https://toyhou.se/14924009.ribbons-i-ve-made" data-toggle="tooltip" data-placement="top" title="A ribbon for placeholder purposes.">
+							<img src="https://f2.toyhou.se/file/f2-toyhou-se/images/75655994_tQS8vA2mSWmtilT.png">
+						</a>
+						<div class="p-0 font-italic"> Placeholder </div>
+					</div>
+					<!-- RIBBON END -->
+					
+					<!-- To add more ribbons, just copy the code and adjust it as needed.  The ribbons are responsive and will wrap no matter how many you add! -->
+				</div>
+			</div>
+			
+			<!-- TO ADD A NEW TAB, COPY THIS CODE
+			
+			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="TAB">
+			    CONTENT HERE 
+			</div>
+			
+			MAKE SURE THE ID MATCHES THE HREF OF THE NEW LINK YOU ARE ADDING, AND FILL THE TAB AS YOU WANT
+			-->
+		</div>
+	</div>
+</div>
+
+<!-- CREDIT, DO NOT REMOVE -->
+<div class="pt-3">
+    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="#"><i>Code by Pandappuccino</i></a> ----------</p>
+</div>
