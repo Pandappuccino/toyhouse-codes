@@ -164,20 +164,21 @@
 			<!-- LIKES / DISLIKES -->
 			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="LIKE-DISLIKE">
 				<div class="row justify-content-around">
-					<div class="col-lg-5 col-sm-12 card p-0 mb-2">
-						<ul class="list-group border-0">
-							<li class="list-group-item bg-faded justify-content-between align-items-center text-uppercase" style="font-size:18px;border-bottom:0"> Likes<i class="fas fa-check"></i></li>
-							<li class="list-group-item">Item 1</li>
-							<li class="list-group-item">Item 2</li>
-							<li class="list-group-item">Item 3</li>
+					<div class="col-lg-5 col-sm-12 card bg-faded p-0 mb-2 border-0">
+						<ul class="list-group">
+							<li class="list-group-item bg-faded justify-content-between align-items-center py-2" style="font-size:18px;border-top:0;border-left:0;border-right:0;border-bottom:2px solid white;"><h4 class="text-uppercase">Likes</h4><i class="text-success fas fa-check"></i></li>
+							<li class="list-group-item bg-faded py-2 border-0">Item 1</li>
+							<li class="list-group-item bg-faded py-2 border-0">Item 2</li>
+							<li class="list-group-item bg-faded py-2 border-0">Item 3</li>
 						</ul>
 					</div>
-					<div class="col-lg-5 col-sm-12 card p-0 mb-2">
-						<ul class="list-group border-0">
-							<li class="list-group-item bg-faded justify-content-between align-items-center text-uppercase" style="font-size:18px;border-bottom:0"> Dislikes<i class="fas fa-cancel"></i></li>
-							<li class="list-group-item">Item 1</li>
-							<li class="list-group-item">Item 2</li>
-							<li class="list-group-item">Item 3</li>
+					
+					<div class="col-lg-5 col-sm-12 card bg-faded p-0 mb-2 border-0">
+						<ul class="list-group">
+							<li class="list-group-item bg-faded justify-content-between align-items-center py-2" style="font-size:18px;border-top:0;border-left:0;border-right:0;border-bottom:2px solid white;"><h4 class="text-uppercase">Dislikes</h4><i class="text-danger fas fa-cancel"></i></li>
+							<li class="list-group-item bg-faded py-2 border-0">Item 1</li>
+							<li class="list-group-item bg-faded py-2 border-0">Item 2</li>
+							<li class="list-group-item bg-faded py-2 border-0">Item 3</li>
 						</ul>
 					</div>
 				</div>
@@ -197,7 +198,7 @@
 			            </div>
 			            
 			            <div class="col-lg-9 col-sm-12">
-			                <h3>Item Name</h3>
+			                <h4 class="text-uppercase">Item Name</h4>
 			                <p><small><i>Item Type</i></small></p>
 			                <hr>
 			                <p>Describe the item here.  You can include its effects, its origin, if it has sentimental value to the character, and so on.</p>
@@ -214,7 +215,7 @@
 			            </div>
 			            
 			            <div class="col-lg-9 col-sm-12">
-			                <h3>Item Name</h3>
+			                <h4 class="text-uppercase">Item Name</h4>
 			                <p><small><i>Item Type</i></small></p>
 			                <hr>
 			                <p>Describe the item here.  You can include its effects, its origin, if it has sentimental value to the character, and so on.</p>
@@ -231,7 +232,7 @@
 			            </div>
 			            
 			            <div class="col-lg-9 col-sm-12">
-			                <h3>Item Name</h3>
+			                <h4 class="text-uppercase">Item Name</h4>
 			                <p><small><i>Item Type</i></small></p>
 			                <hr>
 			                <p>Describe the item here.  You can include its effects, its origin, if it has sentimental value to the character, and so on.</p>
@@ -306,8 +307,8 @@
 			
 			<!-- STORY -->
 			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="STORY">
-			    <div class="card bg-faded p-2 pb-3 mb-0 display-4" style="text-align:left;border:none;border-bottom:1px solid rgba(255,255,255,0.25)">
-			        <p>Section 1 Title</p>
+			    <div class="card bg-faded p-2 pb-3 mb-0 text-uppercase" style="text-align:left;border:none;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <h2>Section 1 Title</h2>
 			    </div>
 			    <div class="p-1 text-justify mb-3">
 			        <img class="float-right p-3" src="https://placehold.co/250x145">
@@ -317,8 +318,8 @@
 			        <p>You can also float the image to the right instead, whichever is your preference.  I personally recommend any images alternate between right and left for visual appeal.</p>
 			    </div>
 			    
-			    <div class="card bg-faded p-2 pb-3 mb-0 display-4" style="text-align:right;border:none;border-bottom:1px solid rgba(255,255,255,0.25)">
-			        <p>Section 2 Title</p>
+			    <div class="card bg-faded p-2 pb-3 mb-0 text-uppercase" style="text-align:right;border:none;border-bottom:1px solid rgba(255,255,255,0.25)">
+			        <h2>Section 2 Title</h2>
 			    </div>
 			    <div class="p-1 text-justify mb-3">
 			        <img class="float-left p-3" src="https://placehold.co/145x200">
@@ -330,7 +331,7 @@
 			<!-- RELATIONSHIPS -->
 			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="REL">
 				<!-- RELATIONSHIP CARD START -->
-				<div class="card my-2 p-2">
+				<div class="card rounded-0 bg-faded border-0 my-2 p-2">
 					<div class="row justify-content-around align-items-center">
 						<div class="col-lg-3 col-sm-12">
 							<img style="border-radius:100%;margin:auto;display:block" src="https://placehold.co/200">
@@ -438,7 +439,9 @@
 			<div class="tab-pane fade p-3" style="height:400px; overflow:auto;" id="RIBBON">
 				<!-- The best repository for ribbons is https://toyhou.se/20187371.ribbon-masterlist btw!! -->
 				
-				<div class="display-4 text-uppercase mb-3 p-3" style="border-bottom:1px solid rgba(255,255,255,0.25"> Ribbon Category </div>
+				<div class="text-uppercase mb-3 p-3" style="border-bottom:1px solid rgba(255,255,255,0.25">
+				    <h2>Ribbon Category</h2>
+				</div>
 				
 				<div class="flex flex-row flex-wrap justify-content-around">
 					<!-- RIBBON START -->
