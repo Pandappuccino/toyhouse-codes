@@ -1,0 +1,549 @@
+<!-- 
+    MULTIPLE-DESIGN REFERENCE CODE
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    Some of my characters have multiple designs (such as my FFXIV OC, Ikram, who has designs for his major jobs and his crafting/gathering classes, and rather than just shunt those designs into the gallery where they won't be seen, I thought it might be useful to create a layout that showcases the designs front and center!
+    
+    This was built using my Tabbed Profile code as a base, specifically building on the Design tab.  In addition to the main image and palette, I've also added individual turnaround images and made the detail images a little bigger.  As with the Tabbed Profile code, you can resize the different divs to suit your images.  Note that the images are specifically BACKGROUND IMAGES, not <img> tags!
+    
+    Have fun!
+    
+    == HOW DO I USE IT? ==
+    Just edit each section as needed!  There are comments to clarify each part for you.
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask.
+    
+    == COMMON EDITING TIPS ==
+    1) You can change the particular Bootstrap colors by replacing the color classes (such as bg-dark).  If you would prefer to remove the Bootstrap colors and use your own colors, just remove the entire color class and, in the given "style" section, add "background:" followed by a color, either a hex color or rgb/rgba value.
+    2) You can remove the capitalization of the titles by removing the "text-uppercase" class from a given section.
+    3) You can use inline color styling by using <span></span> tags in tandem with either Bootstrap color classes or custom color styling.
+	
+-->
+<div class="container-flex mx-auto" style="max-width:1100px">
+	<!-- CHARACTER NAME -->
+	<div class="row d-flex justify-content-center align-items-center mb-4">
+		<div class="card col-lg-3 col-sm-0" style="height:2px"></div>
+		<div class="card col-lg-6 col-sm-12 p-2 bg-faded text-center text-uppercase">
+			<h1 class="display-3">Character Name</h1>
+		</div>
+		<div class="card col-lg-3 col-sm-0" style="height:2px"></div>
+	</div>
+	<div class="card bg-0 w-100 mb-4 bg-faded" style="height:1px"></div>
+	<!-- TABS -->
+	<div class="nav nav-pills d-flex flex-row flex-wrap align-items-center justify-content-around mb-2">
+		<a class="active nav-link btn btn-outline-primary border-0 align-items-center d-flex justify-content-between p-2 text-uppercase" style="display:inline-block; width:270px;white-space:normal; border-radius:0; font-size:18px" data-toggle="pill" href="#DESIGN-01"> Design 1<i class="fas fa-flower"></i>
+		</a>
+		<a class="nav-link btn btn-outline-primary border-0 align-items-center d-flex justify-content-between p-2 text-uppercase" style="display:inline-block; width:270px;white-space:normal; border-radius:0; font-size:18px" data-toggle="pill" href="#DESIGN-02"> Design 2<i class="fas fa-star"></i>
+		</a>
+		<a class="nav-link btn btn-outline-primary border-0 align-items-center d-flex justify-content-between p-2 text-uppercase" style="display:inline-block; width:270px;white-space:normal; border-radius:0; font-size:18px" data-toggle="pill" href="#DESIGN-03"> Design 3<i class="fas fa-heart"></i>
+		</a>
+		<a class="nav-link btn btn-outline-primary border-0 align-items-center d-flex justify-content-between p-2 text-uppercase" style="display:inline-block; width:270px;white-space:normal; border-radius:0; font-size:18px" data-toggle="pill" href="#DESIGN-04"> Design 4<i class="fas fa-sparkle"></i>
+		</a>
+		<!-- TO ADD A NEW LINK:
+		Copy the following code and edit the href and button text as needed
+		
+		    <a class="nav-link btn btn-outline-primary border-0 align-items-center d-flex justify-content-between p-2 text-uppercase" style="display:inline-block; width:270px;white-space:normal; border-radius:0; font-size:18px" data-toggle="pill" href="#DESIGN-XX">
+	        Design XX<i class="fas fa-sparkle"></i>
+		    </a>
+		    
+		-->
+	</div>
+	<!-- CONTENT -->
+	<div class="card bg-faded border-0 tab-content">
+		<!-- DESIGN 1 -->
+		<div class="tab-pane fade p-3 show active" style="height:auto;" id="DESIGN-01">
+			<!-- CHARACTER IMAGE -->
+			<div class="card border-0 bg-dark mb-4" style="width:inherit;height:600px;
+			                                          background-image:url('https://placehold.co/1100x600');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+				<!-- LINK TO FULL-SIZE -->
+				<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+			</div>
+			<!-- TURNAROUND IMAGES -->
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-between mb-4">
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Front</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Left</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Right</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Back</div>
+				</div>
+			</div>
+			<!-- PALETTE -->
+			<div class="d-flex flex-row flex-wrap justify-content-around align-items-center">
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#000000;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 1"> #000000 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#111111;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 2"> #111111 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#222222;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 3"> #222222 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#333333;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 4"> #333333 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#444444;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 5"> #444444 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#555555;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 6"> #555555 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#666666;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 7"> #666666 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#777777;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 8"> #777777 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#888888;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 9"> #888888 </div>
+			</div>
+			<!-- DETAILS -->
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-around mt-3">
+				<div data-toggle="tooltip" data-placement="top" title="Detail 1" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+				<div data-toggle="tooltip" data-placement="top" title="Detail 2" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+				<div data-toggle="tooltip" data-placement="top" title="Detail 3" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- DESIGN 2 -->
+		<div class="tab-pane fade p-3" style="height:auto;" id="DESIGN-02">
+			<!-- CHARACTER IMAGE -->
+			<div class="card border-0 bg-dark mb-4" style="width:inherit;height:600px;
+			                                          background-image:url('https://placehold.co/1100x600');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+				<!-- LINK TO FULL-SIZE -->
+				<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+			</div>
+			<!-- TURNAROUND IMAGES -->
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-between mb-4">
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Front</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Left</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Right</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Back</div>
+				</div>
+			</div>
+			<!-- PALETTE -->
+			<div class="d-flex flex-row flex-wrap justify-content-around align-items-center">
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#000000;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 1"> #000000 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#111111;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 2"> #111111 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#222222;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 3"> #222222 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#333333;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 4"> #333333 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#444444;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 5"> #444444 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#555555;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 6"> #555555 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#666666;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 7"> #666666 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#777777;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 8"> #777777 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#888888;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 9"> #888888 </div>
+			</div>
+			<!-- DETAILS -->
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-around mt-3">
+				<div data-toggle="tooltip" data-placement="top" title="Detail 1" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+				<div data-toggle="tooltip" data-placement="top" title="Detail 2" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+				<div data-toggle="tooltip" data-placement="top" title="Detail 3" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- DESIGN 3 -->
+		<div class="tab-pane fade p-3" style="height:auto;" id="DESIGN-03">
+			<!-- CHARACTER IMAGE -->
+			<div class="card border-0 bg-dark mb-4" style="width:inherit;height:600px;
+			                                          background-image:url('https://placehold.co/1100x600');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+				<!-- LINK TO FULL-SIZE -->
+				<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+			</div>
+			<!-- TURNAROUND IMAGES -->
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-between mb-4">
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Front</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Left</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Right</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Back</div>
+				</div>
+			</div>
+			<!-- PALETTE -->
+			<div class="d-flex flex-row flex-wrap justify-content-around align-items-center">
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#000000;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 1"> #000000 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#111111;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 2"> #111111 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#222222;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 3"> #222222 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#333333;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 4"> #333333 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#444444;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 5"> #444444 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#555555;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 6"> #555555 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#666666;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 7"> #666666 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#777777;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 8"> #777777 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#888888;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 9"> #888888 </div>
+			</div>
+			<!-- DETAILS -->
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-around mt-3">
+				<div data-toggle="tooltip" data-placement="top" title="Detail 1" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+				<div data-toggle="tooltip" data-placement="top" title="Detail 2" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+				<div data-toggle="tooltip" data-placement="top" title="Detail 3" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- DESIGN 4 -->
+		<div class="tab-pane fade p-3" style="height:auto;" id="DESIGN-04">
+			<!-- CHARACTER IMAGE -->
+			<div class="card border-0 bg-dark mb-4" style="width:inherit;height:600px;
+			                                          background-image:url('https://placehold.co/1100x600');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+				<!-- LINK TO FULL-SIZE -->
+				<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+			</div>
+			<!-- TURNAROUND IMAGES -->
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-between mb-4">
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Front</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Left</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Right</div>
+				</div>
+				<div class="card border-0 bg-faded mb-2" style="width:250px">
+					<div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+						<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+					</div>
+					<div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Back</div>
+				</div>
+			</div>
+			<!-- PALETTE -->
+			<div class="d-flex flex-row flex-wrap justify-content-around align-items-center">
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#000000;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 1"> #000000 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#111111;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 2"> #111111 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#222222;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 3"> #222222 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#333333;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 4"> #333333 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#444444;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 5"> #444444 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#555555;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 6"> #555555 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#666666;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 7"> #666666 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#777777;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 8"> #777777 </div>
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#888888;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 9"> #888888 </div>
+			</div>
+			<!-- DETAILS -->
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-around mt-3">
+				<div data-toggle="tooltip" data-placement="top" title="Detail 1" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+				<div data-toggle="tooltip" data-placement="top" title="Detail 2" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+				<div data-toggle="tooltip" data-placement="top" title="Detail 3" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+					<!-- LINK TO FULL-SIZE -->
+					<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- TO ADD A NEW PAGE
+		Copy the entirety of this code and change the id to match the href of the new link you've made.
+		
+		<div class="tab-pane fade p-3" style="height:auto;" id="DESIGN-XX">
+			<div class="card border-0 bg-dark mb-4" style="width:inherit;height:600px;
+			                                          background-image:url('https://placehold.co/1100x600');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+			    
+				<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+			</div>
+			
+			
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-between mb-4">
+			    <div class="card border-0 bg-faded mb-2" style="width:250px">
+			        <div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+			            <a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+			        </div>
+			        <div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Front</div>
+			    </div>
+			    
+			    <div class="card border-0 bg-faded mb-2" style="width:250px">
+			        <div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+			            <a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+			        </div>
+			        <div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Left</div>
+			    </div>
+			    
+			    <div class="card border-0 bg-faded mb-2" style="width:250px">
+			        <div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+			            <a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+			        </div>
+			        <div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Right</div>
+			    </div>
+			    
+			    <div class="card border-0 bg-faded mb-2" style="width:250px">
+			        <div class="m-0" style="width:inherit;height:400px;
+			                                          background-image:url('https://placehold.co/250x400');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+			            <a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:48px; right:5px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+			        </div>
+			        <div class="block m-0 bg-dark text-center text-uppercase" style="height:40px;font-size:20px;line-height:2">Back</div>
+			    </div>
+			</div>
+			
+			
+			<div class="d-flex flex-row flex-wrap justify-content-around align-items-center">
+			    <div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#000000;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 1"> #000000 </div>
+			    
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#111111;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 2"> #111111 </div>
+				
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#222222;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 3"> #222222 </div>
+				
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#333333;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 4"> #333333 </div>
+				
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#444444;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 5"> #444444 </div>
+				
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#555555;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 6"> #555555 </div>
+				
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#666666;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 7"> #666666 </div>
+				
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#777777;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 8"> #777777 </div>
+				
+				<div class="justify-content-end align-items-end p-2 mb-2" style="border:2px double white;height:85px;width:85px;background:#888888;color:#ffffff;font-size:10px" data-toggle="tooltip" data-placement="top" title="Color Note 9"> #888888 </div>
+			</div>
+			
+			
+			<div class="d-flex flex-row flex-wrap align-items-center justify-content-around mt-3">
+			    <div data-toggle="tooltip" data-placement="top" title="Detail 1" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+			    
+    				<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+		    	</div>
+		    	
+		    	<div data-toggle="tooltip" data-placement="top" title="Detail 2" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+			    
+    				<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+		    	</div>
+		    	
+		    	<div data-toggle="tooltip" data-placement="top" title="Detail 3" class="card rounded-0 bg-dark mb-4" style="width:350px;height:200px;border:2px double white;
+			                                          background-image:url('https://placehold.co/350x200');
+			                                          background-size:contain;
+			                                          background-repeat:no-repeat;
+			                                          background-position:center">
+			     
+    				<a class="btn btn-outline-primary border-0 rounded-0 px-3 py-2" style="font-size:large; position:absolute; bottom:3px; right:3px;" data-toggle="tooltip" title="Full Size" target="_blank" href="#"><i class="fas fa-search"></i></a>
+		    	</div>
+			</div>
+		</div>
+		
+		-->
+	</div>
+</div>
+<!-- CREDIT, DO NOT REMOVE -->
+<div class="pt-3">
+	<p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/[LINK GOES HERE]"><i>Code by Pandappuccino</i></a> ----------</p>
+</div>
