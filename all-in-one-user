@@ -1,0 +1,334 @@
+<!-- 
+    ALL-IN-ONE USER PROFILE
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    I have come to adore using tabs for keeping content organized.  So nice.
+    
+    This is an all-in-one profile code that includes a quick-reference for your favorite characters to show off, snippets of your writing, a commission tab for pricing and tracking, a contact tab, and some freebie tabs that you can customize with whatever you want (moodboards, playlists, etc.) or just get rid of if you don't want them.
+    
+    The tabs are relatively modular.  Don't need the commission tab?  Just get rid of it.  Want to make this a character profile?  Add other tabs (or go check out my Tabbed Character Profile code)!  The world's your oyster!
+    
+    == HOW DO I USE IT? ==
+    Just edit each section as needed!  There are comments to clarify each part for you.
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask.
+    
+    == COMMON EDITING TIPS ==
+    1) You can change the particular Bootstrap colors by replacing the color classes (such as bg-dark).  If you would prefer to remove the Bootstrap colors and use your own colors, just remove the entire color class and, in the given "style" section, add "background:" followed by a color, either a hex color or rgb/rgba value.
+    2) You can remove the capitalization of the titles by removing the "text-uppercase" class from a given section.
+    3) You can use inline color styling by using <span></span> tags in tandem with either Bootstrap color classes or custom color styling.
+	
+-->
+
+<div class="container-flex card mx-auto rounded-0">
+	<div class="row no-gutters w-100 align-items-center m-0 p-0 bg-dark" style="height:175px;
+                                       background-image:url('URL HERE');
+                                       background-attachment:fixed;
+                                       background-repeat:repeat;
+                                       background-position:center;">
+		<div class="col-lg-3 col-sm-12"></div>
+		<div class="col-lg-6 col-sm-12 text-center">
+			<h2 class="display-2 text-uppercase">Username</h2>
+			<p class="display-4">Pronouns | MBTI | Etc</p>
+		</div>
+		<div class="col-lg-3 col-sm-12"></div>
+	</div>
+	<div class="row no-gutters w-100 align-items-center justify-content-between">
+		<div class="col-lg-3 col-sm-12">
+			<div class="nav nav-pills d-flex flex-column">
+				<a class="active nav-link btn btn-outline p-3 justify-content-between align-items-center text-uppercase" style="border-radius:0" href="#HOME" data-toggle="pill"><i class="fas fa-home"></i> Home</a>
+				<a class="nav-link btn btn-outline p-3 justify-content-between align-items-center text-uppercase" style="border-radius:0" href="#CHARA" data-toggle="pill"><i class="fas fa-users"></i> Characters</a>
+				<a class="nav-link btn btn-outline p-3 justify-content-between align-items-center text-uppercase" style="border-radius:0" href="#LIBRARY" data-toggle="pill"><i class="fas fa-book"></i> Library</a>
+				<a class="nav-link btn btn-outline p-3 justify-content-between align-items-center text-uppercase" style="border-radius:0" href="#COMM" data-toggle="pill"><i class="fas fa-pen"></i> Commissions</a>
+				<a class="nav-link btn btn-outline p-3 justify-content-between align-items-center text-uppercase" style="border-radius:0" href="#CONTACT" data-toggle="pill"><i class="fas fa-globe"></i> Contact</a>
+				<a class="nav-link btn btn-outline p-3 justify-content-between align-items-center text-uppercase" style="border-radius:0" href="#LINK-1" data-toggle="pill"><i class="fas fa-link"></i> Extra Link 1</a>
+				<a class="nav-link btn btn-outline p-3 justify-content-between align-items-center text-uppercase" style="border-radius:0" href="#LINK-2" data-toggle="pill"><i class="fas fa-link"></i> Extra Link 2</a>
+				<a class="nav-link btn btn-outline p-3 justify-content-between align-items-center text-uppercase" style="border-radius:0" href="#LINK-3" data-toggle="pill"><i class="fas fa-link"></i> Extra Link 3</a>
+			</div>
+		</div>
+		<div class="col-lg-9 col-sm-12 p-3 tab-content" style="height:450px;overflow-y:auto;">
+			<div class="tab-pane show active fade" id="HOME">
+			    <p>Write an about-you, DNI/BYF, and whatever you want here.  This box scrolls after it reaches a certain point; by default it is 450px; but you can adjust the height however you want.</p>
+			    
+			    <!-- This is a custom subheader I made.  You don't have to use it, but I included it for a sample. -->
+			    <div class="row no-gutters align-items-center justify-content-between my-3">
+			        <div class="col-lg-2 col-sm-12">
+			            <h2 class="text-uppercase">Header 1</h2>
+			        </div>
+			        <div class="col-lg-10 col-sm-12 card p-0 border-0 bg-light" style="height:1px;"></div>
+			    </div>
+			    
+				<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Donec velit hendrerit proin ipsum auctor condimentum volutpat habitant etiam. Vestibulum class in suspendisse ad ut facilisis. Imperdiet suscipit eros mollis aliquet vivamus ultricies neque. Congue dui vitae parturient orci, maecenas et mauris. Molestie quam eleifend taciti sodales nostra integer dolor. At et curae maecenas scelerisque sodales donec risus tempus.</p>
+				<p>Nisi accumsan accumsan lacus fermentum diam nullam. Rhoncus et curabitur accumsan tristique fringilla dis elit vehicula. Posuere lacus aliquam; lorem mattis dis lobortis. Facilisis vitae tempus curae bibendum phasellus ante quisque bibendum. Dapibus natoque varius ridiculus, potenti interdum diam. Luctus senectus efficitur fusce litora massa est feugiat orci. Nec ultricies class viverra quis semper tincidunt morbi. Praesent felis quam efficitur sed mattis ultricies. Nisi urna integer magnis et ac imperdiet. Ac sit tortor quisque amet; curabitur ornare eu.</p>
+				
+				<div class="row no-gutters align-items-center justify-content-between my-3">
+			        <div class="col-lg-2 col-sm-12">
+			            <h2 class="text-uppercase">Header 2</h2>
+			        </div>
+			        <div class="col-lg-10 col-sm-12 card p-0 border-0 bg-light" style="height:1px;"></div>
+			    </div>
+			    
+				<p>Quam maecenas rhoncus platea venenatis nunc neque venenatis a commodo. Ullamcorper nullam mus cursus scelerisque convallis platea. Scelerisque pellentesque congue placerat magnis phasellus nam nisi maecenas. Penatibus duis aenean per, cras nunc neque phasellus. Euismod leo euismod id posuere etiam diam. Himenaeos nisl magna mi volutpat lectus posuere.</p>
+				<p>Lacinia eget parturient arcu ex interdum. Platea efficitur elit sollicitudin nisi cras dictum? Proin porta leo fusce nec auctor. Rutrum ad nullam tincidunt sit placerat eu blandit curabitur. Himenaeos fames accumsan ut dis ullamcorper porttitor fames ridiculus. Ridiculus fames vestibulum congue etiam pulvinar velit.</p>
+			</div>
+			
+			<div class="tab-pane fade" id="CHARA">
+			    <div class="d-flex flex-row flex-wrap align-items-center justify-content-around">
+			        <div class="card p-2 mb-3 rounded-0 align-items-center justify-content-around text-center" style="width:220px">
+			            <img src="https://placehold.co/175" style="height:175px;width:175px;border-radius:100%;">
+			            <div class="card border-0 p-0 my-3 bg-dark w-100" style="height:1px"></div>
+			            <a href="#" class="link-primary"><h3>Character Name</h3></a>
+			        </div>
+			        
+			        <div class="card p-2 mb-3 rounded-0 align-items-center justify-content-around text-center" style="width:220px">
+			            <img src="https://placehold.co/175" style="height:175px;width:175px;border-radius:100%;">
+			            <div class="card border-0 p-0 my-3 bg-dark w-100" style="height:1px"></div>
+			            <a href="#" class="link-primary"><h3>Character Name</h3></a>
+			        </div>
+			        
+			        <div class="card p-2 mb-3 rounded-0 align-items-center justify-content-around text-center" style="width:220px">
+			            <img src="https://placehold.co/175" style="height:175px;width:175px;border-radius:100%;">
+			            <div class="card border-0 p-0 my-3 bg-dark w-100" style="height:1px"></div>
+			            <a href="#" class="link-primary"><h3>Character Name</h3></a>
+			        </div>
+			        
+			        <div class="card p-2 mb-3 rounded-0 align-items-center justify-content-around text-center" style="width:220px">
+			            <img src="https://placehold.co/175" style="height:175px;width:175px;border-radius:100%;">
+			            <div class="card border-0 p-0 my-3 bg-dark w-100" style="height:1px"></div>
+			            <a href="#" class="link-primary"><h3>Character Name</h3></a>
+			        </div>
+			        
+			        <div class="card p-2 mb-3 rounded-0 align-items-center justify-content-around text-center" style="width:220px">
+			            <img src="https://placehold.co/175" style="height:175px;width:175px;border-radius:100%;">
+			            <div class="card border-0 p-0 my-3 bg-dark w-100" style="height:1px"></div>
+			            <a href="#" class="link-primary"><h3>Character Name</h3></a>
+			        </div>
+			    </div>
+			</div>
+			
+			<div class="tab-pane fade" id="LIBRARY">
+			    <div class="card rounded-0 w-100 p-2 mb-4">
+			        <div class="row no-gutters">
+    			        <div class="col-lg-4 col-sm-12">
+        			        <a class="m-0 p-0 link-primary" href="#"><h2 class="text-uppercase">Story Title</h2></a>
+    			        </div>
+    			        
+    			        <div class="col-lg-8 col-sm-12 text-right">
+    			            <p>
+                                <span class="badge badge-success text-uppercase" style="font-size:13px;line-height:13px;"><i class="fas fa-check"></i> Complete</span>
+                                <span class="badge badge-warning text-uppercase" style="font-size:13px;line-height:13px;"><i class="fas fa-pen"></i> In Progress</span>
+                                <span class="badge badge-danger text-uppercase" style="font-size:13px;line-height:13px;"><i class="fas fa-triangle-exclamation"></i> CW</span>
+                                <span class="badge badge-primary text-uppercase" style="font-size:13px;line-height:13px;"><i class="fas fa-tag"></i> Tag</span>
+                                <span class="badge badge-primary text-uppercase" style="font-size:13px;line-height:13px;"><i class="fas fa-tag"></i> Tag</span>
+                                <span class="badge badge-primary text-uppercase" style="font-size:13px;line-height:13px;"><i class="fas fa-tag"></i> Tag</span>
+                            </p>
+    			        </div>
+			        </div>
+			        <div class="card border-0 p-0 my-1 bg-dark w-100" style="height:1px"></div>
+			        <p>Write a story synopsis here.  You can be as detailed or as vague as you want.</p>
+			    </div>
+			    
+			   <div class="card rounded-0 w-100 p-2 mb-4">
+			        <div class="row no-gutters">
+    			        <div class="col-lg-4 col-sm-12">
+        			        <a class="m-0 p-0 link-primary" href="#"><h2 class="text-uppercase">Story Title</h2></a>
+    			        </div>
+    			        
+    			        <div class="col-lg-8 col-sm-12 text-right">
+    			            <p>
+                                <span class="badge badge-primary text-uppercase" style="font-size:13px;line-height:13px;"><i class="fas fa-tag"></i> Tag</span>
+                            </p>
+    			        </div>
+			        </div>
+			        <div class="card border-0 p-0 my-1 bg-dark w-100" style="height:1px"></div>
+			        <p>Write a story synopsis here.  You can be as detailed or as vague as you want.</p>
+			    </div>
+			    
+			    <div class="card rounded-0 w-100 p-2 mb-4">
+			        <div class="row no-gutters">
+    			        <div class="col-lg-4 col-sm-12">
+        			        <a class="m-0 p-0 link-primary" href="#"><h2 class="text-uppercase">Story Title</h2></a>
+    			        </div>
+    			        
+    			        <div class="col-lg-8 col-sm-12 text-right">
+    			            <p>
+                                <span class="badge badge-primary text-uppercase" style="font-size:13px;line-height:13px;"><i class="fas fa-tag"></i> Tag</span>
+                            </p>
+    			        </div>
+			        </div>
+			        <div class="card border-0 p-0 my-1 bg-dark w-100" style="height:1px"></div>
+			        <p>Write a story synopsis here.  You can be as detailed or as vague as you want.</p>
+			    </div>
+			</div>
+			
+			<div class="tab-pane fade" id="COMM">
+			    <!-- This tab has two different versions for examples and pricing.  One is a simple table, the other is a carousel.  You can pick which one you want, or just use both, like one for pricing and the other for samples.-->
+			    
+			    <!-- TABLE VERSION -->
+			    <div class="card w-100 border-0">
+			        <div class="row gx-1 align-items-start justify-content-around mb-2">
+			            <div class="col-lg-3 col-sm-12 d-flex flex-column flex-wrap mb-2">
+			                <img src="https://placehold.co/600x450" class="m-0 p-0 w-100">
+			                <div class="card border-0 rounded-0 bg-dark text-center p-2">
+			                    <h3>Commission Type</h3>
+			                    <p>$XX USD</p>
+			                </div>
+			            </div>
+			            
+			            <div class="col-lg-3 col-sm-12 d-flex flex-column flex-wrap mb-2">
+			                <img src="https://placehold.co/450x700" class="m-0 p-0 w-100">
+			                <div class="card border-0 rounded-0 bg-dark text-center p-2">
+			                    <h3>Commission Type</h3>
+			                    <p>$XX USD</p>
+			                </div>
+			            </div>
+			            
+			            <div class="col-lg-3 col-sm-12 d-flex flex-column flex-wrap mb-2">
+			                <img src="https://placehold.co/450x200" class="m-0 p-0 w-100">
+			                <div class="card border-0 rounded-0 bg-dark text-center p-2">
+			                    <h3>Commission Type</h3>
+			                    <p>$XX USD</p>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			    <!-- END TABLE VERSION -->
+			    
+			    <!-- CAROUSEL VERSION -->
+			    <div class="d-flex card border-0 flex-column align-content-center justify-content-around w-50 p-2" style="min-width:300px; margin:auto">
+			        <div class="carousel slide w-100" data-ride="carousel" data-interval="5000" id="commExamples" style="margin:auto">
+			            <div class="carousel-inner">
+			                <!-- Image 1 -->
+			                <div class="carousel-item active">
+			                    <div class="w-100" style="height:350px;background-size:cover;background-position:center;background-image:url('https://placehold.co/500')">
+			                        <div class="p-1" style="position:absolute;bottom:0;width:100%;height:auto;background:rgba(0,0,0,0.5);color:white;text-align:center">
+			                            <p>Describe the commission style here.  You can include pricing or a link to your order form.</p>
+			                        </div>
+			                    </div>
+			                </div>
+			                
+			                <!-- Image 2 -->
+			                <div class="carousel-item">
+			                    <div class="w-100" style="height:350px;background-size:cover;background-position:center;background-image:url('https://placehold.co/450')">
+			                        <div class="p-1" style="position:absolute;bottom:0;width:100%;height:auto;background:rgba(0,0,0,0.5);color:white;text-align:center">
+			                            <p>Describe the commission style here.  You can include pricing or a link to your order form.</p>
+			                        </div>
+			                    </div>
+			                </div>
+			                
+			                <!-- To add more items, just copy the entire block for Image 2 and change the background-image and text block. -->
+			            </div>
+			        </div>
+			        
+			        <div class="d-flex w-100 justify-content-between align-items-center" style="margin:auto;">
+			            <a class="btn btn-outline-secondary rounded-0 border-0 carousel-control" data-slide="prev" role="button" href="#commExamples">
+			                <i class="fas fa-arrow-left"></i>
+			            </a>
+			            
+			            <a class="btn btn-outline-secondary rounded-0 border-0 carousel-control" data-slide="next" role="button" href="#commExamples">
+			                <i class="fas fa-arrow-right"></i>
+			            </a>
+			        </div>
+			    </div>
+			    <!-- END CAROUSEL VERSION -->
+			    
+			    <div class="card border-0 bg-dark p-0 mb-4" style="height:1px"></div>
+			    
+			    <div class="justify-content-around table-responsive">
+			        <table class="table table-striped table-hover table-sm table-bordered" style="width:100%">
+			        <thead>
+			            <tr>
+			                <th scope="col">User</th>
+			                <th scope="col">Style</th>
+			                <th scope="col">Status</th>
+			            </tr>
+			        </thead>
+			        
+			        <tbody>
+			            <tr>
+			                <td>@/User</td>
+			                <td>Commission Type A</td>
+			                <td><span class="badge p-2" style="border:1px solid rgba(255,255,255,0.3)">Not Started</span></td>
+			            </tr>
+			            
+			            <tr>
+			                <td>@/User</td>
+			                <td>Commission Type B</td>
+			                <td><span class="badge badge-danger p-2">Sketch</span></td>
+			            </tr>
+			            
+			            <tr>
+			                <td>@/User</td>
+			                <td>Commission Type A</td>
+			                <td><span class="badge badge-warning p-2">Lineart</span></td>
+			            </tr>
+			            
+			            <tr>
+			                <td>@/User</td>
+			                <td>Commission Type B</td>
+			                <td><span class="badge badge-primary p-2">Coloring</span></td>
+			            </tr>
+			            
+			            <tr>
+			                <td>@/User</td>
+			                <td>Commission Type A</td>
+			                <td><span class="badge badge-info text-dark p-2">Final Touches</span></td>
+			            </tr>
+			            
+			            <tr>
+			                <td>@/User</td>
+			                <td>Commission Type B</td>
+			                <td><span class="badge badge-success p-2">Delivered</span></td>
+			            </tr>
+			        </tbody>
+			    </table>
+			    </div>
+			    
+			</div>
+			
+			<div class="tab-pane fade" id="CONTACT">
+			    <div class="card border-0 d-flex flex-row flex-wrap justify-content-around">
+			        <!-- These are just example buttons; you can add or remove as needed.-->
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+			        
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fab fa-tumblr"></i><span>Tumblr</span></a>
+			        
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fab fa-bluesky"></i><span>Bluesky</span></a>
+			        
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+			        
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fab fa-itch-io"></i><span>Itch.io</span></a>
+			        
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a>
+			        
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fab fa-twitch"></i><span>Twitch</span></a>
+			        
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fab fa-tiktok"></i><span>Tiktok</span></a>
+			        
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fas fa-pencil"></i><span>AO3</span></a>
+			        
+			        <a class="text-uppercase btn btn-outline-primary border-0 mb-2 p-3 w-75 d-flex align-items-center justify-content-between" style="display:block;font-size:18px;" href="#"><i class="fas fa-shopping-bag"></i><span>Redbubble</span></a>
+			    </div>
+			</div>
+			
+			<div class="tab-pane fade" id="LINK-1">
+			    This is a freebie pane.  You can remove this (and the link) if you don't need it, or use it for whatever you want.
+			</div>
+			
+			<div class="tab-pane fade" id="LINK-2">
+			    This is another freebie pane.  Go ham.
+			</div>
+			
+			<div class="tab-pane fade" id="LINK-3">
+			    This is a third freebie pane.  Honestly this was just to pad out the tab panel a little.
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- CREDIT, DO NOT REMOVE -->
+<div class="pt-3">
+    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/29977024.code-07-all-in-one-user"><i>Code by Pandappuccino</i></a> ----------</p>
+</div>
