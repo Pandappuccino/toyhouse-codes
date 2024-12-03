@@ -1,0 +1,176 @@
+<!-- 
+    COMMISSION TRACKER CODE
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    I don't do them too often anymore but for those who are very much commission focused, have a tracker.  This tracker includes a carousel for examples (pulled wholesale from my All-in-One User Profile), a section for Terms of Service, a button linking to an order form, and a snazzy little status banner to let people know if you're open.  The main tracker itself is a simple table with progress bars.
+    
+    == HOW DO I USE IT? ==
+    Just edit each section as needed!.
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask..
+    
+    == COMMON EDITING TIPS ==
+    1) You can change the particular Bootstrap colors by replacing the color classes (such as bg-dark).  If you would prefer to remove the Bootstrap colors and use your own colors, just remove the entire color class and, in the given "style" section, add "background:" followed by a color, either a hex color or rgb/rgba value.
+    2) You can remove the capitalization of the titles by removing the "text-uppercase" class from a given section.
+    3) You can use inline color styling by using <span></span> tags in tandem with either Bootstrap color classes or custom color styling.
+    4) You can adjust the width of the <hr> dividers (or any other element with the Bootstrap classes) by replacing the "w-75" class with another number.  For more precise styling, you can remove the class and style the widths directly; however, they may not look as good on mobile screens!
+	
+-->
+
+<div class="container container-flex card p-2 bg-faded border-0 rounded-0" style="max-width:1100px">
+	<div class="row no-gutters w-100 align-items-center m-0 p-0 bg-dark" style="height:125px;
+                                       background-image:url('URL HERE');
+                                       background-attachment:fixed;
+                                       background-repeat:repeat;
+                                       background-position:center;
+                                       border-top:2px solid white;
+                                       border-bottom:2px solid white">
+		<div class="col-lg-3 col-sm-12"></div>
+		<div class="col-lg-6 col-sm-12 text-center">
+			<p class="display-4">Commission Tracker Title</p>
+		</div>
+		<div class="col-lg-3 col-sm-12"></div>
+	</div>
+	
+	
+	<div class="row no-gutters mb-3">
+    	<div class="col-lg-6 col-sm-12 d-flex card border-0 flex-column align-content-center justify-content-around w-50 p-2" style="min-width:300px; margin:auto">
+    		<div class="carousel slide w-100" data-ride="carousel" data-interval="5000" id="commExamples" style="margin:auto">
+    			<div class="carousel-inner">
+    				<!-- Image 1 -->
+    				<div class="carousel-item active">
+    					<div class="w-100" style="height:350px;background-size:cover;background-position:center;background-image:url('https://placehold.co/500')">
+    						<div class="p-1" style="position:absolute;bottom:0;width:100%;height:auto;background:rgba(0,0,0,0.5);color:white;text-align:center">
+    							<p>Describe the first commission style here. You can include pricing or a link to your order form.</p>
+    						</div>
+    					</div>
+    				</div>
+    				<!-- Image 2 -->
+    				<div class="carousel-item">
+    					<div class="w-100" style="height:350px;background-size:cover;background-position:center;background-image:url('https://placehold.co/450')">
+    						<div class="p-1" style="position:absolute;bottom:0;width:100%;height:auto;background:rgba(0,0,0,0.5);color:white;text-align:center">
+    							<p>Describe the second commission style here. You can include pricing or a link to your order form.</p>
+    						</div>
+    					</div>
+    				</div>
+    				<!-- To add more items, just copy the entire block for Image 2 and change the background-image and text block. -->
+    			</div>
+    		</div>
+    		<div class="d-flex w-100 justify-content-between align-items-center" style="margin:auto;">
+    			<a class="btn btn-outline-secondary rounded-0 border-0 carousel-control" data-slide="prev" role="button" href="#commExamples">
+    				<i class="fas fa-arrow-left"></i>
+    			</a>
+    			<a class="btn btn-outline-secondary rounded-0 border-0 carousel-control" data-slide="next" role="button" href="#commExamples">
+    				<i class="fas fa-arrow-right"></i>
+    			</a>
+    		</div>
+    	</div>
+    	
+    	<div class="col-lg-6 col-sm-12 my-3 p-1">
+    	    <div class="p-2" style="height:75%; overflow-y:auto; border-bottom:1px solid white;">
+    	        <h3>Commissioner Terms of Service</h3>
+    	        <p>Write your terms of service here.  You can be as detailed as you want; the box will scroll appropriately.</p>
+    	    </div>
+    	    <a class="btn btn-primary p-4 mt-2 text-uppercase border-0 rounded-0" style="font-weight:bold;display:block;font-size:18px;" href="#"><i class="fas fa-shopping-bag"></i> Order Form</a>
+    	    <!-- This is an optional status banner; to change the status just adjust "bg-success" to "bg-warning", "bg-danger", etc. -->
+    	    <div class="bg-success m-0 w-100 p-1 text-center text-uppercase" style="font-weight:bold;border-top:2px solid white">
+    	        <p><i class="fas fa-check"></i> <span>Commissions Open</span></p>
+    	    </div>
+    	</div>
+	</div>
+	
+	<div class="row justify-content-around my-4">
+	    <div class="col-lg-2 col-sm-6">
+    	    <div class="progress"><div class="progress-bar progress-bar-striped" style="width:0%;height:10px"></div></div>
+    	    <p class="text-center text-secondary"><small>Not Started</small></p>
+	    </div>
+	    
+	    <div class="col-lg-2 col-sm-6">
+    	    <div class="progress"><div class="progress-bar progress-bar-striped bg-danger" style="width:20%;height:10px"></div></div>
+    	    <p class="text-center text-secondary"><small>Sketch</small></p>
+	    </div>
+	    
+	    <div class="col-lg-2 col-sm-6">
+    	    <div class="progress"><div class="progress-bar progress-bar-striped bg-warning" style="width:40%;height:10px"></div></div>
+    	    <p class="text-center text-secondary"><small>Lineart</small></p>
+	    </div>
+	    
+	    <div class="col-lg-2 col-sm-6">
+    	    <div class="progress"><div class="progress-bar progress-bar-striped" style="width:60%;height:10px"></div></div>
+    	    <p class="text-center text-secondary"><small>Coloring</small></p>
+	    </div>
+	    
+	    <div class="col-lg-2 col-sm-6">
+    	    <div class="progress"><div class="progress-bar progress-bar-striped bg-info" style="width:80%;height:10px"></div></div>
+    	    <p class="text-center text-secondary"><small>Finishing Touches</small></p>
+	    </div>
+	    
+	    <div class="col-lg-2 col-sm-6">
+    	    <div class="progress"><div class="progress-bar progress-bar-striped bg-success" style="width:100%;height:10px"></div></div>
+    	    <p class="text-center text-secondary"><small>Delivered</small></p>
+	    </div>
+	</div>
+	
+	<div class="justify-content-around table-responsive">
+		<table class="table table-striped table-hover table-sm table-bordered" style="width:100%">
+			<thead>
+				<tr>
+					<th scope="col">User</th>
+					<th scope="col">Style</th>
+					<th scope="col">Status</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>@/User</td>
+					<td>Commission Type A</td>
+					<td>
+					    <div class="progress"><div class="progress-bar progress-bar-striped" style="width:0%;"><br></div></div>
+					</td>
+				</tr>
+				<tr>
+					<td>@/User</td>
+					<td>Commission Type B</td>
+					<td>
+					    <div class="progress"><div class="progress-bar progress-bar-striped bg-danger" style="width:20%;"><br></div></div>
+					</td>
+				</tr>
+				<tr>
+					<td>@/User</td>
+					<td>Commission Type A</td>
+					<td>
+					    <div class="progress"><div class="progress-bar progress-bar-striped bg-warning" style="width:40%;"><br></div></div>
+					</td>
+				</tr>
+				<tr>
+					<td>@/User</td>
+					<td>Commission Type B</td>
+					<td>
+					    <div class="progress"><div class="progress-bar progress-bar-striped" style="width:60%;"><br></div></div>
+					</td>
+				</tr>
+				<tr>
+					<td>@/User</td>
+					<td>Commission Type A</td>
+					<td>
+					    <div class="progress"><div class="progress-bar progress-bar-striped bg-info" style="width:80%;"><br></div></div>
+					</td>
+				</tr>
+				<tr>
+					<td>@/User</td>
+					<td>Commission Type B</td>
+					<td>
+					    <div class="progress"><div class="progress-bar progress-bar-striped bg-success" style="width:100%;"><br></div></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<!-- CREDIT, DO NOT REMOVE -->
+<div class="pt-3">
+    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/24493598.code-01-adoption-landing-page"><i>Code by Pandappuccino</i></a> ----------</p>
+</div>
