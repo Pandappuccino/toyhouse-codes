@@ -1,0 +1,139 @@
+<!-- 
+    ADOPTION CARD CODE
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    A simple adoption code that I threw together for funsies, since I plan to sell adoptables soon! The code is a "card" so you can place multiples into the same page, like a one-stop shop. Mobile-friendly, too!
+    
+    The code includes samples for editing a card to show that an adoptable has already been sold or is on hold.
+    
+    == HOW DO I USE IT? ==
+    Just edit each section as needed!.
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask..
+    
+    == COMMON EDITING TIPS ==
+    1) You can change the particular Bootstrap colors by replacing the color classes (such as bg-dark).  If you would prefer to remove the Bootstrap colors and use your own colors, just remove the entire color class and, in the given "style" section, add "background:" followed by a color, either a hex color or rgb/rgba value.
+    2) You can remove the capitalization of the titles by removing the "text-uppercase" class from a given section.
+    3) You can use inline color styling by using <span></span> tags in tandem with either Bootstrap color classes or custom color styling.
+    4) You can adjust the width of any element with Bootstrap classes by replacing the "w-75" class with another number.  For more precise styling, you can remove the class and style the widths directly; however, they may not look as good on mobile screens!
+	
+-->
+
+<div class="container">
+    <div class="card bg-faded w-75 mx-auto mb-3 p-2 rounded-0">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card bg-faded h-100 w-100 rounded-0" style="background:url(https://placehold.co/300);background-size:cover;background-position:top center;border:3px double white;min-height:300px;">
+                    <a class="btn btn-primary rounded-0 p-0" data-toggle="tooltip" data-placement="top" title="View larger size" style="display:block;line-height:45px;position:relative;top:80%;left:80%;width:50px;height:50px;font-size:25px;" href="IMG_LINK"><i class="fas fa-magnifying-glass-plus"></i></a> <!-- USE A WATERMARKED IMAGE! -->
+                </div>
+            </div>
+            
+            <div class="col-md-7">
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">NAME</span>
+                    <span>XXX</span>
+                </div>
+                
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">DESIGNER</span>
+                    <span>@/user</span>
+                </div>
+                
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">SPECIES</span>
+                    <span><a href="#">Human</a></span> <!-- Remove the link if not using a custom species -->
+                </div>
+                
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">PRONOUNS</span>
+                    <span style="border-bottom:1px dotted var(--color-primary)" data-toggle="tooltip" data-placement="top" title="Default; when purchased can be changed as desired">He / Him</span>
+                </div>
+                
+                <div class="my-3"></div>
+                
+                <div class="p-0 mb-0">
+                    <a class="btn btn-primary rounded-0 p-2 w-100" href="#" style="font-size:25px;font-weight:bold"><i class="fas fa-shopping-bag"></i> BUY NOW ($25 USD)</a>
+                    <div class="bg-success p-3 text-center" style="font-size:25px;font-weight:bold">AVAILABLE</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card bg-faded w-75 mx-auto mb-3 p-2 rounded-0">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card bg-faded h-100 w-100 rounded-0" style="background:url(https://placehold.co/300);background-size:cover;background-position:top center;border:3px double white;min-height:300px;">
+                    <a class="btn btn-primary rounded-0 p-0" data-toggle="tooltip" data-placement="top" title="View larger size" style="display:block;line-height:45px;position:relative;top:80%;left:80%;width:50px;height:50px;font-size:25px;" href="IMG_LINK"><i class="fas fa-magnifying-glass-plus"></i></a> <!-- USE A WATERMARKED IMAGE! -->
+                </div>
+            </div>
+            
+            <div class="col-md-7">
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">NAME</span>
+                    <span>XXX</span>
+                </div>
+                
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">DESIGNER</span>
+                    <span>@/user</span>
+                </div>
+                
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">SPECIES</span>
+                    <span><a href="#">Human</a></span> <!-- Remove the link if not using a custom species -->
+                </div>
+                
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">PRONOUNS</span>
+                    <span style="border-bottom:1px dotted var(--color-primary)" data-toggle="tooltip" data-placement="top" title="Default; when purchased can be changed as desired">He / Him</span>
+                </div>
+                
+                <div class="my-3"></div>
+                
+                <div class="p-0 mb-0">
+                    <div class="w-100 bg-warning p-5 text-center" style="font-size:25px;font-weight:bold">ON HOLD</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card bg-faded w-75 mx-auto mb-3 p-2 rounded-0">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card bg-faded h-100 w-100 rounded-0" style="background:url(https://placehold.co/300);background-size:cover;background-position:top center;border:3px double white;min-height:300px;">
+                    <a class="btn btn-primary rounded-0 p-0" data-toggle="tooltip" data-placement="top" title="View larger size" style="display:block;line-height:45px;position:relative;top:80%;left:80%;width:50px;height:50px;font-size:25px;" href="IMG_LINK"><i class="fas fa-magnifying-glass-plus"></i></a> <!-- USE A WATERMARKED IMAGE! -->
+                </div>
+            </div>
+            
+            <div class="col-md-7">
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">NAME</span>
+                    <span>XXX</span>
+                </div>
+                
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">DESIGNER</span>
+                    <span>@/user</span>
+                </div>
+                
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">SPECIES</span>
+                    <span><a href="#">Human</a></span> <!-- Remove the link if not using a custom species -->
+                </div>
+                
+                <div class="justify-content-between align-items-center mx-auto my-1 p-2 bg-dark">
+                    <span style="font-weight:bold">PRONOUNS</span>
+                    <span style="border-bottom:1px dotted var(--color-primary)" data-toggle="tooltip" data-placement="top" title="Default; when purchased can be changed as desired">He / Him</span>
+                </div>
+                
+                <div class="my-3"></div>
+                
+                <div class="p-0 mb-0">
+                    <div class="w-100 bg-danger p-3 py-5 text-center" style="font-size:25px;font-weight:bold">SOLD</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
