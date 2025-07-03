@@ -1,0 +1,109 @@
+<!-- 
+    AUCTION CARD CODE
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    A matching auction card to go with my adoption card code!
+    
+    == HOW DO I USE IT? ==
+    Just edit each section as needed!.
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask..
+    
+    == COMMON EDITING TIPS ==
+    1) You can change the particular Bootstrap colors by replacing the color classes (such as bg-dark).  If you would prefer to remove the Bootstrap colors and use your own colors, just remove the entire color class and, in the given "style" section, add "background:" followed by a color, either a hex color or rgb/rgba value.
+    2) You can remove the capitalization of the titles by removing the "text-uppercase" class from a given section.
+    3) You can use inline color styling by using <span></span> tags in tandem with either Bootstrap color classes or custom color styling.
+    4) You can adjust the width of any element with Bootstrap classes by replacing the "w-75" class with another number.  For more precise styling, you can remove the class and style the widths directly; however, they may not look as good on mobile screens!
+	
+-->
+
+<a style="position:absolute;" class="btn btn-secondary tooltipster" data-toggle="collapse" href="#GUIDELINES" data-position="bottom" title="Before You Buy"><i class="fas fa-question"></i></a>
+
+<div class="container w-75 mx-auto">
+	<div class="card px-4 py-3 bg-faded">
+		<div class="row d-flex justify-content-between align-items-center">
+			<div style="max-height:450px" class="col-md-5 col-sm-12 h-100 p-2">
+				<div class="align-self-center mx-auto" style="display:block;height:392px;background:url(https://placehold.co/500);background-size:cover;background-position:top center"></div>
+				<a style="position:absolute;top:83%;left:80%;display:block;height:50px;width:50px;font-size:25px;padding:0px;box-sizing:border-box" class="btn btn-primary rounded-0 tooltipster" data-toggle="collapse" href="#FULLSIZE" title="Larger Image"><i class="fas fa-magnifying-glass" style="margin-top:12px"></i></a>
+			</div>
+			<div class="col-md-7 col-sm-12 border-0 rounded-0 px-0">
+				<div class="bg-dark w-100 p-3 mt-1 mb-2 justify-content-between" style="font-size:1.25em">
+					<span class="text-uppercase" style="font-weight:bold">Name</span>
+					<span>xxx</span>
+				</div>
+				<div class="bg-dark w-100 p-3 mt-1 mb-2 justify-content-between" style="font-size:1.25em">
+					<span class="text-uppercase" style="font-weight:bold">Pronouns</span>
+					<span style="border-bottom:1px dotted var(--color-primary)" data-toggle="tooltip" data-placement="top" title="Default, can be changed on purchase">He / Him</span>
+				</div>
+				<div class="bg-dark w-100 p-3 mt-1 mb-2 justify-content-between" style="font-size:1.25em">
+					<span class="text-uppercase" style="font-weight:bold">Status</span>
+					<span class="text-uppercase text-success" style="font-weight:bold">AVAILABLE</span>
+				</div>
+				<div class="bg-dark w-100 p-3 mt-1 mb-2 justify-content-between" style="font-size:1.25em">
+					<span class="text-uppercase" style="font-weight:bold">Starting Bid</span>
+					<span>$00USD</span>
+				</div>
+				<div class="bg-dark w-100 p-3 mt-1 mb-2 justify-content-between" style="font-size:1.25em">
+					<span class="text-uppercase" style="font-weight:bold">Auto-Buy <i class="fas fa-question-circle text-primary" data-toggle="tooltip" data-placement="top" title="This character can be automatically bought for the given price."></i></span>
+					<span>$00USD</span>
+				</div>
+				<div class="bg-dark w-100 p-3 mt-1 mb-2 justify-content-between" style="font-size:1.25em">
+					<span class="text-uppercase" style="font-weight:bold">Current Bid</span>
+					<span>$00USD</span>
+				</div>
+			</div>
+			<a class="btn btn-primary w-100 mt-2 p-4 rounded-0" style="font-size:25px; font-weight:bold;" href="https://toyhou.se/~messages/create/USERNAME"><i class="fas fa-gavel"></i> BID NOW <i class="fas fa-gavel"></i></a>
+		</div>
+	</div>
+</div>
+
+<!-- CREDIT, DO NOT REMOVE -->
+<div class="pt-3">
+    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/33843350.code-09-adoption-cards"><i>Code by Pandappuccino</i></a> ----------</p>
+</div>
+
+<div class="collapse w-100 h-100 fade p-3" id="FULLSIZE" style="position:absolute; top:0; left:0; background:rgba(0,0,0,0.8); z-index:2;">
+	<!--div aligns content to center of screen-->
+	<div class="mt-5 justify-content-center">
+		<!--CARD CONTENT-->
+		<div class="card w-75 p-3">
+			<!--CLOSE BUTTON-->
+			<a class="text-primary" data-toggle="collapse" href="#FULLSIZE" style="position:absolute; top:10px; right:15px; z-index:30; font-size: 30px; height:100vh"><i class="fas fa-multiply"></i></a>
+			<img src="https://placehold.co/500">
+		</div> <!--card content end-->
+	</div> <!--div to align to center of screen end-->
+</div> <!--modal content end-->
+
+<div class="collapse w-100 h-100 fade p-3" id="GUIDELINES" style="position:absolute; top:0; left:0; background:rgba(0,0,0,0.8); z-index:2;">
+	<!--div aligns content to center of screen-->
+	<div class="mt-5 justify-content-center">
+		<!--CARD CONTENT-->
+		<div class="card w-75 p-3">
+			<!--CLOSE BUTTON-->
+			<a class="text-secondary" data-toggle="collapse" href="#GUIDELINES" style="position:absolute; top:10px; right:15px;"><i class="fas fa-multiply"></i></a>
+			<p class="display-4">Order Form</p>
+			<p><b>Username:</b> Your username, to mark who has bought the character.<br>
+				<b>PayPal Email:</b> Your PayPal email address, to send the invoice for payment.<br>
+				<b>Character(s) Buying:</b> The character(s) you want to buy (up to two).<br>
+				<b>Auction Offer:</b> How much you want to bid for the character(s).
+			</p>
+			<hr class="w-75">
+			<p class="display-4">Guidelines</p>
+			<p class="mb-1"><b>All payments are recorded via PayPal invoicing.</b> I am not taking any alternative payment methods.</p>
+			<p class="mb-1">Please specify which character(s) you are buying in your message. You may buy up to <b>two characters</b> at once.</p>
+			<p class="mb-1">Designs will be held for no more than <b>three days</b>.</p>
+			<p class="mb-1">If a design is on hold <b>you may not preemptively try to buy the design</b>. If it doesn't say <span style="bg-success">AVAILABLE</span> it is not available.</p>
+			<p class="mb-1">You may use the character as you wish, including trading away or reselling. However, you may <i><b>NOT</b></i> use the character in any form of generative AI model or blockchain (such as NFTs).</p>
+			<p>You must attribute the original design to me, @Pandappuccino.</p>
+			<hr class="w-75">
+			<p class="display-4">What You Receive</p>
+			<p class="mb-1">The high-resolution version of the adoption preview image, in .PNG and .PSD format.</p>
+			<p class="mb-1">A character turnaround sheet with color guide.</p>
+			<p class="mb-1">A .TXT file with basic information about the character.</p>
+			<p class="mb-1">A certificate of ownership transfer from me, @Pandappuccino, to you, with a unique identifier.</p>
+			<p class="mb-1">A .PDF copy of your invoice confirming payment to record the worth of the character.</p>
+		</div> <!--card content end-->
+	</div> <!--div to align to center of screen end-->
+</div> <!--modal content end-->
