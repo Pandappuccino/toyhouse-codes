@@ -61,7 +61,7 @@
 
 <!-- CREDIT, DO NOT REMOVE -->
 <div class="pt-3">
-    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/33843350.code-09-adoption-cards"><i>Code by Pandappuccino</i></a> ----------</p>
+    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/33951311.code-10-auction-cards"><i>Code by Pandappuccino</i></a> ----------</p>
 </div>
 
 <div class="collapse w-100 h-100 fade p-3" id="FULLSIZE" style="position:absolute; top:0; left:0; background:rgba(0,0,0,0.8); z-index:2;">
@@ -84,26 +84,14 @@
 			<!--CLOSE BUTTON-->
 			<a class="text-secondary" data-toggle="collapse" href="#GUIDELINES" style="position:absolute; top:10px; right:15px;"><i class="fas fa-multiply"></i></a>
 			<p class="display-4">Order Form</p>
-			<p><b>Username:</b> Your username, to mark who has bought the character.<br>
-				<b>PayPal Email:</b> Your PayPal email address, to send the invoice for payment.<br>
-				<b>Character(s) Buying:</b> The character(s) you want to buy (up to two).<br>
-				<b>Auction Offer:</b> How much you want to bid for the character(s).
+			<p>Describe your order form, or keep it loosey-goosey.
 			</p>
 			<hr class="w-75">
 			<p class="display-4">Guidelines</p>
-			<p class="mb-1"><b>All payments are recorded via PayPal invoicing.</b> I am not taking any alternative payment methods.</p>
-			<p class="mb-1">Please specify which character(s) you are buying in your message. You may buy up to <b>two characters</b> at once.</p>
-			<p class="mb-1">Designs will be held for no more than <b>three days</b>.</p>
-			<p class="mb-1">If a design is on hold <b>you may not preemptively try to buy the design</b>. If it doesn't say <span style="bg-success">AVAILABLE</span> it is not available.</p>
-			<p class="mb-1">You may use the character as you wish, including trading away or reselling. However, you may <i><b>NOT</b></i> use the character in any form of generative AI model or blockchain (such as NFTs).</p>
-			<p>You must attribute the original design to me, @Pandappuccino.</p>
+			<p class="mb-1">List your terms of service here.</p>
 			<hr class="w-75">
 			<p class="display-4">What You Receive</p>
-			<p class="mb-1">The high-resolution version of the adoption preview image, in .PNG and .PSD format.</p>
-			<p class="mb-1">A character turnaround sheet with color guide.</p>
-			<p class="mb-1">A .TXT file with basic information about the character.</p>
-			<p class="mb-1">A certificate of ownership transfer from me, @Pandappuccino, to you, with a unique identifier.</p>
-			<p class="mb-1">A .PDF copy of your invoice confirming payment to record the worth of the character.</p>
+			<p class="mb-1">List what the buyer will receive when they purchase the character.</p>
 		</div> <!--card content end-->
 	</div> <!--div to align to center of screen end-->
 </div> <!--modal content end-->
