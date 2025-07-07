@@ -1,0 +1,146 @@
+<!-- 
+    ADOPTION SHOP LANDING PAGE [V2]
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    I decided to update my old Adoption Landing Page code to simplify it a little. This one has similar functions to the original, but with a scrolling Terms of Use box and a purchase tracker as well! There are three sample adoption cards included to give an idea of what the tracker will look like when filled out.
+    
+    == HOW DO I USE IT? ==
+    Just edit each section as needed!
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask.  It's not a particularly fancy code, but I'm still very proud of it because I've never been very good at working with Bootstrap code before, and it's fully mobile-friendly and I'm proud of that.
+    
+    == COMMON EDITING TIPS ==
+    1) You can change the particular Bootstrap colors by replacing the color classes (such as bg-dark).  If you would prefer to remove the Bootstrap colors and use your own colors, just remove the entire color class and, in the given "style" section, add "background:" followed by a color, either a hex color or rgb/rgba value.
+    2) You can remove the capitalization of the titles by removing the "text-uppercase" class from a given section.
+    3) You can use inline color styling by using <span></span> tags in tandem with either Bootstrap color classes or custom color styling.
+    4) You can adjust the width of the <hr> dividers (or any other element with the Bootstrap classes) by replacing the "w-75" class with another number.  For more precise styling, you can remove the class and style the widths directly; however, they may not look as good on mobile screens!
+	
+-->
+
+<div class="container w-100 card bg-faded p-2 rounded-0">
+    <div class="row w-100 p-2 mb-3 mx-auto justify-content-between align-items-center text-center">
+        <div class="col-md-4 col-sm-12 card" style="height:1px"></div>
+        <div class="display-3 col-md-4 col-sm-12 my-2">Adoption Center</div>
+        <div class="col-md-4 col-sm-12 card" style="height:1px"></div>
+    </div>
+    
+    <div class="row w-100 p-1 mb-2 mx-auto justify-content-around align-items-top">
+        <div class="col-md-5 col-sm-12 card p-2 rounded-0" style="max-height:450px; overflow:auto">
+            <p class="display-4 py-2 mb-2 text-center">Artist Terms</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><b>All payments are to be made through Paypal Invoicing.</b> If you do not have Paypal, I can also accept payment via CashApp, but for tracking purposes the pricing will be listed via invoice.</li>
+                <li class="list-group-item"><b>All prices are listed in USD (United States Dollars).</b> I can provide conversions if required.</li>
+                <li class="list-group-item"><b>All adoptions are non-refundable.</b> You may resell or trade away the design at any time, but you cannot get a refund.</li>
+                <li class="list-group-item"><b>Designs may be held for up to three days.</b> If payment has not been confirmed after these three days the design will be released for sale.</li>
+                <li class="list-group-item"><b>You may not preemptively buy a design that is on hold.</b> If a design is listed as being on hold, you may not attempt to buy it before the hold period is over.</li>
+                <li class="list-group-item"><b>You may use these adoptions for commercial or non-commercial use, with the exception of NFTs and/or generative AI.</b> You may not use these characters in any form of generative AI/LLM, and you may not mint the design as an NFT or use it in any form of blockchain.</li>
+                <li class="list-group-item"><b>You must attribute the original design to @Pandappuccino.</b> The rights to the design are yours but you must at least attribute the original design to me.</li>
+            </ul>
+        </div>
+        
+        <div class="col-md-6 col-sm-12 card p-2 rounded-0" style="max-height:450px; overflow:auto">
+            <p class="display-4 py-2 mb-2 text-center">Sales Tracker</p>
+            <table class="table table-striped table-hover text-left">
+                <tr>
+                    <th>Owner</th>
+                    <th>Design</th>
+                    <th>Cost</th>
+                </tr>
+                
+                <tr>
+                    <td>@/user</td>
+                    <td><a href="#">Design Link</a></td>
+                    <td>$XX</td>
+                </tr>
+                <tr>
+                    <td>@/user</td>
+                    <td><a href="#">Design Link</a></td>
+                    <td>$XX</td>
+                </tr>
+                <tr>
+                    <td>@/user</td>
+                    <td><a href="#">Design Link</a></td>
+                    <td>$XX</td>
+                </tr>
+                <tr>
+                    <td>@/user</td>
+                    <td><a href="#">Design Link</a></td>
+                    <td>$XX</td>
+                </tr>
+                <tr>
+                    <td>@/user</td>
+                    <td><a href="#">Design Link</a></td>
+                    <td>$XX</td>
+                </tr>
+                <tr>
+                    <td>@/user</td>
+                    <td><a href="#">Design Link</a></td>
+                    <td>$XX</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="card bg-faded border-0 rounded-0 p-2 d-flex flex-row flex-wrap justify-content-center align-items-baseline">
+        <!-- CARD START -->
+        <div class="card p-2 rounded-0 mx-auto mb-2">
+            <img src="https://placehold.co/250x175" class="mb-2">
+            
+            <div class="bg-dark p-2 mb-1 d-flex justify-content-between">
+                <span style="font-weight:bold;text-transform:uppercase">Name</span>
+                <span>XXX</span>
+            </div>
+            
+            <div class="bg-dark p-2 mb-1 d-flex justify-content-between">
+                <span style="font-weight:bold;text-transform:uppercase">Price</span>
+                <span>$XX</span>
+            </div>
+            
+            <a class="btn btn-success rounded-0 p-2" style="font-weight:bold;font-size:1.25em" href="#">AVAILABLE</a>
+        </div>
+        <!-- CARD END -->
+        
+        <!-- CARD START -->
+        <div class="card p-2 rounded-0 mx-auto mb-2">
+            <img src="https://placehold.co/250x175" class="mb-2">
+            
+            <div class="bg-dark p-2 mb-1 d-flex justify-content-between">
+                <span style="font-weight:bold;text-transform:uppercase">Name</span>
+                <span>XXX</span>
+            </div>
+            
+            <div class="bg-dark p-2 mb-1 d-flex justify-content-between">
+                <span style="font-weight:bold;text-transform:uppercase">Price</span>
+                <span>$XX</span>
+            </div>
+            
+            <div class="bg-dark p-2 mb-1 d-flex justify-content-between">
+                <span style="font-weight:bold;text-transform:uppercase">Hold Date</span>
+                <span>XX/XX/XXXX</span>
+            </div>
+            
+            <a class="btn btn-warning rounded-0 p-2" style="font-weight:bold;font-size:1.25em" href="#">ON HOLD</a>
+        </div>
+        <!-- CARD END -->
+        
+        <!-- CARD START -->
+        <div class="card p-2 rounded-0 mx-auto mb-2">
+            <img src="https://placehold.co/250x175" class="mb-2">
+            
+            <div class="bg-dark p-2 mb-1 d-flex justify-content-between">
+                <span style="font-weight:bold;text-transform:uppercase">Name</span>
+                <span>XXX</span>
+            </div>
+            
+            <a class="btn btn-danger rounded-0 p-2" style="font-weight:bold;font-size:1.25em" href="#">SOLD</a>
+        </div>
+        <!-- CARD END -->
+    </div>
+</div>
+
+<!-- CREDIT, DO NOT REMOVE -->
+<div class="pt-3">
+    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/24493598.code-11-adoption-landing-page-v2"><i>Code by Pandappuccino</i></a> ----------</p>
+</div>
