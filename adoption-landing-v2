@@ -30,13 +30,9 @@
         <div class="col-md-5 col-sm-12 card p-2 rounded-0" style="max-height:450px; overflow:auto">
             <p class="display-4 py-2 mb-2 text-center">Artist Terms</p>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item"><b>All payments are to be made through Paypal Invoicing.</b> If you do not have Paypal, I can also accept payment via CashApp, but for tracking purposes the pricing will be listed via invoice.</li>
-                <li class="list-group-item"><b>All prices are listed in USD (United States Dollars).</b> I can provide conversions if required.</li>
-                <li class="list-group-item"><b>All adoptions are non-refundable.</b> You may resell or trade away the design at any time, but you cannot get a refund.</li>
-                <li class="list-group-item"><b>Designs may be held for up to three days.</b> If payment has not been confirmed after these three days the design will be released for sale.</li>
-                <li class="list-group-item"><b>You may not preemptively buy a design that is on hold.</b> If a design is listed as being on hold, you may not attempt to buy it before the hold period is over.</li>
-                <li class="list-group-item"><b>You may use these adoptions for commercial or non-commercial use, with the exception of NFTs and/or generative AI.</b> You may not use these characters in any form of generative AI/LLM, and you may not mint the design as an NFT or use it in any form of blockchain.</li>
-                <li class="list-group-item"><b>You must attribute the original design to @Pandappuccino.</b> The rights to the design are yours but you must at least attribute the original design to me.</li>
+                <li class="list-group-item"><b>List your terms of service here.</b> Using the <code><b></b></code> tags will create a sort of "header" for each item.</li>
+		<li class="list-group-item"><b>Use the "list-group-item" class to add more items.</b> They're pre-formatted with padding and borders.</li>
+		<li class="list-group-item"><b>Add as much as you like.</b> This box scrolls once it hits a height of 450px, so add as much as you want!</li>
             </ul>
         </div>
         
@@ -142,5 +138,5 @@
 
 <!-- CREDIT, DO NOT REMOVE -->
 <div class="pt-3">
-    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/24493598.code-11-adoption-landing-page-v2"><i>Code by Pandappuccino</i></a> ----------</p>
+    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/34004004.code-11-adoption-landing-v2"><i>Code by Pandappuccino</i></a> ----------</p>
 </div>
