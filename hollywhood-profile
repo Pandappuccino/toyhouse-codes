@@ -1,0 +1,175 @@
+<!-- 
+    "HOLLYWHOOD" STYLE PROFILE CODE
+    BY PANDAPPUCCINO
+    
+    == WHAT IS THIS? ==
+    Who remembers the era of Tumblr RP where if you could edit a Hollywhood theme with a snazzy background, you were considered the "cool kid" in the RP community?
+    
+    This code is meant to replicate that vibe, using a background image for the main design. The code page includes the template for the code, with colored sections for each box. It's a simple little "ID card" style profile that you can make as fancy as you want with just an image!
+    
+    This code is not 100% mobile friendly due to it using absolute sizes and positioning. I tried to keep it small enough that it would fit on mobile screens, however.
+    
+    == HOW DO I USE IT? ==
+    1) Create your background image using the provided template. The template is automatically sized to fit within the constraints of the box itself.
+    
+    2) Set the background image in the CSS to use the background you made. It will automatically size itself to 100%.
+    
+    3) Fill out the profile section and set up the links!
+    
+    == WHAT'S THE CATCH? ==
+    Just keep my credit intact; that's all I ask.
+	
+-->
+<div class="container" style="width:650px;
+                              height:450px;
+                              background:url('');
+                              background-size:100%;
+                              background-position:center;
+                              background-repeat:no-repeat;
+                              box-sizing:border-box;
+                              border:3px solid white;
+                              padding:0">
+	<!--
+    
+    PROFILE BOX START
+    
+    This box contains a profile blurb. It scrolls, so you can write as much or as little as you want.
+    
+    If you want the scrollbar to always be active, set "overflow-y" to "scroll".
+    
+    I set the font-family to Courier New for the example, but you can set it to a different font of your choosing. Just be aware that you have to use a web-safe font if you don't have Premium and can't put custom CSS in!
+    
+    -->
+	<div style="box-sizing:border-box;
+                height:300px;
+                width:275px;
+                border:3px solid white;
+                position:absolute;
+                top:120px;
+                left:25px;
+                padding:8px;
+                overflow-y:auto;
+                font-family:'Courier New', monospace;
+                font-size:12px;">
+		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+		<ol>
+			<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+			<li>Aliquam tincidunt mauris eu risus.</li>
+			<li>Vestibulum auctor dapibus neque.</li>
+		</ol>
+		<ul>
+			<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+			<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+			<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+			<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+		</ul>
+	</div>
+	<!--
+    
+    PROFILE BOX END
+    
+    -->
+	<!--
+    
+    LINK BOX START
+    
+    This box contains the links for the profile page.
+    
+    -->
+	<div class="d-flex justify-content-around align-items-center" style="box-sizing:border-box;
+                                                                         height:50px;
+                                                                         width:300px;
+                                                                         border:3px solid white;
+                                                                         position:absolute;
+                                                                         top:370px;
+                                                                         right:25px;
+                                                                         padding:0;
+                                                                         line-height:40px">
+		<!--
+        
+        LINKS: Include up to five links; any more than that will break the layout.
+        
+        For color styling, change "color:black" and the colors on the "text-shadow" values to whatever you want.
+        
+        Change <i class="fas fa-link"></i> to whatever icon you want to use.
+        
+        -->
+		<a data-toggle="tooltip" data-position="top" title="Download .PSD Template" href="https://github.com/Pandappuccino/toyhouse-codes/blob/main/Hollywhood%20Template.psd" style="text-align:center;
+                                                                                    display:block;
+                                                                                    height:40px;
+                                                                                    width:40px;
+                                                                                    font-size:25px;
+                                                                                    box-sizing:border-box;
+                                                                                    color:black;
+                                                                                    text-shadow:1px 1px white,
+                                                                                    1px -1px white,
+                                                                                    -1px -1px white,
+                                                                                    -1px 1px white">
+			<i class="fas fa-image"></i>
+		</a>
+		<a data-toggle="tooltip" data-position="top" title="Link 1" href="#" style="text-align:center;
+                                                                                    display:block;
+                                                                                    height:40px;
+                                                                                    width:40px;
+                                                                                    font-size:25px;
+                                                                                    box-sizing:border-box;
+                                                                                    color:black;
+                                                                                    text-shadow:1px 1px white,
+                                                                                    1px -1px white,
+                                                                                    -1px -1px white,
+                                                                                    -1px 1px white">
+			<i class="fas fa-link"></i>
+		</a>
+		<a data-toggle="tooltip" data-position="top" title="Link 1" href="#" style="text-align:center;
+                                                                                    display:block;
+                                                                                    height:40px;
+                                                                                    width:40px;
+                                                                                    font-size:25px;
+                                                                                    box-sizing:border-box;
+                                                                                    color:black;
+                                                                                    text-shadow:1px 1px white,
+                                                                                    1px -1px white,
+                                                                                    -1px -1px white,
+                                                                                    -1px 1px white">
+			<i class="fas fa-link"></i>
+		</a>
+		<a data-toggle="tooltip" data-position="top" title="Link 1" href="#" style="text-align:center;
+                                                                                    display:block;
+                                                                                    height:40px;
+                                                                                    width:40px;
+                                                                                    font-size:25px;
+                                                                                    box-sizing:border-box;
+                                                                                    color:black;
+                                                                                    text-shadow:1px 1px white,
+                                                                                    1px -1px white,
+                                                                                    -1px -1px white,
+                                                                                    -1px 1px white">
+			<i class="fas fa-link"></i>
+		</a>
+		<a data-toggle="tooltip" data-position="top" title="Link 1" href="#" style="text-align:center;
+                                                                                    display:block;
+                                                                                    height:40px;
+                                                                                    width:40px;
+                                                                                    font-size:25px;
+                                                                                    box-sizing:border-box;
+                                                                                    color:black;
+                                                                                    text-shadow:1px 1px white,
+                                                                                    1px -1px white,
+                                                                                    -1px -1px white,
+                                                                                    -1px 1px white">
+			<i class="fas fa-link"></i>
+		</a>
+	</div>
+	<!--
+    
+    LINK BOX END
+    
+    -->
+	<!-- 
+    
+    CREDITS: DO NOT REMOVE!
+    You may change the color but DO NOT remove this!
+    
+    -->
+	<a data-toggle="tooltip" data-position="top" title="Code by Pandappuccino" style="display:block;position:absolute;font-size:15px;top:2px;right:7px;color:#E9D2C4;" href="https://toyhou.se/Pandappuccino"><i class="fas fa-flower"></i></a>
+</div>
