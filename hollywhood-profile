@@ -107,7 +107,7 @@
                                                                                     -1px 1px white">
 			<i class="fas fa-image"></i>
 		</a>
-		<a data-toggle="tooltip" data-position="top" title="Link 1" href="#" style="text-align:center;
+		<a data-toggle="tooltip" data-position="top" title="Link 2" href="#" style="text-align:center;
                                                                                     display:block;
                                                                                     height:40px;
                                                                                     width:40px;
@@ -120,7 +120,7 @@
                                                                                     -1px 1px white">
 			<i class="fas fa-link"></i>
 		</a>
-		<a data-toggle="tooltip" data-position="top" title="Link 1" href="#" style="text-align:center;
+		<a data-toggle="tooltip" data-position="top" title="Link 3" href="#" style="text-align:center;
                                                                                     display:block;
                                                                                     height:40px;
                                                                                     width:40px;
@@ -133,7 +133,7 @@
                                                                                     -1px 1px white">
 			<i class="fas fa-link"></i>
 		</a>
-		<a data-toggle="tooltip" data-position="top" title="Link 1" href="#" style="text-align:center;
+		<a data-toggle="tooltip" data-position="top" title="Link 4" href="#" style="text-align:center;
                                                                                     display:block;
                                                                                     height:40px;
                                                                                     width:40px;
@@ -146,7 +146,7 @@
                                                                                     -1px 1px white">
 			<i class="fas fa-link"></i>
 		</a>
-		<a data-toggle="tooltip" data-position="top" title="Link 1" href="#" style="text-align:center;
+		<a data-toggle="tooltip" data-position="top" title="Link 5" href="#" style="text-align:center;
                                                                                     display:block;
                                                                                     height:40px;
                                                                                     width:40px;
