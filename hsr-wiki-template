@@ -1,0 +1,568 @@
+<!--
+HONKAI: STAR RAIL OC WIKI PROFILE
+BY PANDAPPUCCINO
+
+This game has taken over my brain completely and I regret absolutely NOTHING. I put this template together using my own wiki creation, the Honkai: Star Rail OC Repository, as a base for each module. The colors have been pulled directly from the official Honkai: Star Rail wiki, with one change (Imaginary/Imprisoned text color, which was made slightly darker to be easier to view on light backgrounds).
+
+COLORS
+To change the background colors to match the character's elemental type, change the values according to the table below (use CTRL+F to look for [BORDERCOLOR], [BGCOLOR], [TEXTCOLOR] and [TEXTCOLOR2] respectively):
+
+    TYPE     BORDERS     BGS      TEXT     COLORED TEXT
+==================================================================
+PHYSICAL   | #474752 | #71718C | #FFFFFF | #71718C
+FIRE       | #9C4343 | #E62A29 | #FFFFFF | #E62A29
+ICE        | #2F7199 | #2192D6 | #FFFFFF | #2192D6
+WIND       | #33825F | #45C38C | #000000 | #45C38C
+LIGHTNING  | #7A388C | #B54BD3 | #FFFFFF | #B54BD3
+IMAGINARY  | #AD9F37 | #F4DF33 | #000000 | #C4A412
+QUANTUM    | #403B8F | #4F48BD | #FFFFFF | #4F48BD
+TRUE DMG   |    -    |    -    |    -    | #AB88FE
+
+TYPE AND PATH ICONS
+I made a simple repository of Type and Path icons to be used in this template that can be found here: https://hsr-icon-repository.neocities.org/. Keep in mind that each icon has a normal and "small" version (except for the Trailblaze icon).
+
+-->
+<div class="container card mx-auto p-2" style="background: #FFFFFF; border-color: #DDDDDD;">
+	<div class="d-flex align-items-start">
+	    
+		<!-- Infobox -->
+		<div class="p-0 bg-faded" style="box-sizing:border-box; height:1024px; width:385px;">
+			<div class="w-100 p-3 m-0 text-center" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold; font-size: 2rem;">Character Name</div>
+			<a href="#"><img src="https://placehold.co/1000" style="background: white"></a> <!-- Use a square image for best results! -->
+			<div class="p-0 m-0">
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center">Rarity</span>
+					</div>
+					<div class="w-75 p-2" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: gold">
+						<i class="fa-sharp fa-sparkle"></i>
+						<i class="fa-sharp fa-sparkle"></i>
+						<i class="fa-sharp fa-sparkle"></i>
+						<i class="fa-sharp fa-sparkle"></i>
+						<i class="fa-sharp fa-sparkle"></i> <!-- Remove this star if you want the character to be a 4-star -->
+					</div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center">Type</span>
+					</div>
+					<div class="w-75 p-2 d-flex justify-content-start align-items-center" style="background: #232323; border-bottom: 1px solid #DDDDDD; font-weight: bold;">
+						<img src="https://placehold.co/20" style="height:20px; padding-right: 5px;"> <span style="color:[TEXTCOLOR2]">Elemental Type</span>
+					</div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center" style="border-bottom: 1px dotted [TEXTCOLOR]" title="The Path that most closely matches a playable version of this character." data-toggle="tooltip" data-placement="top">Combat Path</span>
+					</div>
+					<div class="w-75 p-2 d-flex justify-content-start align-items-center" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: white;">
+						<img src="https://placehold.co/20" style="height:20px; padding-right: 5px;"> Combat Path
+					</div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center">Weapon</span>
+					</div>
+					<div class="w-75 p-2" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: white;"> Weapon </div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-100 p-2 text-center" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold; font-size: 1.25rem"> Bio </div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center">Species</span>
+					</div>
+					<div class="w-75 p-2" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: white;"> Human </div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center">Pronouns</span>
+					</div>
+					<div class="w-75 p-2" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: white;"> He/She/They/Its </div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center" style="border-bottom: 1px dotted [BORDERCOLOR]" title="The Path that this character follows in their lore." data-toggle="tooltip" data-placement="top">Lore Path</span>
+					</div>
+					<div class="w-75 p-2 d-flex justify-content-start align-items-center" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: white;">
+						<img src="https://placehold.co/20" style="height:20px; padding-right: 5px;"> Lore Path
+					</div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center">Factions</span>
+					</div>
+					<div class="w-75 p-2" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: white;"> Faction</div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center">Worlds</span>
+					</div>
+					<div class="w-75 p-2" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: white;"> World</div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center">Online Alias</span>
+					</div>
+					<div class="w-75 p-2" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: white;"> Alias </div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-100 p-2 text-center" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold; font-size: 1.25rem;"> Voiceclaims </div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border-bottom: 1px solid [BORDERCOLOR]; font-weight: bold;">
+						<span class="align-self-center">English</span>
+					</div>
+					<div class="w-75 p-2" style="background: #232323; border-bottom: 1px solid #DDDDDD; color: white;"> <span style="border-bottom: 1px dotted white" data-toggle="tooltip" data-placement="top" title="Optional voice example">English Voiceclaim</span></div>
+				</div>
+				<div class="d-flex flex-row align-items-center mb-0">
+					<div class="w-50 p-2 text-center align-self-stretch d-flex justify-content-around" style="background: [BGCOLOR]; color: [TEXTCOLOR]; font-weight: bold;">
+						<span class="align-self-center">Japanese</span>
+					</div>
+					<div class="w-75 p-2" style="background: #232323; color: white;"> <span style="border-bottom: 1px dotted white" data-toggle="tooltip" data-placement="top" title="Optional voice example">Japanese Voiceclaim</span> </div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="p-3 bg-faded position-relative" style="width: 767px; height: 1024px; background: #FFFFFF; color: #000000; overflow-y: scroll;">
+		    
+			<!-- Character Quote -->
+			<div class="w-75 mx-auto mb-3 p-3" style="background: [BGCOLOR]; border: 1px solid [BORDERCOLOR]; border-left: 5px solid [BORDERCOLOR]; border-radius: 8px; color: [TEXTCOLOR];">
+				<p style="font-style: italic"> "Rules are made to be broken!" </p>
+				<p class="text-right"> — The Trailblazer </p>
+			</div>
+			
+			<!-- Character Summary -->
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+			
+			<!-- Table of Contents -->
+			<div class="row p-3 my-2">
+				<div class="p-2 col col-lg-5 col-md-12 col-12" style="border: 1px solid #eaecf0; background: #f8f9fa;">
+					<p class="w-100 pb-1" style="font-size: 1.15rem; color: #555555; border-bottom: 2px solid #c8ccd1">Contents</p>
+					<ol class="mt-2">
+						<li><a href="#INFO" style="color: #2192d6">Character Information</a></li>
+						<ol style="list-style-type:none; padding:0;">
+							<li>1.1&nbsp;<a href="#APPEARANCE" style="color: #2192d6">Character Appearance</a></li>
+							<li>1.2&nbsp;<a href="#PERSONALITY" style="color: #2192d6">Personality</a></li>
+							<li>1.3&nbsp;<a href="#STORIES" style="color: #2192d6">Character Stories</a></li>
+							<ol style="list-style-type:none; padding:0 15px">
+								<li>1.3.1&nbsp;<a href="#DETAILS" style="color: #2192d6">Character Details</a></li>
+								<li>1.3.2&nbsp;<a href="#STORY1" style="color: #2192d6">Character Story: Part I</a></li>
+								<li>1.3.3&nbsp;<a href="#STORY2" style="color: #2192d6">Character Story: Part II</a></li>
+								<li>1.3.4&nbsp;<a href="#STORY3" style="color: #2192d6">Character Story: Part III</a></li>
+								<li>1.3.5&nbsp;<a href="#STORY4" style="color: #2192d6">Character Story: Part IV</a></li>
+							</ol>
+						</ol>
+						<li><a href="#COMBAT" style="color: #2192d6">Combat</a></li>
+						<ol style="list-style-type:none; padding:0;">
+							<li>2.1&nbsp;<a href="#ABILITIES" style="color: #2192d6">Abilities</a></li>
+							<li>2.2&nbsp;<a href="#TRACES" style="color: #2192d6">Traces</a></li>
+							<li>2.3&nbsp;<a href="#EIDOLON" style="color: #2192d6">Eidolons</a></li>
+							<li>2.4&nbsp;<a href="#LC" style="color: #2192d6">Light Cone</a></li>
+						</ol>
+						<li><a href="#NAMES" style="color: #2192d6">Names</a></li>
+						<li><a href="#QUOTES" style="color: #2192d6">Quotes</a></li>
+						<li><a href="#TRIVIA" style="color: #2192d6">Trivia</a></li>
+						<li><a href="#GALLERY" style="color: #2192d6">Gallery</a></li>
+					</ol>
+				</div>
+			</div>
+			
+			<!-- SECTION 1: CHARACTER INFORMATION -->
+			<h2 id="INFO" style="font-size: 1.8em; font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif; width: 100%; border-bottom: solid 2px #c8ccd1">Character Information</h2>
+			
+			<!-- Summary Box -->
+			<div class="w-100 p-4 mb-3" style="border-radius: 8px; border: 1px solid [BORDERCOLOR]; background: [BGCOLOR]; color: [TEXTCOLOR];"> A traveler who boarded the Astral Express.<br> They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron. </div>
+			
+			<!-- SUBSECTION 1.1: Appearance -->
+			<h3 class="mt-4" id="APPEARANCE" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.6em;">Appearance</h3>
+			<p>Eu imperdiet nisi suscipit quis purus non cursus platea hendrerit bibendum. Tristique elementum etiam adipiscing aenean adipiscing auctor. Convallis suspendisse facilisis, ad vitae id. Arcu mi magna rhoncus consectetur posuere nullam congue lacinia nisi a? Convallis torquent aptent fringilla rutrum ad cras. Habitant egestas vivamus varius rhoncus convallis nibh arcu aptent tellus. Ut ridiculus natoque nec turpis vel urna suspendisse suscipit parturient dolor class turpis. Neque magnis maecenas mus nascetur nascetur vehicula! Ligula sit placerat habitasse eu ante.</p>
+			<p>Etiam et cursus mus turpis mattis montes et. Porta convallis porta vivamus sociis tortor nibh condimentum congue. Sit facilisis dignissim at eget porta. Lacinia consequat non nibh pulvinar molestie sed sagittis nascetur ac tincidunt purus. Euismod interdum vestibulum, at cras. Facilisis, per platea in nam aliquet ad tincidunt lectus. Natoque dui at augue nec pellentesque maecenas.</p>
+			
+			<!-- SUBSECTION 1.2: PERSONALITY -->
+			<h3 class="mt-4" id="PERSONALITY" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.6em;">Personality</h3>
+			<p>Ridiculus integer pharetra lobortis lectus eleifend tempor semper. Turpis primis donec praesent neque magnis quis massa enim. Lacus dignissim per potenti hac consectetur eleifend dis sem tortor ornare eleifend suscipit. Dignissim nibh, eu viverra ipsum nam feugiat ullamcorper. Odio torquent vel posuere sem eget ultricies accumsan, justo curae;? Consequat augue torquent porta ante mollis urna rutrum tristique facilisis lorem praesent fusce. Pulvinar, suspendisse congue lectus adipiscing tincidunt nunc nibh ante ullamcorper neque. Nascetur vehicula consectetur placerat curae; mauris. Ante.</p>
+			<p>Augue, tempus nunc aptent dis dapibus gravida. Elit tristique habitasse vitae sociosqu fames. Quam ante neque erat dapibus cras. Risus tortor fusce laoreet diam metus ad at placerat litora faucibus. Turpis, lacinia aliquet felis hac malesuada nostra hendrerit euismod elit fames rhoncus? Facilisi bibendum condimentum fermentum ultrices rutrum tellus netus dis porta accumsan morbi venenatis. Magnis in enim porta sodales amet orci, curae; eros. Sodales integer vivamus penatibus vehicula aliquam. Vulputate nostra lorem auctor habitasse in integer aenean litora senectus quam sit. Egestas cursus magnis et.</p>
+			
+			<!-- SUBSECTION 1.3: Character Stories -->
+			<h3 class="mt-4" id="STORIES" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.6em;">Character Stories</h3>
+			<h4 class="mt-4" id="DETAILS" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.4em;">Character Details</h4>
+			<p>Tincidunt ac hendrerit tempus ultricies eget praesent conubia egestas montes nisi eu congue etiam hendrerit auctor diam eleifend ridiculus lacinia.</p>
+			<p>Etiam ut lacinia phasellus elit eros sociis facilisi nullam morbi aptent class faucibus malesuada vestibulum tempor iaculis gravida per ligula.</p>
+			<p>Nascetur mauris ante purus elementum curabitur ac ridiculus arcu maecenas tristique platea cum mollis iaculis vitae etiam suscipit maecenas praesent?</p>
+			<h4 class="mt-4" id="STORY1" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.4em;">Character Story: Part I</h4>
+			<p>Tincidunt ac hendrerit tempus ultricies eget praesent conubia egestas montes nisi eu congue etiam hendrerit auctor diam eleifend ridiculus lacinia.</p>
+			<p>Etiam ut lacinia phasellus elit eros sociis facilisi nullam morbi aptent class faucibus malesuada vestibulum tempor iaculis gravida per ligula.</p>
+			<p>Nascetur mauris ante purus elementum curabitur ac ridiculus arcu maecenas tristique platea cum mollis iaculis vitae etiam suscipit maecenas praesent?</p>
+			<h4 class="mt-4" id="STORY2" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.4em;">Character Story: Part II</h4>
+			<p>Tincidunt ac hendrerit tempus ultricies eget praesent conubia egestas montes nisi eu congue etiam hendrerit auctor diam eleifend ridiculus lacinia.</p>
+			<p>Etiam ut lacinia phasellus elit eros sociis facilisi nullam morbi aptent class faucibus malesuada vestibulum tempor iaculis gravida per ligula.</p>
+			<p>Nascetur mauris ante purus elementum curabitur ac ridiculus arcu maecenas tristique platea cum mollis iaculis vitae etiam suscipit maecenas praesent?</p>
+			<h4 class="mt-4" id="STORY3" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.4em;">Character Story: Part III</h4>
+			<p>Tincidunt ac hendrerit tempus ultricies eget praesent conubia egestas montes nisi eu congue etiam hendrerit auctor diam eleifend ridiculus lacinia.</p>
+			<p>Etiam ut lacinia phasellus elit eros sociis facilisi nullam morbi aptent class faucibus malesuada vestibulum tempor iaculis gravida per ligula.</p>
+			<p>Nascetur mauris ante purus elementum curabitur ac ridiculus arcu maecenas tristique platea cum mollis iaculis vitae etiam suscipit maecenas praesent?</p>
+			<h4 class="mt-4" id="STORY4" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.4em;">Character Story: Part IV</h4>
+			<p>Tincidunt ac hendrerit tempus ultricies eget praesent conubia egestas montes nisi eu congue etiam hendrerit auctor diam eleifend ridiculus lacinia.</p>
+			<p>Etiam ut lacinia phasellus elit eros sociis facilisi nullam morbi aptent class faucibus malesuada vestibulum tempor iaculis gravida per ligula.</p>
+			<p>Nascetur mauris ante purus elementum curabitur ac ridiculus arcu maecenas tristique platea cum mollis iaculis vitae etiam suscipit maecenas praesent?</p>
+			
+			<!-- SECTION 2: COMBAT -->
+			<h2 class="mt-4" id="COMBAT" style="font-size: 1.8em; font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif; width: 100%; border-bottom: solid 2px #c8ccd1">Combat</h2>
+			
+			<!-- SUBSECTION 2.1: Abilities -->
+			<h3 class="mt-4" id="ABILITIES" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.6em;">Abilities</h3>
+			
+			<!-- ABILITY TABLE: This is a modular table that can have as many rows for abilities as you want. To add another ability, simply copy the section from ABILITY START to ABILITY END and adjust as needed. Because it is modular you can use it for enhanced abilities, memosprite abilities, Elation skills, etc. -->
+			<table class="w-100 table" style="background: white; color: black;">
+				<tr>
+					<th class="text-center align-middle" style="background: [BGCOLOR]; border: 1px solid [BORDERCOLOR]; color: [TEXTCOLOR]; width:64px">Icon</th>
+					<th class="text-center align-middle" style="background: [BGCOLOR]; border: 1px solid [BORDERCOLOR]; color: [TEXTCOLOR];">Type</th>
+					<th class="text-center align-middle" style="background: [BGCOLOR]; border: 1px solid [BORDERCOLOR]; color: [TEXTCOLOR];">Name</th>
+					<th class="text-center align-middle" style="background: [BGCOLOR]; border: 1px solid [BORDERCOLOR]; color: [TEXTCOLOR];">Tag</th>
+					<th class="text-center align-middle" style="background: [BGCOLOR]; border: 1px solid [BORDERCOLOR]; color: [TEXTCOLOR];">Energy</th>
+					<th class="text-center align-middle" style="background: [BGCOLOR]; border: 1px solid [BORDERCOLOR]; color: [TEXTCOLOR];">Toughness Reduction</th>
+				</tr>
+				
+				<!-- ABILITY START -->
+				<tr>
+					<td class="text-center align-middle" style="border:1px solid #232323"><img style="background: #232323; border-radius:100%" src="https://placehold.co/64"></td>
+					<td class="text-center align-middle" style="border:1px solid #232323">Basic Attack</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">Attack Name</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">Single Target</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">30</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">20</td>
+				</tr>
+				<tr>
+					<td colspan="6" class="align-middle" style="border:1px solid #232323"> Deals <span style="color:[TEXTCOLOR2];font-weight:bold">Elemental</span> DMG equal to <b>XX%</b> - <b>XX%</b> of Character's Stat to one enemy. </td>
+				</tr>
+				<tr>
+					<td colspan="6" class="align-middle" style="border:1px solid #232323"> Describe attack or ability animations and effects here. You can be as detailed or vague as you like. </td>
+				</tr>
+				<!-- ABILITY END -->
+			</table>
+			
+			<!-- SUBSECTION 2.2: Traces -->
+			<h3 class="mt-4" id="TRACES" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.6em;">Traces</h3>
+			
+			<!-- This is a generic table for listing traces and ascension bonuses, rather than the specifically-formatted trace tables on the wiki. Standard trace icons (such as ATK Boost) can be found in the icon repository. -->
+			<table class="w-100 table">
+				<tr>
+					<td colspan="6" class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:40px; background: #232323; border-radius: 100%" src="https://placehold.co/40">&nbsp;&nbsp;<span style="font-size:larger;font-weight:bold">2nd Ascension Trace</span><br> Describe trace effects here.<br>
+						<small>Req. Character Ascension 2</small>
+					</td>
+					<td class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.<br>
+						<small>Req. Character Ascension 2</small>
+					</td>
+					<td class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.<br>
+						<small>Req. Character Ascension 3</small>
+					</td>
+					<td class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.<br>
+						<small>Req. Character Ascension 3</small>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:40px; background: #232323; border-radius: 100%" src="https://placehold.co/40">&nbsp;&nbsp;<span style="font-size:larger;font-weight:bold">4th Ascension Trace</span><br> Describe trace effects here.<br>
+						<small>Req. Character Ascension 4</small>
+					</td>
+					<td class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.<br>
+						<small>Req. Character Ascension 4</small>
+					</td>
+					<td class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.<br>
+						<small>Req. Character Ascension 5</small>
+					</td>
+					<td class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.<br>
+						<small>Req. Character Ascension 5</small>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="2" colspan="3" class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:40px; background: #232323; border-radius: 100%" src="https://placehold.co/40">&nbsp;&nbsp;<span style="font-size:larger;font-weight:bold">6th Ascension Trace</span><br> Describe trace effects here.<br>
+						<small>Req. Character Ascension 6</small>
+					</td>
+					<td rowspan="2" class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.<br>
+						<small>Req. Character Ascension 6</small>
+					</td>
+					<td colspan="2" class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.<br>
+						<small>Req. Character Lv. 80</small>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="p-3" style="background: [BGCOLOR]; color: [TEXTCOLOR]; border: 1px solid [BORDERCOLOR]">
+						<img style="height:24px" src="https://placehold.co/24">&nbsp;&nbsp;<b>ATK Boost</b><br> ATK increases by 3.0%.<br>
+						<small>Req. Character Lv. 75</small>
+					</td>
+				</tr>
+			</table>
+			
+			<!-- SUBSECTION 2.3: Eidolons -->
+			<h3 class="mt-4" id="EIDOLONS" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.6em;">Eidolons</h3>
+			<table class="w-75 mx-auto table">
+				<tr style="background:#ddd; font-weight: bold;">
+					<th style="background:#ddd; width:64px;border:1px solid #232323" class="text-center align-center">Icon</th>
+					<th style="background:#ddd;border:1px solid #232323" class="text-center align-center">Name</th>
+					<th style="background:#ddd; width:50px;border:1px solid #232323" class="text-center align-center">Level</th>
+				</tr>
+				<tr>
+					<td class="text-center align-middle" style="border:1px solid #232323"><img style="background: #232323; border-radius:100%" src="https://placehold.co/64"></td>
+					<td class="text-center align-middle" style="border:1px solid #232323">Eidolon 1 Name</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">1</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="align-middle" style="border:1px solid #232323"> Describe the effects of the Eidolon here. </td>
+				</tr>
+				<tr>
+					<td class="text-center align-middle" style="border:1px solid #232323"><img style="background: #232323; border-radius:100%" src="https://placehold.co/64"></td>
+					<td class="text-center align-middle" style="border:1px solid #232323">Eidolon 2 Name</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">2</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="align-middle" style="border:1px solid #232323"> Describe the effects of the Eidolon here. </td>
+				</tr>
+				<tr>
+					<td class="text-center align-middle" style="border:1px solid #232323"><img style="background: #232323; border-radius:100%" src="https://placehold.co/64"></td>
+					<td class="text-center align-middle" style="border:1px solid #232323">Eidolon 3 Name</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">3</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="align-middle" style="border:1px solid #232323"> Skill Lv. +2, up to a maximum of Lv. 15.<br> Talent Lv. +2, up to a maximum of Lv. 15. </td>
+				</tr>
+				<tr>
+					<td class="text-center align-middle" style="border:1px solid #232323"><img style="background: #232323; border-radius:100%" src="https://placehold.co/64"></td>
+					<td class="text-center align-middle" style="border:1px solid #232323">Eidolon 4 Name</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">4</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="align-middle" style="border:1px solid #232323"> Describe the effects of the Eidolon here. </td>
+				</tr>
+				<tr>
+					<td class="text-center align-middle" style="border:1px solid #232323"><img style="background: #232323; border-radius:100%" src="https://placehold.co/64"></td>
+					<td class="text-center align-middle" style="border:1px solid #232323">Eidolon 5 Name</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">5</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="align-middle" style="border:1px solid #232323"> Ultimate Lv. +2, up to a maximum of Lv. 15.<br> Basic ATK Lv. +1, up to a maximum of Lv. 10. </td>
+				</tr>
+				<tr>
+					<td class="text-center align-middle" style="border:1px solid #232323"><img style="background: #232323; border-radius:100%" src="https://placehold.co/64"></td>
+					<td class="text-center align-middle" style="border:1px solid #232323">Eidolon 6 Name</td>
+					<td class="text-center align-middle" style="border:1px solid #232323">6</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="align-middle" style="border:1px solid #232323"> Describe the effects of the Eidolon here. </td>
+				</tr>
+			</table>
+			
+			<!-- SUBSECTION 2.4: Light Cone -->
+			<h3 class="mt-4" id="ABILITIES" style="font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif;font-size: 1.6em;">Light Cone</h3>
+			
+			<!-- If you want to have multiple Light Cones (like BP/MoC shop, event, etc), just copy this table and fill it as necessary. -->
+			<table class="table mx-auto mb-2 w-100">
+				<tr style="background:[BGCOLOR]; color:[TEXTCOLOR]">
+					<th class="w-25 align-middle text-center" style="border:1px solid [BORDERCOLOR]">Image</th>
+					<th class="w-25 align-middle text-center" style="border:1px solid [BORDERCOLOR]">Rarity</th>
+					<th class="w-25 align-middle text-center" style="border:1px solid [BORDERCOLOR]">Path</th>
+					<th class="w-25 align-middle text-center" style="border:1px solid [BORDERCOLOR]">Name</th>
+				</tr>
+				<tr style="background:[BGCOLOR]; color:[TEXTCOLOR]">
+					<td class="align-middle text-center" style="border:1px solid [BORDERCOLOR]">
+						<img src="https://placehold.co/904x1260">
+					</td>
+					<td class="align-middle text-center" style="border:1px solid [BORDERCOLOR];">
+						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
+						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
+						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
+						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
+						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
+					</td>
+					<td class="align-middle text-center" style="border:1px solid [BORDERCOLOR]">
+						<img src="https://placehold.co/20" style="height:20px">&nbsp;Path
+					</td>
+					<td class="align-middle text-center" style="border:1px solid [BORDERCOLOR]"> Name </td>
+				</tr>
+				<tr>
+					<td colspan="4" class="align-middle" style="border:1px solid [BORDERCOLOR]">
+						<b>Effect Name:</b> Describe the effects of the Light Cone. For values that are changed via Superimposing, give the value as if it were Superimposition V and put the value within a <code>span</code> tag that gives it a tooltip via the data-toggle values.<br> For example, the effect used on <span style="font-weight:bold;border-bottom:1px dotted [BORDERCOLOR]" data-toggle="tooltip" data-placement="top" title="Example text">this text</span> uses a <code>span</code> tag with the values <code>style="font-weight:bold;border-bottom:1px dotted [BORDERCOLOR]" data-toggle="tooltip" data-placement="top" title="Example text"</code>.
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4" class="align-middle" style="border:1px solid [BORDERCOLOR]"> Write the Light Cone's story/description here. </td>
+				</tr>
+			</table>
+			
+			<!-- SECTION 3: NAMES -->
+			<h2 class="mt-4" id="NAMES" style="font-size: 1.8em; font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif; width: 100%; border-bottom: solid 2px #c8ccd1">Names</h2>
+			
+			<!-- Name tables are contained in a flex container. You can include multiple names (such as aliases, nicknames, memosprite names, and so forth). -->
+			<div class="w-100 d-flex flex-row justify-content-start align-items-center">
+				<table class="table" style="width: 40%; margin-right: 15px;">
+					<tr>
+						<th style="background: #cccccc; border-bottom: 2px solid black;" class="align-middle text-center">Language</th>
+						<th style="background: #cccccc; border-bottom: 2px solid black;" class="align-middle text-center">Official Name</th>
+					</tr>
+					<tr>
+						<td style="font-weight:bold" class="align-middle text-center"> English </td>
+						<td class="align-middle text-center"> Caelus </td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold" class="align-middle text-center"> Chinese<br><small style="font-weight:bold">(Simplified)</small>
+						</td>
+						<td class="align-middle text-center"> 穹 </td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold" class="align-middle text-center"> Chinese<br><small style="font-weight:bold">(Traditional)</small>
+						</td>
+						<td class="align-middle text-center"> 穹 </td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;line-height:2.3" class="align-middle text-center"> Japanese </td>
+						<td class="align-middle text-center">
+							<span class="card bg-transparent border-0 d-inline-block">穹<span class="font-weight-lighter text-center" style="position:absolute; left:-3rem; right:-3rem; top:-.65rem; font-size:.65rem; letter-spacing:.05rem;" data-toggle="tooltip" data-placement="top" title="Kyū">きゅう</span></span>
+						</td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold" class="align-middle text-center"> Korean </td>
+						<td class="align-middle text-center"> 카일루스 </td>
+					</tr>
+				</table>
+				<table class="table" style="width: 40%">
+					<tr>
+						<th style="background: #cccccc; border-bottom: 2px solid black;" class="align-middle text-center">Language</th>
+						<th style="background: #cccccc; border-bottom: 2px solid black;" class="align-middle text-center">Official Name</th>
+					</tr>
+					<tr>
+						<td style="font-weight:bold" class="align-middle text-center"> English </td>
+						<td class="align-middle text-center"> Stelle </td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold" class="align-middle text-center"> Chinese<br><small style="font-weight:bold">(Simplified)</small>
+						</td>
+						<td class="align-middle text-center"> 星 </td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold" class="align-middle text-center"> Chinese<br><small style="font-weight:bold">(Traditional)</small>
+						</td>
+						<td class="align-middle text-center"> 星 </td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold;line-height:2.3" class="align-middle text-center"> Japanese </td>
+						<td class="align-middle text-center">
+							<span class="card bg-transparent border-0 d-inline-block">星<span class="font-weight-lighter text-center" style="position:absolute; left:-3rem; right:-3rem; top:-.65rem; font-size:.65rem; letter-spacing:.05rem;" data-toggle="tooltip" data-placement="top" title="Kyū">きゅう</span></span>
+						</td>
+					</tr>
+					<tr>
+						<td style="font-weight:bold" class="align-middle text-center"> Korean </td>
+						<td class="align-middle text-center"> 스텔레 </td>
+					</tr>
+				</table>
+			</div>
+			
+			<!-- SECTION 4: QUOTES -->
+			<h2 class="mt-4" id="QUOTES" style="font-size: 1.8em; font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif; width: 100%; border-bottom: solid 2px #c8ccd1">Quotes</h2>
+			<!-- This section uses two tabs for the different quotes, mirroring the way quotes are given in-game by separating them into out-of-battle and in-battle lines. The lines are modular so you may have as many quotes as you want. -->
+			
+			<div class="nav nav-pills d-flex flex-row flex-wrap align-items-center justify-content-start mb-2">
+				<a class="active nav-link" style="color:black;display:inline-block; white-space:normal; border-radius:0;" data-toggle="pill" href="#DATABANK">Data Bank</a>
+				<a class="nav-link" style="color:black;display:inline-block; ;white-space:normal; border-radius:0;" data-toggle="pill" href="#BATTLE"> Combat</a>
+			</div>
+			
+			<div class="tab-content">
+				<div class="tab-pane fade p-3 show active" style="height:auto;" id="DATABANK">
+					<table class="w-100">
+						<tr>
+							<td style="width: 30%; border:1px solid [BORDERCOLOR]; background:[BGCOLOR]; color:[TEXTCOLOR]; font-weight:bold" class="text-center align-middle">Quote Label</td>
+							<td style="border:1px solid #232323" class="align-middle">Quote Content</td>
+						</tr>
+						<tr>
+							<td style="width: 30%; border:1px solid [BORDERCOLOR]; background:[BGCOLOR]; color:[TEXTCOLOR]; font-weight:bold" class="text-center align-middle">Quote Label</td>
+							<td style="border:1px solid #232323" class="align-middle">Quote Content</td>
+						</tr>
+						<tr>
+							<td style="width: 30%; border:1px solid [BORDERCOLOR]; background:[BGCOLOR]; color:[TEXTCOLOR]; font-weight:bold" class="text-center align-middle">Quote Label</td>
+							<td style="border:1px solid #232323" class="align-middle">Quote Content</td>
+						</tr>
+					</table>
+				</div>
+				
+				
+				<div class="tab-pane fade p-3" style="height:auto;" id="BATTLE">
+					<table class="w-100">
+						<tr>
+							<td style="width: 30%; border:1px solid [BORDERCOLOR]; background:[BGCOLOR]; color:[TEXTCOLOR]; font-weight:bold" class="text-center align-middle">Quote Label</td>
+							<td style="border:1px solid #232323" class="align-middle">Quote Content</td>
+						</tr>
+						<tr>
+							<td style="width: 30%; border:1px solid [BORDERCOLOR]; background:[BGCOLOR]; color:[TEXTCOLOR]; font-weight:bold" class="text-center align-middle">Quote Label</td>
+							<td style="border:1px solid #232323" class="align-middle">Quote Content</td>
+						</tr>
+						<tr>
+							<td style="width: 30%; border:1px solid [BORDERCOLOR]; background:[BGCOLOR]; color:[TEXTCOLOR]; font-weight:bold" class="text-center align-middle">Quote Label</td>
+							<td style="border:1px solid #232323" class="align-middle">Quote Content</td>
+						</tr>
+						<tr>
+							<td style="width: 30%; border:1px solid [BORDERCOLOR]; background:[BGCOLOR]; color:[TEXTCOLOR]; font-weight:bold" class="text-center align-middle">Quote Label</td>
+							<td style="border:1px solid #232323" class="align-middle">Quote Content</td>
+						</tr>
+						<tr>
+							<td style="width: 30%; border:1px solid [BORDERCOLOR]; background:[BGCOLOR]; color:[TEXTCOLOR]; font-weight:bold" class="text-center align-middle">Quote Label</td>
+							<td style="border:1px solid #232323" class="align-middle">Quote Content</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			
+			<!-- SECTION 5: TRIVIA -->
+			<h2 class="mt-4" id="TRIVIA" style="font-size: 1.8em; font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif; width: 100%; border-bottom: solid 2px #c8ccd1">Trivia</h2>
+			<ul>
+				<li>This section contains whatever miscellaneous information you'd like.</li>
+				<li>This can include etymology for their name and abilities, likes and dislikes, and so on.</li>
+			</ul>
+			
+			<!-- SECTION 6: GALLERY -->
+			<h2 class="mt-4" id="GALLERY" style="font-size: 1.8em; font-family:'Linux Libertine','Times New Roman','Liberation Serif','Nimbus Roman','Noto Serif','Times',serif; width: 100%; border-bottom: solid 2px #c8ccd1">Gallery</h2>
+			
+			<div class="w-100 d-flex flex-row justify-content-around align-items-center">
+			    <!-- ITEM START -->
+				<a href="#" style="max-width:30%;color:#232323!important" class="text-center mb-2">
+					<img src="https://placehold.co/300x150"><br>
+					<p style="background:#DDD">Gallery Item 1</p>
+				</a>
+				<!-- ITEM END -->
+				
+				<!-- ITEM START -->
+				<a href="#" style="max-width:30%;color:#232323!important" class="text-center mb-2">
+					<img src="https://placehold.co/300x150"><br>
+					<p style="background:#DDD">Gallery Item 2</p>
+				</a>
+				<!-- ITEM END -->
+				
+				<!-- ITEM START -->
+				<a href="#" style="max-width:30%;color:#232323!important" class="text-center mb-2">
+					<img src="https://placehold.co/300x150"><br>
+					<p style="background:#DDD">Gallery Item 3</p>
+				</a>
+				<!-- ITEM END -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- CREDIT, DO NOT REMOVE -->
+<div class="pt-3">
+    <p style="text-align:center;font-size:9px" class="text-secondary">---------- <a class="text-secondary" href="https://toyhou.se/38428238.code-13-hsr-oc-wiki-profile"><i>Code by Pandappuccino</i></a> ----------</p>
+</div>
