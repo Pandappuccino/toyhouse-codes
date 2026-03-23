@@ -539,22 +539,19 @@ I made a simple repository of Type and Path icons to be used in this template th
 			<div class="w-100 d-flex flex-row justify-content-around align-items-center">
 			    <!-- ITEM START -->
 				<a href="#" style="max-width:30%;color:#232323!important" class="text-center mb-2">
-					<img src="https://placehold.co/300x150"><br>
-					<p style="background:#DDD">Gallery Item 1</p>
+					<img style="display:block" data-toggle="tooltip" data-placement="top" title="Gallery Item 1" src="https://placehold.co/300x150">
 				</a>
 				<!-- ITEM END -->
 				
 				<!-- ITEM START -->
 				<a href="#" style="max-width:30%;color:#232323!important" class="text-center mb-2">
-					<img src="https://placehold.co/300x150"><br>
-					<p style="background:#DDD">Gallery Item 2</p>
+					<img style="display:block" data-toggle="tooltip" data-placement="top" title="Gallery Item 2" src="https://placehold.co/300x150">
 				</a>
 				<!-- ITEM END -->
 				
 				<!-- ITEM START -->
 				<a href="#" style="max-width:30%;color:#232323!important" class="text-center mb-2">
-					<img src="https://placehold.co/300x150"><br>
-					<p style="background:#DDD">Gallery Item 3</p>
+					<img style="display:block" data-toggle="tooltip" data-placement="top" title="Gallery Item 3" src="https://placehold.co/300x150">
 				</a>
 				<!-- ITEM END -->
 			</div>
