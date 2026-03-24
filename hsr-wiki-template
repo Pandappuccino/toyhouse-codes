@@ -384,11 +384,12 @@ I made a simple repository of Type and Path icons to be used in this template th
 						<img src="https://placehold.co/904x1260">
 					</td>
 					<td class="align-middle text-center" style="border:1px solid [BORDERCOLOR];">
-						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
-						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
-						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
-						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
-						<i style="color: gold;" class="p-0 fa-sharp fa-sparkle"></i>
+						<i style="--fa-primary-color: #000000;--fa-secondary-color: #FFD700;--fa-secondary-opacity: 1;" class="p-0 fa-light fa-duotone fa-sparkle"></i>
+						<i style="--fa-primary-color: #000000;--fa-secondary-color: #FFD700;--fa-secondary-opacity: 1;" class="p-0 fa-light fa-duotone fa-sparkle"></i>
+						<i style="--fa-primary-color: #000000;--fa-secondary-color: #FFD700;--fa-secondary-opacity: 1;" class="p-0 fa-light fa-duotone fa-sparkle"></i>
+						<i style="--fa-primary-color: #000000;--fa-secondary-color: #FFD700;--fa-secondary-opacity: 1;" class="p-0 fa-light fa-duotone fa-sparkle"></i>
+						<i style="--fa-primary-color: #000000;--fa-secondary-color: #FFD700;--fa-secondary-opacity: 1;" class="p-0 fa-light fa-duotone fa-sparkle"></i>
+					</td>
 					</td>
 					<td class="align-middle text-center" style="border:1px solid [BORDERCOLOR]">
 						<img src="https://placehold.co/20" style="height:20px">&nbsp;Path
